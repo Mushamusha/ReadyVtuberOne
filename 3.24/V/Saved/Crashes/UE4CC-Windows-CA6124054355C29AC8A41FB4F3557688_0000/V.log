@@ -1,0 +1,1251 @@
+﻿Log file open, 02/20/19 21:54:41
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: V
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.297431
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.186s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4710MQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.007s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.20-13.54.41:549][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.20-13.54.41:549][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.20-13.54.41:559][  0]LogHAL: Display: Platform has ~ 12 GB [12801208320 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.20-13.54.41:559][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.20-13.54.41:559][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.20-13.54.41:559][  0]LogInit: Computer: DESKTOP-7B22VL8
+[2019.02.20-13.54.41:559][  0]LogInit: User: 51636
+[2019.02.20-13.54.41:559][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.20-13.54.41:560][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.20-13.54.41:560][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.02.20-13.54.41:560][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.20-13.54.41:560][  0]LogMemory: Process Physical Memory: 102.18 MB used, 102.18 MB peak
+[2019.02.20-13.54.41:560][  0]LogMemory: Process Virtual Memory: 93.32 MB used, 93.32 MB peak
+[2019.02.20-13.54.41:560][  0]LogMemory: Physical Memory: 6127.23 MB used,  6080.95 MB free, 12208.18 MB total
+[2019.02.20-13.54.41:560][  0]LogMemory: Virtual Memory: 4645.60 MB used,  6080.95 MB free, 134217728.00 MB total
+[2019.02.20-13.54.41:583][  0]LogInit: Using OS detected language (zh-CN).
+[2019.02.20-13.54.41:583][  0]LogInit: Using OS detected locale (zh-CN).
+[2019.02.20-13.54.42:025][  0]LogStreaming: Display: Took  0.442s to InitEngineTextLocalization.
+[2019.02.20-13.54.42:025][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.20-13.54.42:101][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.20-13.54.42:101][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.20-13.54.42:339][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.20-13.54.42:339][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.20-13.54.42:405][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 750M' (Feature Level 11_0)
+[2019.02.20-13.54.42:405][  0]LogD3D11RHI:       2020/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.20-13.54.42:415][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.02.20-13.54.42:415][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.20-13.54.42:418][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.20-13.54.42:418][  0]LogD3D11RHI:       0/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.20-13.54.42:418][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.20-13.54.42:456][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.20-13.54.42:456][  0]LogD3D11RHI:     GPU DeviceId: 0xfe4 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.20-13.54.42:456][  0]LogWindows: EnumDisplayDevices:
+[2019.02.20-13.54.42:457][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.02.20-13.54.42:458][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.02.20-13.54.42:459][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.02.20-13.54.42:460][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.20-13.54.42:460][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 750M
+[2019.02.20-13.54.42:460][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.20-13.54.42:460][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.20-13.54.42:460][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
+[2019.02.20-13.54.42:502][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.20-13.54.42:515][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.20-13.54.42:516][  0]LogShaderCompilers: Guid format shader working directory is 34 characters bigger than the processId version (E:/Project/V/Intermediate/Shaders/WorkingDirectory/7200/).
+[2019.02.20-13.54.42:517][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/51636/AppData/Local/Temp/UnrealShaderWorkingDir/F6583C4C4BD79429C3C402B2B712C569/'.
+[2019.02.20-13.54.42:939][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.20-13.54.42:956][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.20-13.54.42:975][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.20-13.54.42:993][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.20-13.54.43:013][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.20-13.54.43:031][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.20-13.54.43:050][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.20-13.54.43:068][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.20-13.54.43:078][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-13.54.43:185][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.20-13.54.43:254][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.20-13.54.43:254][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.20-13.54.43:285][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.20-13.54.43:285][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.20-13.54.43:301][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.20-13.54.43:316][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.20-13.54.43:332][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.20-13.54.43:349][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.20-13.54.43:361][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.20-13.54.43:361][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.20-13.54.43:453][  0]LogXGEController: Cleaning working directory: C:/Users/51636/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.20-13.54.43:454][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.20-13.54.43:454][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.20-13.54.43:454][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.20-13.54.44:488][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.20-13.54.44:565][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.20-13.54.44:566][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.20-13.54.44:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Project/V/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.20-13.54.44:566][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.20-13.54.44:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Project/V/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.20-13.54.44:566][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.20-13.54.44:579][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.20-13.54.44:593][  0]LogDerivedDataCache: Using Local data cache path C:/Users/51636/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.20-13.54.44:593][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.20-13.54.44:593][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.20-13.54.44:614][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.20-13.54.44:615][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.20-13.54.44:615][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.20-13.54.44:693][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
+[2019.02.20-13.54.45:103][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.20-13.54.45:271][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.20-13.54.45:276][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.20-13.54.45:276][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.20-13.54.45:276][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.20-13.54.45:276][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.20-13.54.45:296][  0]LogNetVersion: V 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 103352566)
+[2019.02.20-13.54.46:006][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 4 prioritized culture(s) in 0.198429 seconds
+[2019.02.20-13.54.46:013][  0]LogUObjectArray: 38426 objects as part of root set at end of initial load.
+[2019.02.20-13.54.46:013][  0]LogUObjectAllocator: 6691096 out of 0 bytes used by permanent object pool.
+[2019.02.20-13.54.46:013][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.20-13.54.46:960][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.02.20-13.54.46:964][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.20-13.54.46:978][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.20-13.54.47:151][  0]SourceControl: 源码管理已禁用
+[2019.02.20-13.54.47:151][  0]SourceControl: 源码管理已禁用
+[2019.02.20-13.54.47:153][  0]SourceControl: 源码管理已禁用
+[2019.02.20-13.54.47:154][  0]SourceControl: 源码管理已禁用
+[2019.02.20-13.54.47:340][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.20-13.54.47:435][  0]LogOcInput: OculusInput pre-init called
+[2019.02.20-13.54.47:589][  0]LogEngine: Initializing Engine...
+[2019.02.20-13.54.47:591][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.20-13.54.47:593][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.20-13.54.47:593][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.20-13.54.47:593][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.20-13.54.47:593][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.20-13.54.47:840][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.20-13.54.47:857][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.20-13.54.47:877][  0]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-13.54.47:908][  0]LogInit: FAudioDevice initialized.
+[2019.02.20-13.54.47:908][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.20-13.54.47:996][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.20-13.54.48:012][  0]LogInit: Texture streaming: Enabled
+[2019.02.20-13.54.48:041][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.20-13.54.48:041][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={24028CDC-48D6-6530-0933-9AB658D3C649}
+[2019.02.20-13.54.48:061][  0]LogInit: Transaction tracking system initialized
+[2019.02.20-13.54.48:094][  0]BlueprintLog: New page: 编辑器加载
+[2019.02.20-13.54.48:213][  0]LocalizationService: 本地化服务已禁用
+[2019.02.20-13.54.48:524][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.20-13.54.48:524][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.20-13.54.48:524][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.20-13.54.48:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.20-13.54.48:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.20-13.54.48:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.20-13.54.48:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.20-13.54.48:671][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/' took 0.03s
+[2019.02.20-13.54.48:671][  0]SourceControl: 源码管理已禁用
+[2019.02.20-13.54.48:754][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.20-13.54.48:756][  0]LogSlate: Took 0.002753 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.02.20-13.55.27:797][  0]LogSlate: Window '恢复包' being destroyed
+[2019.02.20-13.55.27:806][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2019.02.20-13.55.27:826][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2019.02.20-13.55.27:828][  0]Cmd: MAP LOAD FILE="E:/Project/V/Content/Maps/map/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.20-13.55.27:828][  0]LightingResults: New page: 光照构建
+[2019.02.20-13.55.27:832][  0]MapCheck: New page: 地图检测
+[2019.02.20-13.55.27:832][  0]LightingResults: New page: 光照构建
+[2019.02.20-13.55.28:251][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:252][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindCover.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:252][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindCover : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:252][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:252][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindCover.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:252][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindCover : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:252][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:252][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindCover.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:252][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindCover : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:252][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:252][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindCover.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:252][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindCover : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindCover.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:253][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindCover : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:253][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:253][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:253][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:253][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:253][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:254][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:254][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:254][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:254][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:254][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:254][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:254][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:254][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:255][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:261][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:261][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindMoveto.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:261][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindMoveto : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:261][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:261][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindMoveto.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:261][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindMoveto : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:261][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:262][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindMoveto.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:262][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindMoveto : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:262][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:262][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindMoveto.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:262][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindMoveto : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:262][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:262][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindMoveto.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:262][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindMoveto : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:262][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:262][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:263][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:263][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:263][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:263][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:263][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:263][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:263][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:263][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:264][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:264][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:264][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:264][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:264][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:264][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:264][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:264][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:266][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:266][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindNearestPlayer.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:266][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindNearestPlayer : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:267][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:267][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindNearestPlayer.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:267][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindNearestPlayer : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:267][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:267][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindNearestPlayer.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:267][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindNearestPlayer : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:267][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:267][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindNearestPlayer.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:267][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindNearestPlayer : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:268][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:268][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/EQS_FindNearestPlayer.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:268][  0]LoadErrors: Error: /Game/PawnAI/EQS_FindNearestPlayer : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:268][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:268][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:268][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:268][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:268][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:269][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:269][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:269][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:269][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:269][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:269][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:269][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAIBT.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:269][  0]LoadErrors: Error: /Game/PawnAI/PawnAIBT : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:334][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:334][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/EQS_FineSpawnLocation.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:334][  0]LoadErrors: Error: /Game/GameMode/EQS_FineSpawnLocation : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:334][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:334][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/EQS_FineSpawnLocation.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:334][  0]LoadErrors: Error: /Game/GameMode/EQS_FineSpawnLocation : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:334][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:334][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/EQS_FineSpawnLocation.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:334][  0]LoadErrors: Error: /Game/GameMode/EQS_FineSpawnLocation : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:334][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:334][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/EQS_FineSpawnLocation.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:335][  0]LoadErrors: Error: /Game/GameMode/EQS_FineSpawnLocation : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:335][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/EQS_FineSpawnLocation.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:336][  0]LoadErrors: Error: /Game/GameMode/EQS_FineSpawnLocation : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:336][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:336][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:336][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:336][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:336][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:336][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:337][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:337][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:337][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:337][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:337][  0]LogLinker: Warning: 无法找到文件 '/Script/EnvironmentQueryEditor'
+[2019.02.20-13.55.28:337][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Script/EnvironmentQueryEditor’ 的文件。
+[2019.02.20-13.55.28:337][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Script/EnvironmentQueryEditor
+[2019.02.20-13.55.28:904][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.20-13.55.28:913][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.20-13.55.28:943][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.20-13.55.29:164][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时220.594毫秒完成。
+[2019.02.20-13.55.29:165][  0]LogFileHelpers: Loading map 'Untitled' took 1.337
+[2019.02.20-13.55.29:224][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.55.29:234][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.55.29:244][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.55.29:256][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.55.29:265][  0]LogCollectionManager: Loaded 0 collections in 0.002446 seconds
+[2019.02.20-13.55.29:308][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Saved/Collections/' took 0.01s
+[2019.02.20-13.55.29:308][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/Developers/51636/Collections/' took 0.01s
+[2019.02.20-13.55.29:308][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/Collections/' took 0.01s
+[2019.02.20-13.55.29:308][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.20-13.55.29:319][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2607 classes and 614 folders.
+[2019.02.20-13.55.29:330][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.20-13.55.29:388][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.20-13.55.29:397][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.02.20-13.55.29:488][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.20-13.55.29:492][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.20-13.55.29:550][  0]LogRenderer: Reallocating scene render targets to support 892x456 Format 10 NumSamples 1 (Frame:1).
+[2019.02.20-13.55.29:706][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.20-13.55.29:706][  0]LogLoad: (Engine Initialization) Total time: 50.27 seconds
+[2019.02.20-13.55.29:706][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.20-13.55.29:754][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.20-13.55.29:759][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-13.55.29:794][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.20-13.55.29:809][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.02.20-13.55.30:122][  2]LogAssetRegistry: Asset discovery search completed in 45.4506 seconds
+[2019.02.20-13.55.30:124][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.20-13.55.30:124][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2019.02.20-13.55.31:822][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-13.55.33:058][111]LogSlate: Window '消息日志' being destroyed
+[2019.02.20-13.55.33:063][111]LogSlate: Window '消息日志' being destroyed
+[2019.02.20-13.55.33:814][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-13.55.33:897][161]LogTemp: Repeating last play command: 选中的视口
+[2019.02.20-13.55.33:915][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-13.55.33:928][161]PIE: New page: PIE会话: Untitled (2019年2月21日 上午5:55:33)
+[2019.02.20-13.55.33:928][161]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.02.20-13.55.33:934][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006201s)
+[2019.02.20-13.55.33:935][161]LogAIModule: Creating AISystem for world Untitled
+[2019.02.20-13.55.33:935][161]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2019.02.20-13.55.33:936][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.007588s)
+[2019.02.20-13.55.33:972][161]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-13.55.33:992][161]LogInit: FAudioDevice initialized.
+[2019.02.20-13.55.34:035][161]LogLoad: Game class is 'TestGamemode_C'
+[2019.02.20-13.55.34:037][161]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.02.20-21.55.34
+[2019.02.20-13.55.34:038][161]LogWorld: Bringing up level for play took: 0.001653
+[2019.02.20-13.55.34:058][161]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.02.20-13.55.34:062][161]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-13.55.34:063][161]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.136
+[2019.02.20-13.55.35:952][264]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.20-13.55.37:713][362]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.20-13.55.38:254][388]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.20-13.55.38:902][419]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-13.55.39:925][466]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.55.39:926][466]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.55.39:926][466]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.55.40:733][502]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.20-13.55.41:134][520]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.20-13.55.41:662][544]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.20-13.55.42:857][598]LogTemp: Health Change:50.0
+[2019.02.20-13.55.42:857][598]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.02.20-13.55.43:345][620]LogTemp: Health Change:0.0
+[2019.02.20-13.55.43:345][620]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.02.20-13.55.43:346][620]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.55.43:346][620]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.55.43:346][620]LogTemp: Health Change:0.0
+[2019.02.20-13.55.43:347][620]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.02.20-13.55.43:347][620]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.55.43:347][620]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.02.20-13.55.43:348][620]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.55.43:348][620]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.02.20-13.55.43:348][620]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.55.43:348][620]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.02.20-13.55.43:348][620]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.55.43:917][646]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.55.43:917][646]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.02.20-13.55.43:917][646]LogTemp: Your palyer died
+[2019.02.20-13.55.43:918][646]LogTemp: Health Change:0.0
+[2019.02.20-13.55.43:918][646]LogTemp: Health Change:0.0
+[2019.02.20-13.55.43:918][646]LogTemp: Health Change:0.0
+[2019.02.20-13.55.44:262][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.55.44:316][661]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.20-13.55.44:347][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.55.44:411][662]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.02.20-13.55.45:183][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-13.55.45:232][709]LogTemp: Repeating last play command: 选中的视口
+[2019.02.20-13.55.45:256][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-13.55.45:256][709]PIE: New page: PIE会话: Untitled (2019年2月21日 上午5:55:45)
+[2019.02.20-13.55.45:256][709]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.02.20-13.55.45:262][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005727s)
+[2019.02.20-13.55.45:263][709]LogAIModule: Creating AISystem for world Untitled
+[2019.02.20-13.55.45:263][709]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2019.02.20-13.55.45:264][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.007084s)
+[2019.02.20-13.55.45:309][709]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-13.55.45:333][709]LogInit: FAudioDevice initialized.
+[2019.02.20-13.55.45:369][709]LogLoad: Game class is 'TestGamemode_C'
+[2019.02.20-13.55.45:371][709]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.02.20-21.55.45
+[2019.02.20-13.55.45:371][709]LogWorld: Bringing up level for play took: 0.001725
+[2019.02.20-13.55.45:389][709]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-13.55.45:389][709]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.538
+[2019.02.20-13.55.48:291][864]LogTemp: Health Change:82.222672
+[2019.02.20-13.55.50:253][952]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-13.55.51:272][997]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.55.51:274][997]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.55.51:274][997]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.55.52:121][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.55.52:177][ 39]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.20-13.55.52:219][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.55.52:280][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.02.20-13.55.53:029][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-13.55.53:600][ 79]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.20-13.55.53:612][ 79]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon1.weapon1
+[2019.02.20-13.55.54:270][ 79]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.02.20-13.55.55:171][ 79]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.20-13.55.56:224][138]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.20-13.56.06:538][755]BlueprintLog: New page: 编译weapon1
+[2019.02.20-13.56.08:163][838]LogSlate: Window 'weapon1*' being destroyed
+[2019.02.20-13.56.08:169][838]LogSlate: Window 'weapon1*' being destroyed
+[2019.02.20-13.56.09:401][871]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon2.weapon2
+[2019.02.20-13.56.11:092][948]LogSlate: Window 'weapon2' being destroyed
+[2019.02.20-13.56.11:183][948]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon2.weapon2
+[2019.02.20-13.56.22:037][565]BlueprintLog: New page: 编译weapon2
+[2019.02.20-13.56.23:051][610]LogSlate: Window 'weapon2*' being destroyed
+[2019.02.20-13.56.23:092][610]LogSlate: Window 'weapon2*' being destroyed
+[2019.02.20-13.56.24:423][641]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon3.weapon3
+[2019.02.20-13.56.25:841][693]LogSlate: Window 'weapon3' being destroyed
+[2019.02.20-13.56.25:940][693]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon3.weapon3
+[2019.02.20-13.56.32:883][ 83]BlueprintLog: New page: 编译weapon3
+[2019.02.20-13.56.39:046][434]LogSlate: Window 'weapon3*' being destroyed
+[2019.02.20-13.56.39:052][434]LogSlate: Window 'weapon3*' being destroyed
+[2019.02.20-13.56.39:983][463]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon2.weapon2
+[2019.02.20-13.56.43:538][648]LogSlate: Window 'weapon2*' being destroyed
+[2019.02.20-13.56.43:542][648]LogSlate: Window 'weapon2*' being destroyed
+[2019.02.20-13.56.45:138][689]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/SDweaponBP.SDweaponBP
+[2019.02.20-13.56.46:632][748]LogSlate: Window 'SDweaponBP' being destroyed
+[2019.02.20-13.56.46:745][748]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/SDweaponBP.SDweaponBP
+[2019.02.20-13.56.53:245][101]BlueprintLog: New page: 编译SDweaponBP
+[2019.02.20-13.57.01:254][569]BlueprintLog: New page: 编译SDweaponBP
+[2019.02.20-13.57.01:982][601]LogSlate: Window 'SDweaponBP*' being destroyed
+[2019.02.20-13.57.01:995][601]LogSlate: Window 'SDweaponBP*' being destroyed
+[2019.02.20-13.57.02:950][630]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon4.weapon4
+[2019.02.20-13.57.03:360][630]LogActor: Warning: BH_C /Engine/Transient.World_17:PersistentLevel.BH_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.20-13.57.04:322][674]LogSlate: Window 'weapon4' being destroyed
+[2019.02.20-13.57.04:436][674]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon4.weapon4
+[2019.02.20-13.57.10:702][ 19]LogSlate: Window 'weapon4' being destroyed
+[2019.02.20-13.57.10:709][ 19]LogSlate: Window 'weapon4' being destroyed
+[2019.02.20-13.57.12:672][ 87]LogTemp: Repeating last play command: 选中的视口
+[2019.02.20-13.57.12:691][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-13.57.12:691][ 87]PIE: New page: PIE会话: Untitled (2019年2月21日 上午5:57:12)
+[2019.02.20-13.57.12:691][ 87]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.02.20-13.57.12:695][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004044s)
+[2019.02.20-13.57.12:696][ 87]LogAIModule: Creating AISystem for world Untitled
+[2019.02.20-13.57.12:696][ 87]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2019.02.20-13.57.12:696][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.005199s)
+[2019.02.20-13.57.12:738][ 87]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-13.57.12:757][ 87]LogInit: FAudioDevice initialized.
+[2019.02.20-13.57.12:789][ 87]LogLoad: Game class is 'TestGamemode_C'
+[2019.02.20-13.57.12:791][ 87]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.02.20-21.57.12
+[2019.02.20-13.57.12:791][ 87]LogWorld: Bringing up level for play took: 0.001485
+[2019.02.20-13.57.12:807][ 87]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-13.57.12:807][ 87]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.88
+[2019.02.20-13.57.13:682][133]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.20-13.57.14:673][189]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.02.20-13.57.17:688][353]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-13.57.17:708][354]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.17:709][354]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.18:701][403]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.57.18:703][403]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.18:705][403]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.19:374][432]LogTemp: Health Change:60.0
+[2019.02.20-13.57.19:470][436]LogTemp: Health Change:20.0
+[2019.02.20-13.57.19:572][440]LogTemp: Health Change:0.0
+[2019.02.20-13.57.19:572][440]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.19:572][440]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.19:573][440]LogBlueprintUserMessages: [TestGamemode_C_0] 20.0
+[2019.02.20-13.57.21:064][504]LogTemp: Health Change:60.0
+[2019.02.20-13.57.22:174][556]LogTemp: Health Change:20.0
+[2019.02.20-13.57.22:264][560]LogTemp: Health Change:0.0
+[2019.02.20-13.57.22:265][560]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.22:265][560]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.22:265][560]LogBlueprintUserMessages: [TestGamemode_C_0] 40.0
+[2019.02.20-13.57.22:687][579]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.02.20-13.57.22:688][579]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-13.57.25:250][690]LogTemp: Health Change:50.0
+[2019.02.20-13.57.25:353][695]LogTemp: Health Change:0.0
+[2019.02.20-13.57.27:694][805]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-13.57.27:712][806]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.27:713][806]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.28:461][843]LogTemp: Health Change:90.0
+[2019.02.20-13.57.28:560][848]LogTemp: Health Change:50.0
+[2019.02.20-13.57.28:660][853]LogTemp: Health Change:0.0
+[2019.02.20-13.57.28:857][862]LogTemp: Health Change:70.0
+[2019.02.20-13.57.28:959][867]LogTemp: Health Change:50.0
+[2019.02.20-13.57.29:043][871]LogTemp: Health Change:30.0
+[2019.02.20-13.57.29:457][891]LogTemp: Health Change:10.0
+[2019.02.20-13.57.29:558][896]LogTemp: Health Change:0.0
+[2019.02.20-13.57.29:559][896]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.29:559][896]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.29:559][896]LogBlueprintUserMessages: [TestGamemode_C_0] 60.0
+[2019.02.20-13.57.30:709][953]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.57.30:711][953]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.30:711][953]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.31:044][969]LogTemp: Health Change:50.0
+[2019.02.20-13.57.31:045][969]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.02.20-13.57.31:154][974]LogTemp: Health Change:0.0
+[2019.02.20-13.57.31:154][974]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.02.20-13.57.31:154][974]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.31:154][974]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.31:154][974]LogBlueprintUserMessages: [TestGamemode_C_0] 80.0
+[2019.02.20-13.57.31:651][997]LogTemp: Health Change:50.0
+[2019.02.20-13.57.31:651][997]LogTemp: Health 50.0 of Bp_ball_C_1
+[2019.02.20-13.57.31:756][  2]LogTemp: Health Change:0.0
+[2019.02.20-13.57.31:756][  2]LogTemp: Health 0.0 of Bp_ball_C_1
+[2019.02.20-13.57.31:756][  2]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.31:756][  2]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.31:757][  2]LogBlueprintUserMessages: [TestGamemode_C_0] 100.0
+[2019.02.20-13.57.32:362][ 31]LogTemp: Health Change:90.0
+[2019.02.20-13.57.32:444][ 35]LogTemp: Health Change:70.0
+[2019.02.20-13.57.32:548][ 40]LogTemp: Health Change:50.0
+[2019.02.20-13.57.32:650][ 45]LogTemp: Health Change:30.0
+[2019.02.20-13.57.32:750][ 50]LogTemp: Health Change:10.0
+[2019.02.20-13.57.32:852][ 55]LogTemp: Health Change:0.0
+[2019.02.20-13.57.32:852][ 55]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.32:852][ 55]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.32:852][ 55]LogBlueprintUserMessages: [TestGamemode_C_0] 120.0
+[2019.02.20-13.57.33:687][ 97]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.02.20-13.57.33:688][ 97]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-13.57.35:314][178]LogTemp: Health Change:120.0
+[2019.02.20-13.57.35:620][196]LogTemp: Health Change:140.0
+[2019.02.20-13.57.35:823][207]LogTemp: Health Change:160.0
+[2019.02.20-13.57.36:108][223]LogTemp: Health Change:180.0
+[2019.02.20-13.57.36:309][235]LogTemp: Health Change:200.0
+[2019.02.20-13.57.36:442][243]LogTemp: Health Change:220.0
+[2019.02.20-13.57.36:608][253]LogTemp: Health Change:240.0
+[2019.02.20-13.57.36:808][265]LogTemp: Health Change:260.0
+[2019.02.20-13.57.36:941][273]LogTemp: Health Change:280.0
+[2019.02.20-13.57.37:108][283]LogTemp: Health Change:300.0
+[2019.02.20-13.57.37:441][303]LogTemp: Health Change:300.0
+[2019.02.20-13.57.37:708][319]LogTemp: Health Change:50.0
+[2019.02.20-13.57.37:808][325]LogTemp: Health Change:0.0
+[2019.02.20-13.57.37:941][333]LogTemp: Health Change:300.0
+[2019.02.20-13.57.38:692][378]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-13.57.38:710][379]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.38:711][379]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.39:009][397]LogTemp: Health Change:50.0
+[2019.02.20-13.57.39:409][421]LogTemp: Health Change:80.0
+[2019.02.20-13.57.39:709][438]PIE: Warning: 无效模拟选项：形体（PawnAI_C_5.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.39:709][438]PIE: Warning: 无效模拟选项：形体（PawnAI_C_5.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.39:820][444]LogTemp: Health Change:60.0
+[2019.02.20-13.57.39:922][449]LogTemp: Health Change:40.0
+[2019.02.20-13.57.40:009][453]LogTemp: Health Change:20.0
+[2019.02.20-13.57.40:123][458]LogTemp: Health Change:0.0
+[2019.02.20-13.57.40:123][458]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.40:123][458]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.40:124][458]LogBlueprintUserMessages: [TestGamemode_C_0] 140.0
+[2019.02.20-13.57.40:212][462]LogTemp: Health Change:0.0
+[2019.02.20-13.57.40:716][484]PIE: Warning: 无效模拟选项：形体（PawnAI_C_6.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.40:716][484]PIE: Warning: 无效模拟选项：形体（PawnAI_C_6.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.41:218][505]LogTemp: Health Change:90.0
+[2019.02.20-13.57.41:314][509]LogTemp: Health Change:80.0
+[2019.02.20-13.57.41:410][513]LogTemp: Health Change:70.0
+[2019.02.20-13.57.41:529][518]LogTemp: Health Change:60.0
+[2019.02.20-13.57.41:623][522]LogTemp: Health Change:50.0
+[2019.02.20-13.57.41:720][526]LogTemp: Health Change:30.0
+[2019.02.20-13.57.41:812][530]LogTemp: Health Change:10.0
+[2019.02.20-13.57.41:930][535]LogTemp: Health Change:0.0
+[2019.02.20-13.57.41:930][535]PIE: Warning: 无效模拟选项：形体（PawnAI_C_5.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.41:930][535]PIE: Warning: 无效模拟选项：形体（PawnAI_C_5.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.41:931][535]LogBlueprintUserMessages: [TestGamemode_C_0] 160.0
+[2019.02.20-13.57.42:708][574]PIE: Warning: 无效模拟选项：形体（PawnAI_C_7.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.42:710][574]PIE: Warning: 无效模拟选项：形体（PawnAI_C_7.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.42:724][575]LogTemp: Health Change:300.0
+[2019.02.20-13.57.42:924][587]LogTemp: Health Change:80.0
+[2019.02.20-13.57.43:024][593]LogTemp: Health Change:60.0
+[2019.02.20-13.57.43:125][599]LogTemp: Health Change:50.0
+[2019.02.20-13.57.43:214][604]LogTemp: Health Change:40.0
+[2019.02.20-13.57.43:231][605]LogTemp: Health Change:300.0
+[2019.02.20-13.57.43:320][610]LogTemp: Health Change:30.0
+[2019.02.20-13.57.43:427][616]LogTemp: Health Change:20.0
+[2019.02.20-13.57.43:613][627]LogTemp: Health Change:0.0
+[2019.02.20-13.57.43:613][627]PIE: Warning: 无效模拟选项：形体（PawnAI_C_6.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.43:614][627]PIE: Warning: 无效模拟选项：形体（PawnAI_C_6.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.43:614][627]LogBlueprintUserMessages: [TestGamemode_C_0] 180.0
+[2019.02.20-13.57.43:695][632]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.57.43:697][632]PIE: Warning: 无效模拟选项：形体（PawnAI_C_8.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.43:697][632]PIE: Warning: 无效模拟选项：形体（PawnAI_C_8.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.43:729][634]LogTemp: Health Change:300.0
+[2019.02.20-13.57.44:229][664]LogTemp: Health Change:300.0
+[2019.02.20-13.57.44:512][681]LogTemp: Health Change:60.0
+[2019.02.20-13.57.44:615][687]LogTemp: Health Change:40.0
+[2019.02.20-13.57.44:915][703]LogTemp: Health Change:90.0
+[2019.02.20-13.57.45:012][708]LogTemp: Health Change:70.0
+[2019.02.20-13.57.45:111][713]LogTemp: Health Change:50.0
+[2019.02.20-13.57.45:218][718]LogTemp: Health Change:30.0
+[2019.02.20-13.57.45:329][723]LogTemp: Health Change:10.0
+[2019.02.20-13.57.45:730][741]LogTemp: Health Change:50.0
+[2019.02.20-13.57.45:730][741]LogTemp: Health 50.0 of Bp_ball_C_2
+[2019.02.20-13.57.45:928][750]LogTemp: Health Change:20.0
+[2019.02.20-13.57.46:136][758]LogTemp: Health Change:0.0
+[2019.02.20-13.57.46:136][758]PIE: Warning: 无效模拟选项：形体（PawnAI_C_8.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.46:136][758]PIE: Warning: 无效模拟选项：形体（PawnAI_C_8.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.46:137][758]LogBlueprintUserMessages: [TestGamemode_C_0] 200.0
+[2019.02.20-13.57.46:216][761]LogTemp: Health Change:0.0
+[2019.02.20-13.57.46:216][761]LogTemp: Health 0.0 of Bp_ball_C_2
+[2019.02.20-13.57.46:217][761]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_2.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.46:217][761]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_2.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.46:217][761]LogTemp: Health Change:200.0
+[2019.02.20-13.57.46:217][761]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.02.20-13.57.46:218][761]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.57.46:219][761]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.02.20-13.57.46:219][761]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.57.47:716][823]LogTemp: Health Change:220.0
+[2019.02.20-13.57.48:152][842]LogTemp: Health Change:40.0
+[2019.02.20-13.57.48:197][844]LogTemp: Health Change:240.0
+[2019.02.20-13.57.48:704][866]LogTemp: Health Change:260.0
+[2019.02.20-13.57.49:134][885]LogTemp: Health Change:70.0
+[2019.02.20-13.57.49:201][888]LogTemp: Health Change:280.0
+[2019.02.20-13.57.53:276][ 67]LogTemp: Health Change:60.0
+[2019.02.20-13.57.53:370][ 71]LogTemp: Health Change:50.0
+[2019.02.20-13.57.53:473][ 75]LogTemp: Health Change:40.0
+[2019.02.20-13.57.53:574][ 79]LogTemp: Health Change:30.0
+[2019.02.20-13.57.53:674][ 83]LogTemp: Health Change:20.0
+[2019.02.20-13.57.56:476][207]LogTemp: Health Change:0.0
+[2019.02.20-13.57.56:476][207]PIE: Warning: 无效模拟选项：形体（PawnAI_C_7.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.56:476][207]PIE: Warning: 无效模拟选项：形体（PawnAI_C_7.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.57.56:476][207]LogBlueprintUserMessages: [TestGamemode_C_0] 220.0
+[2019.02.20-13.57.56:675][214]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.02.20-13.57.56:675][214]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-13.57.59:010][303]LogTemp: Health Change:300.0
+[2019.02.20-13.57.59:405][323]LogTemp: Health Change:300.0
+[2019.02.20-13.57.59:520][329]LogTemp: Health Change:300.0
+[2019.02.20-13.57.59:899][349]LogTemp: Health Change:300.0
+[2019.02.20-13.58.00:015][356]LogTemp: Health Change:300.0
+[2019.02.20-13.58.00:266][371]LogTemp: Health Change:300.0
+[2019.02.20-13.58.00:406][379]LogTemp: Health Change:300.0
+[2019.02.20-13.58.00:503][385]LogTemp: Health Change:300.0
+[2019.02.20-13.58.00:767][401]LogTemp: Health Change:300.0
+[2019.02.20-13.58.00:900][409]LogTemp: Health Change:300.0
+[2019.02.20-13.58.00:935][411]LogTemp: Health Change:300.0
+[2019.02.20-13.58.01:266][431]LogTemp: Health Change:300.0
+[2019.02.20-13.58.01:433][441]LogTemp: Health Change:300.0
+[2019.02.20-13.58.01:685][456]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-13.58.01:704][457]PIE: Warning: 无效模拟选项：形体（PawnAI_C_9.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.01:705][457]PIE: Warning: 无效模拟选项：形体（PawnAI_C_9.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.01:770][461]LogTemp: Health Change:300.0
+[2019.02.20-13.58.01:936][471]LogTemp: Health Change:300.0
+[2019.02.20-13.58.02:438][501]LogTemp: Health Change:300.0
+[2019.02.20-13.58.02:688][516]PIE: Warning: 无效模拟选项：形体（PawnAI_C_10.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.02:688][516]PIE: Warning: 无效模拟选项：形体（PawnAI_C_10.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.03:688][576]PIE: Warning: 无效模拟选项：形体（PawnAI_C_11.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.03:688][576]PIE: Warning: 无效模拟选项：形体（PawnAI_C_11.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.04:694][626]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-691.000 Y=577.000 Z=10.000] for [Bp_ball_C]
+[2019.02.20-13.58.08:462][852]Cmd: Shit 0
+[2019.02.20-13.58.08:463][852]Shit = "0"
+[2019.02.20-13.58.08:463][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-13.58.08:694][866]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.58.11:882][ 32]LogTemp: Health Change:60.031246
+[2019.02.20-13.58.11:882][ 32]LogTemp: Health Change:90.128464
+[2019.02.20-13.58.11:883][ 32]LogTemp: Health Change:26.703121
+[2019.02.20-13.58.11:883][ 32]LogTemp: Health Change:61.816544
+[2019.02.20-13.58.11:883][ 32]LogTemp: Health Change:75.655304
+[2019.02.20-13.58.11:883][ 32]LogTemp: Health Change:94.025703
+[2019.02.20-13.58.11:883][ 32]LogTemp: Health 94.025703 of Bp_ball_C_4
+[2019.02.20-13.58.12:771][ 74]LogCharacterMovement: PawnAI_C_11 is stuck and failed to move! Velocity: X=-226.99 Y=-122.19 Z=0.00 Location: X=248.44 Y=-807.30 Z=110.30 Normal: X=1.00 Y=-0.01 Z=0.07 PenetrationDepth:7.031 Actor:Bp_ball_C_6 Component:Component BoneName:None (0 other events since notify)
+[2019.02.20-13.58.12:793][ 75]LogTemp: Health Change:58.145733
+[2019.02.20-13.58.12:793][ 75]LogTemp: Health Change:0.0
+[2019.02.20-13.58.12:793][ 75]PIE: Warning: 无效模拟选项：形体（PawnAI_C_11.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.12:793][ 75]PIE: Warning: 无效模拟选项：形体（PawnAI_C_11.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.12:793][ 75]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.02.20-13.58.12:794][ 75]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.12:794][ 75]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.02.20-13.58.12:794][ 75]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.12:794][ 75]LogTemp: Health Change:97.591187
+[2019.02.20-13.58.12:794][ 75]LogTemp: Health 97.591187 of Bp_ball_C_6
+[2019.02.20-13.58.12:794][ 75]LogTemp: Health Change:28.560806
+[2019.02.20-13.58.12:794][ 75]LogTemp: Health Change:49.374702
+[2019.02.20-13.58.12:794][ 75]LogTemp: Health Change:70.523048
+[2019.02.20-13.58.12:794][ 75]LogTemp: Health 70.523048 of Bp_ball_C_6
+[2019.02.20-13.58.12:795][ 75]LogTemp: Health Change:73.446609
+[2019.02.20-13.58.12:795][ 75]LogTemp: Health 73.446609 of Bp_ball_C_4
+[2019.02.20-13.58.13:483][109]LogTemp: Health Change:0.0
+[2019.02.20-13.58.13:483][109]PIE: Warning: 无效模拟选项：形体（PawnAI_C_9.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.13:483][109]PIE: Warning: 无效模拟选项：形体（PawnAI_C_9.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.13:484][109]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.02.20-13.58.13:484][109]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.13:484][109]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.02.20-13.58.13:484][109]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.13:484][109]LogTemp: Health Change:31.280434
+[2019.02.20-13.58.14:151][143]LogTemp: Health Change:0.0
+[2019.02.20-13.58.14:151][143]PIE: Warning: 无效模拟选项：形体（PawnAI_C_10.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.14:151][143]PIE: Warning: 无效模拟选项：形体（PawnAI_C_10.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.14:151][143]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.02.20-13.58.14:152][143]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.14:152][143]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.02.20-13.58.14:152][143]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.16:680][293]LogTemp: Health Change:12.994667
+[2019.02.20-13.58.16:681][293]LogTemp: Health 12.994667 of Bp_ball_C_4
+[2019.02.20-13.58.16:681][293]LogTemp: Health Change:32.549294
+[2019.02.20-13.58.16:681][293]LogTemp: Health 32.549294 of Bp_ball_C_5
+[2019.02.20-13.58.16:681][293]LogTemp: Health Change:0.0
+[2019.02.20-13.58.16:681][293]LogTemp: Health 0.0 of Bp_ball_C_4
+[2019.02.20-13.58.16:681][293]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_4.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.16:681][293]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_4.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.16:682][293]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.02.20-13.58.16:682][293]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.16:682][293]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.02.20-13.58.16:682][293]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.16:682][293]LogTemp: Health Change:0.0
+[2019.02.20-13.58.16:682][293]LogTemp: Health 0.0 of Bp_ball_C_5
+[2019.02.20-13.58.16:683][293]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_5.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.16:683][293]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_5.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.16:683][293]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.02.20-13.58.16:683][293]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.16:683][293]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.02.20-13.58.16:683][293]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.16:684][293]LogTemp: Health Change:93.824509
+[2019.02.20-13.58.16:684][293]LogTemp: Health 93.824509 of Bp_ball_C_7
+[2019.02.20-13.58.17:463][340]LogTemp: Health Change:87.186943
+[2019.02.20-13.58.17:463][340]LogTemp: Health 87.186943 of Bp_ball_C_7
+[2019.02.20-13.58.17:464][340]LogTemp: Health Change:59.414017
+[2019.02.20-13.58.17:464][340]LogTemp: Health 59.414017 of Bp_ball_C_7
+[2019.02.20-13.58.18:231][386]LogTemp: Health Change:0.0
+[2019.02.20-13.58.18:231][386]LogTemp: Health 0.0 of Bp_ball_C_7
+[2019.02.20-13.58.18:231][386]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_7.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.18:231][386]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_7.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.18:231][386]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.02.20-13.58.18:232][386]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.18:232][386]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.19:098][438]LogTemp: Health Change:3.221207
+[2019.02.20-13.58.19:099][438]LogTemp: Health 3.221207 of Bp_ball_C_6
+[2019.02.20-13.58.19:099][438]LogTemp: Health Change:0.0
+[2019.02.20-13.58.19:099][438]LogTemp: Health 0.0 of Bp_ball_C_6
+[2019.02.20-13.58.19:099][438]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_6.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.19:099][438]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_6.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.19:099][438]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.19:100][438]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.58.33:662][306]Cmd: Shit 2
+[2019.02.20-13.58.33:662][306]Shit = "2"
+[2019.02.20-13.58.33:671][306]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-13.58.33:681][307]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.02.20-13.58.33:681][307]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-13.58.38:688][604]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-13.58.38:706][605]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-691.000 Y=577.000 Z=10.000] for [Bp_ball_C]
+[2019.02.20-13.58.40:691][724]PIE: Warning: 无效模拟选项：形体（PawnAI_C_12.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.40:691][724]PIE: Warning: 无效模拟选项：形体（PawnAI_C_12.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.41:699][766]PIE: Warning: 无效模拟选项：形体（PawnAI_C_13.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.41:700][766]PIE: Warning: 无效模拟选项：形体（PawnAI_C_13.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.43:698][864]PIE: Warning: 无效模拟选项：形体（PawnAI_C_14.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.43:699][864]PIE: Warning: 无效模拟选项：形体（PawnAI_C_14.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.44:531][911]LogTemp: Health Change:50.0
+[2019.02.20-13.58.44:532][911]LogTemp: Health 50.0 of Bp_ball_C_9
+[2019.02.20-13.58.44:642][916]LogTemp: Health Change:0.0
+[2019.02.20-13.58.44:642][916]LogTemp: Health 0.0 of Bp_ball_C_9
+[2019.02.20-13.58.44:642][916]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_9.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.44:643][916]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_9.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.44:643][916]LogBlueprintUserMessages: [TestGamemode_C_0] 240.0
+[2019.02.20-13.58.47:597][ 76]LogTemp: Health Change:68.111534
+[2019.02.20-13.58.47:597][ 76]LogTemp: Health Change:36.130123
+[2019.02.20-13.58.47:693][ 81]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.58.47:695][ 81]PIE: Warning: 无效模拟选项：形体（PawnAI_C_15.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.47:695][ 81]PIE: Warning: 无效模拟选项：形体（PawnAI_C_15.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.58.48:207][109]LogTemp: Health Change:95.972099
+[2019.02.20-13.58.49:370][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.58.49:430][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.20-13.58.49:490][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.58.49:575][167]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.02.20-13.58.51:268][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-13.58.53:996][349]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/playerpawn.playerpawn
+[2019.02.20-13.58.55:653][394]LogSlate: Window 'playerpawn' being destroyed
+[2019.02.20-13.58.55:759][394]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/playerpawn.playerpawn
+[2019.02.20-13.59.03:259][807]BlueprintLog: New page: 编译playerpawn
+[2019.02.20-13.59.04:183][848]LogSlate: Window 'playerpawn*' being destroyed
+[2019.02.20-13.59.04:193][848]LogSlate: Window 'playerpawn*' being destroyed
+[2019.02.20-13.59.07:747][988]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon3.weapon3
+[2019.02.20-13.59.09:596][ 73]LogSlate: Window 'weapon3*' being destroyed
+[2019.02.20-13.59.09:600][ 73]LogSlate: Window 'weapon3*' being destroyed
+[2019.02.20-13.59.10:495][ 98]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon2.weapon2
+[2019.02.20-13.59.10:954][100]LogSlate: Took 0.004252 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.02.20-13.59.11:791][149]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.20-13.59.17:574][492]LogSlate: Window 'weapon2*' being destroyed
+[2019.02.20-13.59.17:586][492]LogSlate: Window 'weapon2*' being destroyed
+[2019.02.20-13.59.34:034][602]LogHotReload: New module detected: UE4Editor-V-7215.dll
+[2019.02.20-13.59.35:067][606]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.20-13.59.35:171][606]LogClass: EWaveStae HotReload.
+[2019.02.20-13.59.35:171][606]LogClass: HitScanTrace HotReload.
+[2019.02.20-13.59.35:182][606]LogContentBrowser: Native class hierarchy updated for 'V' in 0.0006 seconds. Added 21 classes and 5 folders.
+[2019.02.20-13.59.35:186][606]Display: HotReload successful (21 functions remapped  1 scriptstructs remapped)
+[2019.02.20-13.59.35:622][606]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2608 classes and 616 folders.
+[2019.02.20-13.59.35:628][606]Display: HotReload took  0.6s.
+[2019.02.20-13.59.40:160][679]LogTemp: Repeating last play command: 选中的视口
+[2019.02.20-13.59.40:179][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-13.59.40:180][679]PIE: New page: PIE会话: Untitled (2019年2月21日 上午5:59:40)
+[2019.02.20-13.59.40:180][679]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.02.20-13.59.40:184][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003979s)
+[2019.02.20-13.59.40:185][679]LogAIModule: Creating AISystem for world Untitled
+[2019.02.20-13.59.40:185][679]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2019.02.20-13.59.40:185][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.005218s)
+[2019.02.20-13.59.40:269][679]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-13.59.40:288][679]LogInit: FAudioDevice initialized.
+[2019.02.20-13.59.40:320][679]LogLoad: Game class is 'TestGamemode_C'
+[2019.02.20-13.59.40:322][679]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.02.20-21.59.40
+[2019.02.20-13.59.40:322][679]LogWorld: Bringing up level for play took: 0.001499
+[2019.02.20-13.59.40:338][679]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-13.59.40:338][679]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.411
+[2019.02.20-13.59.45:169][959]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-13.59.46:171][ 19]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.59.50:403][262]LogTemp: Health Change:50.0
+[2019.02.20-13.59.50:404][262]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.02.20-13.59.50:887][291]LogTemp: Health Change:0.0
+[2019.02.20-13.59.50:888][291]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.02.20-13.59.50:888][291]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.59.50:888][291]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-13.59.50:888][291]LogTemp: Health Change:0.0
+[2019.02.20-13.59.50:889][291]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.59.50:889][291]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.59.50:889][291]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.59.50:889][291]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.02.20-13.59.51:169][308]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.59.51:170][308]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.02.20-13.59.51:170][308]LogTemp: Your palyer died
+[2019.02.20-13.59.52:068][362]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-13.59.52:169][368]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-13.59.52:169][368]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.02.20-13.59.52:169][368]LogTemp: Your palyer died
+[2019.02.20-13.59.52:221][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.59.52:261][371]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.20-13.59.52:297][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-13.59.52:337][372]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.02.20-13.59.54:288][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-13.59.54:388][494]LogTemp: Repeating last play command: 选中的视口
+[2019.02.20-13.59.54:411][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-13.59.54:411][494]PIE: New page: PIE会话: Untitled (2019年2月21日 上午5:59:54)
+[2019.02.20-13.59.54:411][494]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.02.20-13.59.54:417][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005257s)
+[2019.02.20-13.59.54:418][494]LogAIModule: Creating AISystem for world Untitled
+[2019.02.20-13.59.54:418][494]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2019.02.20-13.59.54:418][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.006586s)
+[2019.02.20-13.59.54:466][494]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-13.59.54:490][494]LogInit: FAudioDevice initialized.
+[2019.02.20-13.59.54:521][494]LogLoad: Game class is 'TestGamemode_C'
+[2019.02.20-13.59.54:523][494]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.02.20-21.59.54
+[2019.02.20-13.59.54:524][494]LogWorld: Bringing up level for play took: 0.001950
+[2019.02.20-13.59.54:541][494]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-13.59.54:541][494]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.614
+[2019.02.20-13.59.58:030][691]Cmd: Shit 0
+[2019.02.20-13.59.58:030][691]Shit = "0"
+[2019.02.20-13.59.58:045][691]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-13.59.59:393][764]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-14.00.00:407][811]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-14.00.00:408][811]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.00:409][811]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.00:636][820]LogTemp: Health Change:50.0
+[2019.02.20-14.00.00:636][820]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.02.20-14.00.01:046][834]LogTemp: Health Change:0.0
+[2019.02.20-14.00.01:046][834]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.02.20-14.00.01:046][834]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.01:046][834]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.01:046][834]LogBlueprintUserMessages: [TestGamemode_C_0] 20.0
+[2019.02.20-14.00.02:166][870]LogTemp: Health Change:80.0
+[2019.02.20-14.00.02:262][873]LogTemp: Health Change:70.0
+[2019.02.20-14.00.02:365][876]LogTemp: Health Change:50.0
+[2019.02.20-14.00.02:470][879]LogTemp: Health Change:40.0
+[2019.02.20-14.00.02:538][881]LogTemp: Health Change:30.0
+[2019.02.20-14.00.02:642][884]LogTemp: Health Change:10.0
+[2019.02.20-14.00.02:746][887]LogTemp: Health Change:0.0
+[2019.02.20-14.00.02:746][887]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.02:746][887]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.02:746][887]LogBlueprintUserMessages: [TestGamemode_C_0] 40.0
+[2019.02.20-14.00.03:391][912]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.02.20-14.00.03:391][912]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-14.00.05:868][ 20]LogTemp: Health Change:120.0
+[2019.02.20-14.00.06:385][ 43]LogTemp: Health Change:140.0
+[2019.02.20-14.00.06:884][ 65]LogTemp: Health Change:160.0
+[2019.02.20-14.00.07:381][ 87]LogTemp: Health Change:180.0
+[2019.02.20-14.00.08:396][132]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-14.00.08:419][133]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.08:420][133]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.09:408][175]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.09:409][175]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.10:422][216]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.10:423][216]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.10:720][226]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-14.00.11:420][249]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-14.00.11:422][249]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.11:423][249]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.12:260][275]LogTemp: Health Change:80.0
+[2019.02.20-14.00.12:354][278]LogTemp: Health Change:60.0
+[2019.02.20-14.00.12:455][281]LogTemp: Health Change:40.0
+[2019.02.20-14.00.12:556][284]LogTemp: Health Change:20.0
+[2019.02.20-14.00.12:656][287]LogTemp: Health Change:0.0
+[2019.02.20-14.00.12:657][287]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.12:657][287]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.12:657][287]LogBlueprintUserMessages: [TestGamemode_C_0] 60.0
+[2019.02.20-14.00.13:294][307]LogTemp: Health Change:80.0
+[2019.02.20-14.00.13:388][310]LogTemp: Health Change:70.0
+[2019.02.20-14.00.13:488][313]LogTemp: Health Change:60.0
+[2019.02.20-14.00.13:587][316]LogTemp: Health Change:50.0
+[2019.02.20-14.00.13:685][319]LogTemp: Health Change:40.0
+[2019.02.20-14.00.13:782][322]LogTemp: Health Change:20.0
+[2019.02.20-14.00.13:882][325]LogTemp: Health Change:10.0
+[2019.02.20-14.00.13:979][328]LogTemp: Health Change:0.0
+[2019.02.20-14.00.13:979][328]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.13:980][328]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.13:980][328]LogBlueprintUserMessages: [TestGamemode_C_0] 80.0
+[2019.02.20-14.00.14:614][349]LogTemp: Health Change:80.0
+[2019.02.20-14.00.14:702][352]LogTemp: Health Change:60.0
+[2019.02.20-14.00.14:798][355]LogTemp: Health Change:90.0
+[2019.02.20-14.00.14:894][358]LogTemp: Health Change:70.0
+[2019.02.20-14.00.14:987][361]LogTemp: Health Change:50.0
+[2019.02.20-14.00.15:110][365]LogTemp: Health Change:30.0
+[2019.02.20-14.00.15:201][368]LogTemp: Health Change:10.0
+[2019.02.20-14.00.15:297][371]LogTemp: Health Change:0.0
+[2019.02.20-14.00.15:298][371]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.15:298][371]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.15:298][371]LogBlueprintUserMessages: [TestGamemode_C_0] 100.0
+[2019.02.20-14.00.16:501][414]LogTemp: Health Change:50.0
+[2019.02.20-14.00.16:587][417]LogTemp: Health Change:40.0
+[2019.02.20-14.00.16:680][420]LogTemp: Health Change:30.0
+[2019.02.20-14.00.16:799][424]LogTemp: Health Change:20.0
+[2019.02.20-14.00.16:886][427]LogTemp: Health Change:10.0
+[2019.02.20-14.00.17:001][431]LogTemp: Health Change:0.0
+[2019.02.20-14.00.17:002][431]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.17:002][431]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.00.17:002][431]LogBlueprintUserMessages: [TestGamemode_C_0] 120.0
+[2019.02.20-14.00.17:398][445]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.02.20-14.00.17:399][445]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-14.00.17:977][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-14.00.18:042][466]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.20-14.00.18:104][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-14.00.18:201][467]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.02.20-14.00.19:918][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-14.00.27:928][918]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PawnAI/PawnAI.PawnAI
+[2019.02.20-14.00.30:730][ 38]LogSlate: Window 'PawnAI' being destroyed
+[2019.02.20-14.00.30:742][ 38]LogSlate: Window 'PawnAI' being destroyed
+[2019.02.20-14.00.34:980][194]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/AI_Weapon1.AI_Weapon1
+[2019.02.20-14.00.36:430][253]LogSlate: Window 'AI_Weapon1' being destroyed
+[2019.02.20-14.00.36:527][253]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/AI_Weapon1.AI_Weapon1
+[2019.02.20-14.00.43:989][675]BlueprintLog: New page: 编译AI_Weapon1
+[2019.02.20-14.00.44:883][717]LogSlate: Window 'AI_Weapon1*' being destroyed
+[2019.02.20-14.00.44:894][717]LogSlate: Window 'AI_Weapon1*' being destroyed
+[2019.02.20-14.03.56:306][358]LogHotReload: New module detected: UE4Editor-V-4210.dll
+[2019.02.20-14.03.57:329][362]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.20-14.03.57:423][362]LogClass: EWaveStae HotReload.
+[2019.02.20-14.03.57:423][362]LogClass: HitScanTrace HotReload.
+[2019.02.20-14.03.57:435][362]LogContentBrowser: Native class hierarchy updated for 'V' in 0.0008 seconds. Added 21 classes and 5 folders.
+[2019.02.20-14.03.57:439][362]Display: HotReload successful (21 functions remapped  1 scriptstructs remapped)
+[2019.02.20-14.03.57:813][362]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2608 classes and 616 folders.
+[2019.02.20-14.03.57:818][362]Display: HotReload took  0.5s.
+[2019.02.20-14.08.01:347][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map/Untitled' took 0.089
+[2019.02.20-14.08.01:350][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/playerpawn] ([1] browsable assets)...
+[2019.02.20-14.08.01:411][ 88]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/playerpawn.playerpawn]
+[2019.02.20-14.08.01:412][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/playerpawn]
+[2019.02.20-14.08.01:412][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/playerpawn" FILE="E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.20-14.08.01:543][ 88]LogSavePackage: Moving 'E:/Project/V/Saved/playerpawn_Auto1B8549C3C4998DC545C10A98A5E5C962B.tmp' to 'E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto1.uasset'
+[2019.02.20-14.08.01:546][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/weapon/weapon1] ([1] browsable assets)...
+[2019.02.20-14.08.01:603][ 88]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/weapon/weapon1.weapon1]
+[2019.02.20-14.08.01:603][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/weapon/weapon1]
+[2019.02.20-14.08.01:605][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/weapon/weapon1" FILE="E:/Project/V/Saved/Autosaves/Game/weapon/weapon1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.20-14.08.01:732][ 88]LogSavePackage: Moving 'E:/Project/V/Saved/weapon1_Auto19E7B4EA34A91A17DE6E05AA7DF4B1E76.tmp' to 'E:/Project/V/Saved/Autosaves/Game/weapon/weapon1_Auto1.uasset'
+[2019.02.20-14.08.01:735][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/weapon/weapon2] ([1] browsable assets)...
+[2019.02.20-14.08.01:795][ 88]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/weapon/weapon2.weapon2]
+[2019.02.20-14.08.01:795][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/weapon/weapon2]
+[2019.02.20-14.08.01:795][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/weapon/weapon2" FILE="E:/Project/V/Saved/Autosaves/Game/weapon/weapon2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.20-14.08.01:924][ 88]LogSavePackage: Moving 'E:/Project/V/Saved/weapon2_Auto1625F3FEB42BAB69BD461B79556614818.tmp' to 'E:/Project/V/Saved/Autosaves/Game/weapon/weapon2_Auto1.uasset'
+[2019.02.20-14.08.01:928][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/weapon/weapon3] ([1] browsable assets)...
+[2019.02.20-14.08.01:987][ 88]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/weapon/weapon3.weapon3]
+[2019.02.20-14.08.01:987][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/weapon/weapon3]
+[2019.02.20-14.08.01:987][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/weapon/weapon3" FILE="E:/Project/V/Saved/Autosaves/Game/weapon/weapon3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.20-14.08.02:113][ 88]LogSavePackage: Moving 'E:/Project/V/Saved/weapon3_Auto169A430A947A2957B86D1F0BB512AA231.tmp' to 'E:/Project/V/Saved/Autosaves/Game/weapon/weapon3_Auto1.uasset'
+[2019.02.20-14.08.02:116][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/weapon/AI_Weapon1] ([1] browsable assets)...
+[2019.02.20-14.08.02:174][ 88]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/weapon/AI_Weapon1.AI_Weapon1]
+[2019.02.20-14.08.02:174][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/weapon/AI_Weapon1]
+[2019.02.20-14.08.02:174][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/weapon/AI_Weapon1" FILE="E:/Project/V/Saved/Autosaves/Game/weapon/AI_Weapon1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.20-14.08.02:293][ 88]LogSavePackage: Moving 'E:/Project/V/Saved/AI_Weapon1_Auto1AEDCE53F4BAC98A557AB02BB1978ED76.tmp' to 'E:/Project/V/Saved/Autosaves/Game/weapon/AI_Weapon1_Auto1.uasset'
+[2019.02.20-14.08.02:295][ 88]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/weapon/SDweaponBP] ([1] browsable assets)...
+[2019.02.20-14.08.02:352][ 88]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/weapon/SDweaponBP.SDweaponBP]
+[2019.02.20-14.08.02:352][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/weapon/SDweaponBP]
+[2019.02.20-14.08.02:355][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/weapon/SDweaponBP" FILE="E:/Project/V/Saved/Autosaves/Game/weapon/SDweaponBP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.20-14.08.02:480][ 88]LogSavePackage: Moving 'E:/Project/V/Saved/SDweaponBP_Auto1126E95BB4CAEA90C26DD8297E4063234.tmp' to 'E:/Project/V/Saved/Autosaves/Game/weapon/SDweaponBP_Auto1.uasset'
+[2019.02.20-14.08.02:482][ 88]LogFileHelpers: Auto-saving content packages took 1.134
+[2019.02.20-14.08.24:637][155]LogHotReload: New module detected: UE4Editor-V-4209.dll
+[2019.02.20-14.08.25:655][159]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.20-14.08.25:762][159]LogClass: EWaveStae HotReload.
+[2019.02.20-14.08.25:763][159]LogClass: HitScanTrace HotReload.
+[2019.02.20-14.08.25:774][159]LogContentBrowser: Native class hierarchy updated for 'V' in 0.0006 seconds. Added 21 classes and 5 folders.
+[2019.02.20-14.08.25:778][159]Display: HotReload successful (21 functions remapped  1 scriptstructs remapped)
+[2019.02.20-14.08.26:140][159]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2608 classes and 616 folders.
+[2019.02.20-14.08.26:146][159]Display: HotReload took  0.5s.
+[2019.02.20-14.09.03:724][271]LogHotReload: New module detected: UE4Editor-V-8277.dll
+[2019.02.20-14.09.04:419][274]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.20-14.09.04:564][274]LogClass: EWaveStae HotReload.
+[2019.02.20-14.09.04:564][274]LogClass: HitScanTrace HotReload.
+[2019.02.20-14.09.04:575][274]LogContentBrowser: Native class hierarchy updated for 'V' in 0.0006 seconds. Added 21 classes and 5 folders.
+[2019.02.20-14.09.04:580][274]Display: HotReload successful (21 functions remapped  1 scriptstructs remapped)
+[2019.02.20-14.09.04:962][274]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2608 classes and 616 folders.
+[2019.02.20-14.09.04:967][274]Display: HotReload took  0.5s.
+[2019.02.20-14.12.03:225][869]LogTemp: Repeating last play command: 选中的视口
+[2019.02.20-14.12.03:247][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-14.12.03:247][869]PIE: New page: PIE会话: Untitled (2019年2月21日 上午6:12:03)
+[2019.02.20-14.12.03:247][869]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.02.20-14.12.03:252][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004282s)
+[2019.02.20-14.12.03:253][869]LogAIModule: Creating AISystem for world Untitled
+[2019.02.20-14.12.03:253][869]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2019.02.20-14.12.03:253][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.005760s)
+[2019.02.20-14.12.03:333][869]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-14.12.03:352][869]LogInit: FAudioDevice initialized.
+[2019.02.20-14.12.03:388][869]LogLoad: Game class is 'TestGamemode_C'
+[2019.02.20-14.12.03:390][869]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.02.20-22.12.03
+[2019.02.20-14.12.03:391][869]LogWorld: Bringing up level for play took: 0.001630
+[2019.02.20-14.12.03:407][869]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.02.20-14.12.03:407][869]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.52
+[2019.02.20-14.12.07:174][ 69]Cmd: Shit 0
+[2019.02.20-14.12.07:174][ 69]Shit = "0"
+[2019.02.20-14.12.07:189][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-14.12.08:244][126]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.02.20-14.12.09:244][180]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.02.20-14.12.09:246][180]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.02.20-14.12.09:246][180]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。

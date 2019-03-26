@@ -1,0 +1,1270 @@
+﻿Log file open, 03/18/19 21:31:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: V
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.297156
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.215s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4710MQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.18-13.31.58:715][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.18-13.31.58:715][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.18-13.31.58:728][  0]LogHAL: Display: Platform has ~ 12 GB [12801208320 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.18-13.31.58:729][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.18-13.31.58:729][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.18-13.31.58:729][  0]LogInit: Computer: DESKTOP-7B22VL8
+[2019.03.18-13.31.58:729][  0]LogInit: User: 51636
+[2019.03.18-13.31.58:729][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.18-13.31.58:729][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.18-13.31.58:729][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.03.18-13.31.58:729][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.18-13.31.58:729][  0]LogMemory: Process Physical Memory: 102.84 MB used, 102.84 MB peak
+[2019.03.18-13.31.58:729][  0]LogMemory: Process Virtual Memory: 93.37 MB used, 93.37 MB peak
+[2019.03.18-13.31.58:729][  0]LogMemory: Physical Memory: 7027.05 MB used,  5181.13 MB free, 12208.18 MB total
+[2019.03.18-13.31.58:729][  0]LogMemory: Virtual Memory: 4645.60 MB used,  5181.13 MB free, 134217728.00 MB total
+[2019.03.18-13.31.58:752][  0]LogInit: Using OS detected language (zh-CN).
+[2019.03.18-13.31.58:752][  0]LogInit: Using OS detected locale (zh-CN).
+[2019.03.18-13.31.59:233][  0]LogStreaming: Display: Took  0.482s to InitEngineTextLocalization.
+[2019.03.18-13.31.59:233][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.18-13.31.59:345][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.18-13.31.59:345][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.18-13.31.59:705][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.18-13.31.59:705][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.18-13.31.59:993][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 750M' (Feature Level 11_0)
+[2019.03.18-13.31.59:993][  0]LogD3D11RHI:       2020/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.18-13.32.00:003][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.03.18-13.32.00:003][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.18-13.32.00:007][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.18-13.32.00:008][  0]LogD3D11RHI:       0/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.18-13.32.00:008][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.18-13.32.00:054][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.18-13.32.00:054][  0]LogD3D11RHI:     GPU DeviceId: 0xfe4 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.18-13.32.00:054][  0]LogWindows: EnumDisplayDevices:
+[2019.03.18-13.32.00:054][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.03.18-13.32.00:056][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.18-13.32.00:057][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.18-13.32.00:058][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.18-13.32.00:058][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 750M
+[2019.03.18-13.32.00:058][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.18-13.32.00:058][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.18-13.32.00:058][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
+[2019.03.18-13.32.00:101][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.18-13.32.00:117][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.18-13.32.00:119][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (E:/Project/V/Intermediate/Shaders/WorkingDirectory/15136/).
+[2019.03.18-13.32.00:119][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/51636/AppData/Local/Temp/UnrealShaderWorkingDir/BBB61219483CE3ED2A9FE28AC708E738/'.
+[2019.03.18-13.32.00:670][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.18-13.32.00:703][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.18-13.32.00:731][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.18-13.32.00:753][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.18-13.32.00:778][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.18-13.32.00:809][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.18-13.32.00:841][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.18-13.32.00:873][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.18-13.32.00:886][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.18-13.32.01:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-13.32.01:043][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.18-13.32.01:115][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.18-13.32.01:115][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.18-13.32.01:151][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.18-13.32.01:151][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.18-13.32.01:170][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.18-13.32.01:190][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.18-13.32.01:215][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.18-13.32.01:239][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.18-13.32.01:251][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.18-13.32.01:251][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.18-13.32.01:355][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.18-13.32.01:355][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.18-13.32.01:355][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.18-13.32.02:475][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.18-13.32.02:564][  0]LogDerivedDataCache: Loaded boot cache 0.09s 84MB C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.18-13.32.02:564][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.18-13.32.02:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Project/V/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.18-13.32.02:564][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.18-13.32.02:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Project/V/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.18-13.32.02:564][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.18-13.32.02:582][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.18-13.32.02:596][  0]LogDerivedDataCache: Using Local data cache path C:/Users/51636/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.18-13.32.02:596][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.18-13.32.02:596][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.18-13.32.02:618][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.18-13.32.02:620][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.18-13.32.02:620][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.18-13.32.02:700][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2019.03.18-13.32.03:157][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.18-13.32.03:451][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.18-13.32.03:456][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.18-13.32.03:456][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.18-13.32.03:456][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.18-13.32.03:456][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.18-13.32.03:602][  0]LogNetVersion: V 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 103352566)
+[2019.03.18-13.32.04:472][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 4 prioritized culture(s) in 0.216418 seconds
+[2019.03.18-13.32.04:479][  0]LogUObjectArray: 38426 objects as part of root set at end of initial load.
+[2019.03.18-13.32.04:479][  0]LogUObjectAllocator: 6691096 out of 0 bytes used by permanent object pool.
+[2019.03.18-13.32.04:479][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.18-13.32.05:779][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.03.18-13.32.05:787][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.18-13.32.05:800][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.18-13.32.05:996][  0]SourceControl: 源码管理已禁用
+[2019.03.18-13.32.05:996][  0]SourceControl: 源码管理已禁用
+[2019.03.18-13.32.05:998][  0]SourceControl: 源码管理已禁用
+[2019.03.18-13.32.06:000][  0]SourceControl: 源码管理已禁用
+[2019.03.18-13.32.06:196][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.18-13.32.06:311][  0]LogOcInput: OculusInput pre-init called
+[2019.03.18-13.32.06:626][  0]LogEngine: Initializing Engine...
+[2019.03.18-13.32.06:628][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.18-13.32.06:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.18-13.32.06:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.18-13.32.06:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.18-13.32.06:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.18-13.32.06:893][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.18-13.32.06:910][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.32.07:070][  0]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-13.32.07:102][  0]LogInit: FAudioDevice initialized.
+[2019.03.18-13.32.07:102][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.18-13.32.07:199][  0]LogDerivedDataCache: Saved boot cache 0.10s 84MB C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.18-13.32.07:212][  0]LogInit: Texture streaming: Enabled
+[2019.03.18-13.32.07:239][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.18-13.32.07:258][  0]LogInit: Transaction tracking system initialized
+[2019.03.18-13.32.07:296][  0]BlueprintLog: New page: 编辑器加载
+[2019.03.18-13.32.07:425][  0]LocalizationService: 本地化服务已禁用
+[2019.03.18-13.32.07:811][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.18-13.32.07:811][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.18-13.32.07:812][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.18-13.32.07:812][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.18-13.32.07:812][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.18-13.32.07:812][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.18-13.32.07:812][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.18-13.32.07:999][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/' took 0.04s
+[2019.03.18-13.32.07:999][  0]SourceControl: 源码管理已禁用
+[2019.03.18-13.32.08:000][  0]Cmd: MAP LOAD FILE="E:/Project/V/Content/Maps/map/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.18-13.32.08:001][  0]LightingResults: New page: 光照构建
+[2019.03.18-13.32.08:018][  0]MapCheck: New page: 地图检测
+[2019.03.18-13.32.08:018][  0]LightingResults: New page: 光照构建
+[2019.03.18-13.32.10:081][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.32.10:090][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.18-13.32.10:121][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.18-13.32.10:379][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时257.97毫秒完成。
+[2019.03.18-13.32.10:380][  0]LogFileHelpers: Loading map 'Untitled' took 2.380
+[2019.03.18-13.32.10:648][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.32.10:657][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.32.10:666][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.32.10:678][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.32.10:689][  0]LogCollectionManager: Loaded 0 collections in 0.003226 seconds
+[2019.03.18-13.32.10:735][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Saved/Collections/' took 0.01s
+[2019.03.18-13.32.10:735][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/Developers/51636/Collections/' took 0.01s
+[2019.03.18-13.32.10:735][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/Collections/' took 0.01s
+[2019.03.18-13.32.10:735][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.18-13.32.10:751][  0]LogContentBrowser: Native class hierarchy populated in 0.0155 seconds. Added 2614 classes and 616 folders.
+[2019.03.18-13.32.10:767][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.18-13.32.10:908][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.18-13.32.10:918][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.03.18-13.32.11:180][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.18-13.32.11:180][  0]LogLoad: (Engine Initialization) Total time: 14.83 seconds
+[2019.03.18-13.32.11:180][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.18-13.32.11:227][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.18-13.32.11:229][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.18-13.32.11:232][  0]LogSlate: Took 0.003027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.03.18-13.32.11:233][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.18-13.32.11:239][  0]LogSlate: Took 0.001379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.18-13.32.11:368][  0]LogSlate: Took 0.001640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.18-13.32.11:417][  1]LogRenderer: Reallocating scene render targets to support 804x396 Format 10 NumSamples 1 (Frame:1).
+[2019.03.18-13.32.11:418][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.03.18-13.32.11:498][  2]LogAssetRegistry: Asset discovery search completed in 8.8205 seconds
+[2019.03.18-13.32.11:501][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.18-13.32.11:501][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2019.03.18-13.33.04:473][217]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.33.34:033][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.34.04:068][637]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.18-13.34.04:076][637]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/背包.背包
+[2019.03.18-13.34.04:707][637]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2019.03.18-13.34.05:627][637]LogSlate: Took 0.001882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.18-13.37.50:092][528]BlueprintLog: New page: 编译背包
+[2019.03.18-13.38.44:316][880]LogRenderer: Reallocating scene render targets to support 1004x500 Format 10 NumSamples 1 (Frame:3899).
+[2019.03.18-13.38.49:890][ 72]LogSlate: Window '背包*' being destroyed
+[2019.03.18-13.38.49:897][ 72]LogSlate: Window '背包*' being destroyed
+[2019.03.18-13.38.54:118][303]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/playerpawn.playerpawn
+[2019.03.18-13.38.56:035][361]LogSlate: Window 'playerpawn' being destroyed
+[2019.03.18-13.38.56:298][361]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/playerpawn.playerpawn
+[2019.03.18-13.38.58:679][453]LogRenderer: Reallocating scene render targets to support 1004x568 Format 10 NumSamples 1 (Frame:1).
+[2019.03.18-13.40.17:511][870]LogSlate: Took 0.001737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.18-13.42.14:705][927]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map/Untitled' took 0.036
+[2019.03.18-13.42.14:708][927]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/playerpawn] ([1] browsable assets)...
+[2019.03.18-13.42.14:743][927]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/playerpawn.playerpawn]
+[2019.03.18-13.42.14:743][927]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/playerpawn]
+[2019.03.18-13.42.14:743][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/playerpawn" FILE="E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.03.18-13.42.14:879][927]LogSavePackage: Moving 'E:/Project/V/Saved/playerpawn_Auto19DBE02C34A6005C1C5ED578D2A49A97D.tmp' to 'E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto1.uasset'
+[2019.03.18-13.42.14:883][927]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/背包] ([1] browsable assets)...
+[2019.03.18-13.42.14:883][927]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/背包]
+[2019.03.18-13.42.14:883][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/背包" FILE="E:/Project/V/Saved/Autosaves/Game/UI/背包_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.03.18-13.42.14:892][927]LogSavePackage: Moving 'E:/Project/V/Saved/背包_Auto107A198CE4413D1776FD66EA177F109F0.tmp' to 'E:/Project/V/Saved/Autosaves/Game/UI/背包_Auto1.uasset'
+[2019.03.18-13.42.14:894][927]LogFileHelpers: Auto-saving content packages took 0.187
+[2019.03.18-13.45.36:299][556]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-13.45.40:123][743]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-13.45.40:151][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.45.40:179][743]PIE: New page: PIE会话: Untitled (2019年3月19日 上午5:45:40)
+[2019.03.18-13.45.40:180][743]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-13.45.40:186][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006740s)
+[2019.03.18-13.45.40:188][743]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.45.40:189][743]LogPlayLevel: PIE: World Init took: (0.001933s)
+[2019.03.18-13.45.40:189][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.009183s)
+[2019.03.18-13.45.40:233][743]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-13.45.40:254][743]LogInit: FAudioDevice initialized.
+[2019.03.18-13.45.40:301][743]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-13.45.40:304][743]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-21.45.40
+[2019.03.18-13.45.40:304][743]LogWorld: Bringing up level for play took: 0.001977
+[2019.03.18-13.45.40:331][743]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2019.03.18-13.45.40:336][743]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.45.40:337][743]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.38
+[2019.03.18-13.45.45:127][ 28]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-13.45.45:428][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.45.45:466][ 46]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-13.45.45:497][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.45.45:760][ 47]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.03.18-13.45.46:470][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.46.01:951][974]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-13.46.14:970][313]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-13.46.18:955][527]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.18-13.46.28:436][ 85]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-13.46.30:079][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.46.30:162][163]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-13.46.30:188][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.46.30:188][163]PIE: New page: PIE会话: Untitled (2019年3月19日 上午5:46:30)
+[2019.03.18-13.46.30:188][163]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-13.46.30:194][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005933s)
+[2019.03.18-13.46.30:195][163]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.46.30:195][163]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2019.03.18-13.46.30:195][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.007230s)
+[2019.03.18-13.46.30:234][163]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-13.46.30:257][163]LogInit: FAudioDevice initialized.
+[2019.03.18-13.46.30:292][163]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-13.46.30:294][163]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-21.46.30
+[2019.03.18-13.46.30:294][163]LogWorld: Bringing up level for play took: 0.001764
+[2019.03.18-13.46.30:310][163]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.46.30:310][163]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.406
+[2019.03.18-13.46.31:832][251]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:00D2
+[2019.03.18-13.46.31:832][251]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Add to Viewport
+[2019.03.18-13.46.32:225][273]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:014F
+[2019.03.18-13.46.32:226][273]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Set Visibility
+[2019.03.18-13.46.32:672][298]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:00D2
+[2019.03.18-13.46.32:672][298]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Add to Viewport
+[2019.03.18-13.46.33:101][322]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:014F
+[2019.03.18-13.46.33:101][322]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Set Visibility
+[2019.03.18-13.46.33:491][344]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:00D2
+[2019.03.18-13.46.33:491][344]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Add to Viewport
+[2019.03.18-13.46.34:115][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.46.34:162][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-13.46.34:193][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.46.34:239][380]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.03.18-13.46.34:792][409]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.46.36:287][472]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.18-13.46.37:827][560]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-13.46.40:050][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.46.42:945][815]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/背包.背包
+[2019.03.18-13.47.22:293][495]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PawnAI/PawnAI.PawnAI
+[2019.03.18-13.47.27:325][759]LogSlate: Window 'PawnAI' being destroyed
+[2019.03.18-13.47.27:335][759]LogSlate: Window 'PawnAI' being destroyed
+[2019.03.18-13.47.27:486][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.18-13.47.32:749][ 30]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/playerpawn.playerpawn
+[2019.03.18-13.47.43:403][631]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-13.48.14:869][868]LogSlate: Window 'playerpawn*' being destroyed
+[2019.03.18-13.48.14:875][868]LogSlate: Window 'playerpawn*' being destroyed
+[2019.03.18-13.48.16:152][925]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-13.48.16:175][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.48.16:175][925]PIE: New page: PIE会话: Untitled (2019年3月19日 上午5:48:16)
+[2019.03.18-13.48.16:175][925]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-13.48.16:180][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004374s)
+[2019.03.18-13.48.16:180][925]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.48.16:181][925]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2019.03.18-13.48.16:181][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.005650s)
+[2019.03.18-13.48.16:226][925]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-13.48.16:248][925]LogInit: FAudioDevice initialized.
+[2019.03.18-13.48.16:388][925]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-13.48.16:391][925]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-21.48.16
+[2019.03.18-13.48.16:391][925]LogWorld: Bringing up level for play took: 0.001694
+[2019.03.18-13.48.16:407][925]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.48.16:408][925]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.309
+[2019.03.18-13.48.17:838][  0]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:00D2
+[2019.03.18-13.48.17:839][  0]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Add to Viewport
+[2019.03.18-13.48.19:948][124]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:014F
+[2019.03.18-13.48.19:948][124]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Set Visibility
+[2019.03.18-13.48.20:790][164]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:00D2
+[2019.03.18-13.48.20:790][164]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Add to Viewport
+[2019.03.18-13.48.21:153][180]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-13.48.21:420][191]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:014F
+[2019.03.18-13.48.21:420][191]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Set Visibility
+[2019.03.18-13.48.22:163][221]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-13.48.22:165][221]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.48.22:166][221]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.48.23:861][295]LogTemp: Health Change:80.0
+[2019.03.18-13.48.23:885][296]LogTemp: Health Change:90.0
+[2019.03.18-13.48.23:963][299]LogTemp: Health Change:60.0
+[2019.03.18-13.48.24:051][302]LogTemp: Health Change:40.0
+[2019.03.18-13.48.24:079][303]LogTemp: Health Change:80.0
+[2019.03.18-13.48.24:163][306]LogTemp: Health Change:20.0
+[2019.03.18-13.48.24:164][306]LogTemp: Health Change:70.0
+[2019.03.18-13.48.24:246][309]LogTemp: Health Change:0.0
+[2019.03.18-13.48.24:246][309]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.48.24:246][309]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.48.24:247][309]LogBlueprintUserMessages: [TestGamemode_C_0] 20.0
+[2019.03.18-13.48.25:440][358]LogTemp: Health Change:50.0
+[2019.03.18-13.48.25:440][358]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.03.18-13.48.25:520][361]LogTemp: Health Change:0.0
+[2019.03.18-13.48.25:520][361]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.03.18-13.48.25:520][361]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.48.25:520][361]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.48.25:521][361]LogBlueprintUserMessages: [TestGamemode_C_0] 40.0
+[2019.03.18-13.48.26:177][386]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.03.18-13.48.26:178][386]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.48.27:411][453]LogTemp: Health Change:50.0
+[2019.03.18-13.48.27:515][459]LogTemp: Health Change:0.0
+[2019.03.18-13.48.28:503][517]LogTemp: Health Change:50.0
+[2019.03.18-13.48.28:586][522]LogTemp: Health Change:0.0
+[2019.03.18-13.48.29:137][555]LogTemp: Health Change:50.0
+[2019.03.18-13.48.29:220][560]LogTemp: Health Change:0.0
+[2019.03.18-13.48.30:219][620]LogTemp: Health Change:50.0
+[2019.03.18-13.48.30:303][625]LogTemp: Health Change:0.0
+[2019.03.18-13.48.31:153][676]LogTemp: Health Change:50.0
+[2019.03.18-13.48.31:186][678]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-13.48.31:205][679]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.48.31:205][679]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.48.31:237][681]LogTemp: Health Change:0.0
+[2019.03.18-13.48.33:191][798]LogTemp: Health Change:50.0
+[2019.03.18-13.48.33:288][804]LogTemp: Health Change:40.0
+[2019.03.18-13.48.33:689][828]LogTemp: Health Change:20.0
+[2019.03.18-13.48.34:188][858]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-13.48.34:190][858]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.48.34:190][858]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.48.34:991][906]LogTemp: Health Change:0.0
+[2019.03.18-13.48.35:154][916]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-13.48.35:154][916]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.18-13.48.35:154][916]LogTemp: Your palyer died
+[2019.03.18-13.48.35:880][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.48.35:931][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-13.48.35:979][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.48.36:166][960]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.03.18-13.49.05:265][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.49.24:563][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.49.24:563][210]PIE: New page: PIE会话: Untitled (2019年3月19日 上午5:49:24)
+[2019.03.18-13.49.24:564][210]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-13.49.24:568][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004235s)
+[2019.03.18-13.49.24:569][210]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.49.24:569][210]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2019.03.18-13.49.24:569][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.005763s)
+[2019.03.18-13.49.24:606][210]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-13.49.24:628][210]LogInit: FAudioDevice initialized.
+[2019.03.18-13.49.24:641][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.49.24:683][210]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-13.49.24:685][210]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-21.49.24
+[2019.03.18-13.49.24:686][210]LogWorld: Bringing up level for play took: 0.002054
+[2019.03.18-13.49.24:703][210]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.49.24:706][210]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.01
+[2019.03.18-13.49.24:739][210]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.03.18-13.49.29:496][347]LogTemp: Health Change:50.0
+[2019.03.18-13.49.29:567][349]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-13.49.29:567][349]LogTemp: Health Change:0.0
+[2019.03.18-13.49.30:594][375]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-13.49.31:016][388]LogTemp: Health Change:120.0
+[2019.03.18-13.49.31:517][402]LogTemp: Health Change:140.0
+[2019.03.18-13.49.31:828][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.49.31:851][411]LogSlate: Window 'V 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-13.49.31:895][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-13.49.31:941][412]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.03.18-13.49.34:677][575]Cmd: STAT FPS
+[2019.03.18-13.49.35:605][630]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2019.03.18-13.49.35:626][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.49.35:626][630]PIE: New page: PIE会话: Untitled (2019年3月19日 上午5:49:35)
+[2019.03.18-13.49.35:626][630]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-13.49.35:630][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004465s)
+[2019.03.18-13.49.35:631][630]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.49.35:632][630]LogPlayLevel: PIE: World Init took: (0.001133s)
+[2019.03.18-13.49.35:632][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.005871s)
+[2019.03.18-13.49.35:669][630]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-13.49.35:692][630]LogInit: FAudioDevice initialized.
+[2019.03.18-13.49.35:703][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.49.35:742][630]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-13.49.35:745][630]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-21.49.35
+[2019.03.18-13.49.35:745][630]LogWorld: Bringing up level for play took: 0.002125
+[2019.03.18-13.49.35:763][630]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.49.35:767][630]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间1.051
+[2019.03.18-13.49.40:216][770]LogTemp: Health Change:120.0
+[2019.03.18-13.49.40:618][783]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-13.49.40:649][784]LogTemp: Health Change:140.0
+[2019.03.18-13.49.40:710][786]LogTemp: Health Change:160.0
+[2019.03.18-13.49.41:160][803]LogTemp: Health Change:180.0
+[2019.03.18-13.49.41:213][805]LogTemp: Health Change:200.0
+[2019.03.18-13.49.41:626][821]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-13.49.41:652][822]LogTemp: Health Change:220.0
+[2019.03.18-13.49.41:705][824]LogTemp: Health Change:240.0
+[2019.03.18-13.49.42:151][841]LogTemp: Health Change:260.0
+[2019.03.18-13.49.43:051][874]LogTemp: Health Change:50.0
+[2019.03.18-13.49.43:139][877]LogTemp: Health Change:0.0
+[2019.03.18-13.49.43:139][877]LogTemp: Health Change:0.0
+[2019.03.18-13.49.43:139][877]LogTemp: Health 0.0 of Bp_ball_C_1
+[2019.03.18-13.49.43:140][877]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.49.43:140][877]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.49.43:140][877]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.03.18-13.49.43:140][877]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.03.18-13.49.43:140][877]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.03.18-13.49.43:140][877]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.03.18-13.49.46:383][991]LogTemp: Health Change:280.0
+[2019.03.18-13.49.46:799][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.49.46:834][  9]LogSlate: Window 'V 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-13.49.46:881][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-13.49.47:122][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.03.18-13.49.54:931][286]LogSlate: Window '保存内容' being destroyed
+[2019.03.18-13.49.55:042][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/playerpawn" FILE="E:/Project/V/Content/Player/playerpawn.uasset" SILENT=true
+[2019.03.18-13.49.55:188][286]LogSavePackage: Moving 'E:/Project/V/Saved/playerpawn484171B04101155021DA4B8674A70AA2.tmp' to 'E:/Project/V/Content/Player/playerpawn.uasset'
+[2019.03.18-13.49.55:369][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/背包" FILE="E:/Project/V/Content/UI/背包.uasset" SILENT=true
+[2019.03.18-13.49.55:378][286]LogSavePackage: Moving 'E:/Project/V/Saved/背包32AD739945FF45D3AA46DF938132612E.tmp' to 'E:/Project/V/Content/UI/背包.uasset'
+[2019.03.18-13.49.58:224][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.49.58:224][454]PIE: New page: PIE会话: Untitled (2019年3月19日 上午5:49:58)
+[2019.03.18-13.49.58:224][454]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-13.49.58:230][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005197s)
+[2019.03.18-13.49.58:231][454]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.49.58:231][454]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2019.03.18-13.49.58:231][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.006856s)
+[2019.03.18-13.49.58:275][454]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-13.49.58:297][454]LogInit: FAudioDevice initialized.
+[2019.03.18-13.49.58:329][454]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-13.49.58:331][454]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-21.49.58
+[2019.03.18-13.49.58:331][454]LogWorld: Bringing up level for play took: 0.001622
+[2019.03.18-13.49.58:348][454]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.49.58:348][454]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.369
+[2019.03.18-13.49.59:830][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.49.59:865][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-13.49.59:892][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.50.00:094][543]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.18-13.50.04:116][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.50.04:232][783]LogTemp: Repeating last play command: 独立窗口运行
+[2019.03.18-13.50.10:997][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.50.10:997][ 70]PIE: New page: PIE会话: Untitled (2019年3月19日 上午5:50:10)
+[2019.03.18-13.50.10:997][ 70]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-13.50.11:003][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005897s)
+[2019.03.18-13.50.11:004][ 70]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.50.11:004][ 70]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2019.03.18-13.50.11:005][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.007151s)
+[2019.03.18-13.50.11:047][ 70]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-13.50.11:070][ 70]LogInit: FAudioDevice initialized.
+[2019.03.18-13.50.11:100][ 70]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-13.50.11:103][ 70]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-21.50.11
+[2019.03.18-13.50.11:103][ 70]LogWorld: Bringing up level for play took: 0.001644
+[2019.03.18-13.50.11:119][ 70]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.50.11:120][ 70]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.403
+[2019.03.18-13.50.15:979][334]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-13.50.16:002][335]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.50.16:002][335]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.50.16:122][341]LogTemp: Health Change:120.0
+[2019.03.18-13.50.16:628][366]LogTemp: Health Change:140.0
+[2019.03.18-13.50.16:990][384]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-13.50.17:133][391]LogTemp: Health Change:160.0
+[2019.03.18-13.50.17:595][413]LogTemp: Health Change:140.0
+[2019.03.18-13.50.17:618][414]LogTemp: Health Change:160.0
+[2019.03.18-13.50.17:690][417]LogTemp: Health Change:140.0
+[2019.03.18-13.50.17:803][422]LogTemp: Health Change:130.0
+[2019.03.18-13.50.17:893][426]LogTemp: Health Change:120.0
+[2019.03.18-13.50.17:986][430]LogTemp: Health Change:110.0
+[2019.03.18-13.50.18:211][440]LogTemp: Health Change:80.0
+[2019.03.18-13.50.18:307][444]LogTemp: Health Change:100.0
+[2019.03.18-13.50.18:307][444]LogTemp: Health Change:60.0
+[2019.03.18-13.50.18:405][448]LogTemp: Health Change:90.0
+[2019.03.18-13.50.18:405][448]LogTemp: Health Change:40.0
+[2019.03.18-13.50.18:503][452]LogTemp: Health Change:20.0
+[2019.03.18-13.50.18:598][456]LogTemp: Health Change:0.0
+[2019.03.18-13.50.18:598][456]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.50.18:598][456]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.50.18:599][456]LogBlueprintUserMessages: [TestGamemode_C_0] 20.0
+[2019.03.18-13.50.19:576][502]LogTemp: Health Change:50.0
+[2019.03.18-13.50.19:576][502]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.03.18-13.50.19:666][506]LogTemp: Health Change:0.0
+[2019.03.18-13.50.19:666][506]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.03.18-13.50.19:666][506]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.50.19:666][506]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.50.19:666][506]LogBlueprintUserMessages: [TestGamemode_C_0] 40.0
+[2019.03.18-13.50.19:978][519]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.03.18-13.50.19:978][519]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.50.20:583][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.50.20:631][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-13.50.20:674][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.50.20:712][549]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.03.18-13.50.29:568][691]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.50.33:049][875]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/背包.背包
+[2019.03.18-13.50.40:661][230]BlueprintLog: New page: 编译背包
+[2019.03.18-13.50.41:374][255]LogSlate: Window '背包*' being destroyed
+[2019.03.18-13.50.41:380][255]LogSlate: Window '背包*' being destroyed
+[2019.03.18-13.50.42:125][287]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-13.50.42:148][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.50.42:148][287]PIE: New page: PIE会话: Untitled (2019年3月19日 上午5:50:42)
+[2019.03.18-13.50.42:148][287]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-13.50.42:153][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005088s)
+[2019.03.18-13.50.42:154][287]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.50.42:154][287]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2019.03.18-13.50.42:154][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.006404s)
+[2019.03.18-13.50.42:201][287]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-13.50.42:224][287]LogInit: FAudioDevice initialized.
+[2019.03.18-13.50.42:253][287]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-13.50.42:255][287]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-21.50.42
+[2019.03.18-13.50.42:255][287]LogWorld: Bringing up level for play took: 0.001623
+[2019.03.18-13.50.42:272][287]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.50.42:272][287]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.445
+[2019.03.18-13.50.42:939][325]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:00D2
+[2019.03.18-13.50.42:939][325]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Add to Viewport
+[2019.03.18-13.50.44:539][421]LogScript: Warning: “无访问”正在尝试读取属性 InventoryRef
+	playerpawn_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.playerpawn_C_0
+	Function /Game/Player/playerpawn.playerpawn_C:ExecuteUbergraph_playerpawn:014F
+[2019.03.18-13.50.44:539][421]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 InventoryRef"。 蓝图： playerpawn 函数： Execute Ubergraph Playerpawn 图表： EventGraph 节点： Set Visibility
+[2019.03.18-13.50.45:144][456]Set new viewmode: Wireframe
+[2019.03.18-13.50.45:146][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.50.45:183][456]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-13.50.45:215][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.50.45:431][457]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.03.18-13.50.46:998][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-13.50.51:634][775]LogSlate: Window '消息日志' being destroyed
+[2019.03.18-13.50.51:643][775]LogSlate: Window '消息日志' being destroyed
+[2019.03.18-13.51.27:751][220]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/playerpawn.playerpawn
+[2019.03.18-13.51.38:434][821]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-13.51.39:384][854]LogSlate: Window 'playerpawn*' being destroyed
+[2019.03.18-13.51.39:397][854]LogSlate: Window 'playerpawn*' being destroyed
+[2019.03.18-13.51.40:145][894]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-13.51.40:167][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-13.51.40:167][894]PIE: New page: PIE会话: Untitled (2019年3月19日 上午5:51:40)
+[2019.03.18-13.51.40:167][894]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-13.51.40:171][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004487s)
+[2019.03.18-13.51.40:172][894]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-13.51.40:173][894]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2019.03.18-13.51.40:173][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.005840s)
+[2019.03.18-13.51.40:214][894]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-13.51.40:237][894]LogInit: FAudioDevice initialized.
+[2019.03.18-13.51.40:271][894]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-13.51.40:274][894]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-21.51.40
+[2019.03.18-13.51.40:274][894]LogWorld: Bringing up level for play took: 0.001650
+[2019.03.18-13.51.40:291][894]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.51.40:291][894]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.426
+[2019.03.18-13.51.45:159][176]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-13.51.45:178][177]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.51.45:178][177]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.51.46:171][233]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-13.51.46:714][263]LogTemp: Health Change:90.0
+[2019.03.18-13.51.46:804][268]LogTemp: Health Change:80.0
+[2019.03.18-13.51.46:901][272]LogTemp: Health Change:70.0
+[2019.03.18-13.51.47:007][276]LogTemp: Health Change:60.0
+[2019.03.18-13.51.47:110][280]LogTemp: Health Change:40.0
+[2019.03.18-13.51.47:216][284]LogTemp: Health Change:30.0
+[2019.03.18-13.51.47:398][291]LogTemp: Health Change:20.0
+[2019.03.18-13.51.47:607][299]LogTemp: Health Change:10.0
+[2019.03.18-13.51.47:716][303]LogTemp: Health Change:90.0
+[2019.03.18-13.51.47:826][307]LogTemp: Health Change:70.0
+[2019.03.18-13.51.47:906][310]LogTemp: Health Change:50.0
+[2019.03.18-13.51.48:018][314]LogTemp: Health Change:30.0
+[2019.03.18-13.51.48:128][318]LogTemp: Health Change:0.0
+[2019.03.18-13.51.48:128][318]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.51.48:129][318]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.51.48:129][318]LogBlueprintUserMessages: [TestGamemode_C_0] 20.0
+[2019.03.18-13.51.49:568][380]LogTemp: Health Change:50.0
+[2019.03.18-13.51.49:568][380]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.03.18-13.51.49:654][383]LogTemp: Health Change:0.0
+[2019.03.18-13.51.49:654][383]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.03.18-13.51.49:655][383]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.51.49:655][383]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.51.49:655][383]LogBlueprintUserMessages: [TestGamemode_C_0] 40.0
+[2019.03.18-13.51.50:162][401]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.03.18-13.51.50:163][401]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-13.51.51:417][448]LogTemp: Health Change:50.0
+[2019.03.18-13.51.51:504][451]LogTemp: Health Change:0.0
+[2019.03.18-13.51.54:028][567]LogTemp: Health Change:30.0
+[2019.03.18-13.51.54:526][592]LogTemp: Health Change:50.0
+[2019.03.18-13.51.54:862][612]LogTemp: Health Change:70.0
+[2019.03.18-13.51.55:014][621]LogTemp: Health Change:90.0
+[2019.03.18-13.51.55:176][630]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-13.51.55:376][642]LogTemp: Health Change:110.0
+[2019.03.18-13.51.55:524][651]LogTemp: Health Change:130.0
+[2019.03.18-13.51.55:592][655]LogTemp: Health Change:150.0
+[2019.03.18-13.51.55:876][672]LogTemp: Health Change:170.0
+[2019.03.18-13.51.56:091][685]LogTemp: Health Change:190.0
+[2019.03.18-13.51.56:176][690]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.51.56:177][690]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.51.56:375][702]LogTemp: Health Change:210.0
+[2019.03.18-13.51.56:594][715]LogTemp: Health Change:230.0
+[2019.03.18-13.51.57:091][745]LogTemp: Health Change:250.0
+[2019.03.18-13.51.57:758][785]LogTemp: Health Change:230.0
+[2019.03.18-13.51.57:842][790]LogTemp: Health Change:210.0
+[2019.03.18-13.51.57:941][796]LogTemp: Health Change:200.0
+[2019.03.18-13.51.58:041][802]LogTemp: Health Change:190.0
+[2019.03.18-13.51.58:141][808]LogTemp: Health Change:170.0
+[2019.03.18-13.51.58:174][810]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-13.51.58:241][814]LogTemp: Health Change:160.0
+[2019.03.18-13.51.58:341][820]LogTemp: Health Change:140.0
+[2019.03.18-13.51.58:441][826]LogTemp: Health Change:130.0
+[2019.03.18-13.51.58:491][829]LogTemp: Health Change:50.0
+[2019.03.18-13.51.58:491][829]LogTemp: Health 50.0 of Bp_ball_C_1
+[2019.03.18-13.51.58:541][832]LogTemp: Health Change:110.0
+[2019.03.18-13.51.58:574][834]LogTemp: Health Change:0.0
+[2019.03.18-13.51.58:574][834]LogTemp: Health 0.0 of Bp_ball_C_1
+[2019.03.18-13.51.58:574][834]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.51.58:575][834]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-13.51.58:575][834]LogBlueprintUserMessages: [TestGamemode_C_0] 60.0
+[2019.03.18-13.51.58:641][838]LogTemp: Health Change:100.0
+[2019.03.18-13.51.59:642][898]LogTemp: Health Change:90.0
+[2019.03.18-13.51.59:725][903]LogTemp: Health Change:80.0
+[2019.03.18-13.51.59:926][915]LogTemp: Health Change:60.0
+[2019.03.18-13.51.59:975][918]LogTemp: Health Change:80.0
+[2019.03.18-13.52.00:025][921]LogTemp: Health Change:40.0
+[2019.03.18-13.52.00:058][923]LogTemp: Health Change:70.0
+[2019.03.18-13.52.00:126][927]LogTemp: Health Change:30.0
+[2019.03.18-13.52.00:158][929]LogTemp: Health Change:60.0
+[2019.03.18-13.52.00:278][935]LogTemp: Health Change:40.0
+[2019.03.18-13.52.00:477][945]LogTemp: Health Change:20.0
+[2019.03.18-13.52.00:579][950]LogTemp: Health Change:0.0
+[2019.03.18-13.52.01:161][985]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-13.52.01:161][985]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.18-13.52.01:161][985]LogTemp: Your palyer died
+[2019.03.18-13.52.01:480][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.52.01:519][  4]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-13.52.01:557][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-13.52.01:788][  5]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.03.18-13.53.38:672][334]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map/Untitled' took 0.030
+[2019.03.18-13.53.38:674][334]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/playerpawn] ([1] browsable assets)...
+[2019.03.18-13.53.38:723][334]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/playerpawn.playerpawn]
+[2019.03.18-13.53.38:723][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/playerpawn]
+[2019.03.18-13.53.38:723][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/playerpawn" FILE="E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.03.18-13.53.38:861][334]LogSavePackage: Moving 'E:/Project/V/Saved/playerpawn_Auto25E7B1F2C4518C2F53A6C24ACD8244050.tmp' to 'E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto2.uasset'
+[2019.03.18-13.53.38:864][334]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/背包] ([1] browsable assets)...
+[2019.03.18-13.53.38:864][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/背包]
+[2019.03.18-13.53.38:864][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/背包" FILE="E:/Project/V/Saved/Autosaves/Game/UI/背包_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.03.18-13.53.38:981][334]LogSavePackage: Moving 'E:/Project/V/Saved/背包_Auto26E6C70BF4875FACB26CDFD924C079387.tmp' to 'E:/Project/V/Saved/Autosaves/Game/UI/背包_Auto2.uasset'
+[2019.03.18-13.53.38:983][334]LogFileHelpers: Auto-saving content packages took 0.310
+[2019.03.18-13.54.33:248][497]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-13.54.34:333][528]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/playerpawn.playerpawn
+[2019.03.18-13.58.37:353][825]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-13.59.57:650][842]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-14.01.44:545][598]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-14.02.06:673][229]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-14.02.09:773][380]LogSlate: Window 'playerpawn*' being destroyed
+[2019.03.18-14.02.09:779][380]LogSlate: Window 'playerpawn*' being destroyed
+[2019.03.18-14.02.10:349][397]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-14.02.10:370][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-14.02.10:370][397]PIE: New page: PIE会话: Untitled (2019年3月19日 上午6:02:10)
+[2019.03.18-14.02.10:370][397]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-14.02.10:375][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005008s)
+[2019.03.18-14.02.10:376][397]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-14.02.10:377][397]LogPlayLevel: PIE: World Init took: (0.001182s)
+[2019.03.18-14.02.10:377][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.006441s)
+[2019.03.18-14.02.10:417][397]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-14.02.10:442][397]LogInit: FAudioDevice initialized.
+[2019.03.18-14.02.10:475][397]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-14.02.10:478][397]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-22.02.10
+[2019.03.18-14.02.10:478][397]LogWorld: Bringing up level for play took: 0.001562
+[2019.03.18-14.02.10:494][397]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.02.10:494][397]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.222
+[2019.03.18-14.02.15:354][676]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-14.02.16:367][729]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.02.16:367][729]LogTemp: Health Change:50.0
+[2019.03.18-14.02.16:462][734]LogTemp: Health Change:0.0
+[2019.03.18-14.02.17:261][776]LogTemp: Health Change:50.0
+[2019.03.18-14.02.17:372][782]LogTemp: Health Change:0.0
+[2019.03.18-14.02.18:962][873]LogTemp: Health Change:50.0
+[2019.03.18-14.02.20:064][931]LogTemp: Health Change:50.0
+[2019.03.18-14.02.20:064][931]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.03.18-14.02.20:160][936]LogTemp: Health Change:0.0
+[2019.03.18-14.02.20:160][936]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.03.18-14.02.20:160][936]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.02.20:160][936]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.02.20:161][936]LogBlueprintUserMessages: [TestGamemode_C_0] 20.0
+[2019.03.18-14.02.21:845][ 23]LogTemp: Health Change:50.0
+[2019.03.18-14.02.21:846][ 23]LogTemp: Health 50.0 of Bp_ball_C_1
+[2019.03.18-14.02.21:949][ 28]LogTemp: Health Change:0.0
+[2019.03.18-14.02.21:949][ 28]LogTemp: Health 0.0 of Bp_ball_C_1
+[2019.03.18-14.02.21:949][ 28]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.02.21:949][ 28]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.02.21:949][ 28]LogBlueprintUserMessages: [TestGamemode_C_0] 40.0
+[2019.03.18-14.02.22:358][ 48]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.03.18-14.02.22:358][ 48]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.02.27:369][335]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-14.02.27:392][336]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.02.27:394][336]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.02.29:596][434]LogTemp: Health Change:80.0
+[2019.03.18-14.02.29:670][437]LogTemp: Health Change:90.0
+[2019.03.18-14.02.29:696][438]LogTemp: Health Change:60.0
+[2019.03.18-14.02.29:751][440]LogTemp: Health Change:80.0
+[2019.03.18-14.02.29:781][441]LogTemp: Health Change:50.0
+[2019.03.18-14.02.29:874][444]LogTemp: Health Change:70.0
+[2019.03.18-14.02.29:875][444]LogTemp: Health Change:30.0
+[2019.03.18-14.02.29:961][447]LogTemp: Health Change:60.0
+[2019.03.18-14.02.29:989][448]LogTemp: Health Change:20.0
+[2019.03.18-14.02.30:048][450]LogTemp: Health Change:50.0
+[2019.03.18-14.02.30:076][451]LogTemp: Health Change:10.0
+[2019.03.18-14.02.30:168][454]LogTemp: Health Change:40.0
+[2019.03.18-14.02.30:198][455]LogTemp: Health Change:0.0
+[2019.03.18-14.02.30:352][461]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.02.30:352][461]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.18-14.02.30:352][461]LogTemp: Your palyer died
+[2019.03.18-14.02.31:288][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.02.31:344][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-14.02.31:407][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.02.31:662][503]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.18-14.02.38:601][546]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-14.04.00:040][905]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-14.04.00:063][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-14.04.00:063][905]PIE: New page: PIE会话: Untitled (2019年3月19日 上午6:04:00)
+[2019.03.18-14.04.00:064][905]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-14.04.00:069][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005676s)
+[2019.03.18-14.04.00:070][905]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-14.04.00:071][905]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2019.03.18-14.04.00:071][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.007134s)
+[2019.03.18-14.04.00:114][905]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-14.04.00:137][905]LogInit: FAudioDevice initialized.
+[2019.03.18-14.04.00:168][905]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-14.04.00:170][905]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-22.04.00
+[2019.03.18-14.04.00:170][905]LogWorld: Bringing up level for play took: 0.001631
+[2019.03.18-14.04.00:187][905]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.04.00:187][905]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.53
+[2019.03.18-14.04.05:047][174]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-14.04.05:067][175]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.04.05:068][175]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.04.06:053][225]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.04.06:133][229]LogTemp: Health Change:90.0
+[2019.03.18-14.04.06:232][234]LogTemp: Health Change:80.0
+[2019.03.18-14.04.06:331][239]LogTemp: Health Change:70.0
+[2019.03.18-14.04.06:554][251]LogTemp: Health Change:90.0
+[2019.03.18-14.04.06:647][256]LogTemp: Health Change:80.0
+[2019.03.18-14.04.06:746][261]LogTemp: Health Change:70.0
+[2019.03.18-14.04.06:843][266]LogTemp: Health Change:50.0
+[2019.03.18-14.04.06:941][271]LogTemp: Health Change:60.0
+[2019.03.18-14.04.06:941][271]LogTemp: Health Change:30.0
+[2019.03.18-14.04.07:024][275]LogTemp: Health Change:50.0
+[2019.03.18-14.04.07:157][281]LogTemp: Health Change:20.0
+[2019.03.18-14.04.07:239][285]LogTemp: Health Change:10.0
+[2019.03.18-14.04.07:349][290]LogTemp: Health Change:0.0
+[2019.03.18-14.04.08:046][330]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.04.08:046][330]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.18-14.04.08:047][330]LogTemp: Your palyer died
+[2019.03.18-14.04.08:365][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.04.08:405][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-14.04.08:440][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.04.08:475][350]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.03.18-14.04.08:985][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-14.04.09:101][386]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-14.04.09:131][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-14.04.09:131][386]PIE: New page: PIE会话: Untitled (2019年3月19日 上午6:04:09)
+[2019.03.18-14.04.09:131][386]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-14.04.09:137][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005737s)
+[2019.03.18-14.04.09:138][386]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-14.04.09:138][386]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2019.03.18-14.04.09:138][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.007417s)
+[2019.03.18-14.04.09:195][386]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-14.04.09:225][386]LogInit: FAudioDevice initialized.
+[2019.03.18-14.04.09:399][386]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-14.04.09:402][386]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-22.04.09
+[2019.03.18-14.04.09:403][386]LogWorld: Bringing up level for play took: 0.002056
+[2019.03.18-14.04.09:418][386]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.04.09:418][386]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.702
+[2019.03.18-14.04.12:956][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.04.13:008][578]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-14.04.13:044][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.04.13:083][579]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.03.18-14.04.38:218][701]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map/Untitled' took 0.030
+[2019.03.18-14.04.38:220][701]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/playerpawn] ([1] browsable assets)...
+[2019.03.18-14.04.38:270][701]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/playerpawn.playerpawn]
+[2019.03.18-14.04.38:270][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/playerpawn]
+[2019.03.18-14.04.38:270][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/playerpawn" FILE="E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2019.03.18-14.04.38:423][701]LogSavePackage: Moving 'E:/Project/V/Saved/playerpawn_Auto3BB8951BE4430A1452D1104BA25BB58A9.tmp' to 'E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto3.uasset'
+[2019.03.18-14.04.38:426][701]LogFileHelpers: Auto-saving content packages took 0.207
+[2019.03.18-14.05.04:030][778]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-14.05.49:854][478]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-14.06.07:848][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-14.08.19:210][280]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/playerpawn.playerpawn
+[2019.03.18-14.14.38:936][454]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map/Untitled' took 0.029
+[2019.03.18-14.14.38:939][454]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/playerpawn] ([1] browsable assets)...
+[2019.03.18-14.14.38:973][454]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/playerpawn.playerpawn]
+[2019.03.18-14.14.38:973][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/playerpawn]
+[2019.03.18-14.14.38:973][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/playerpawn" FILE="E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2019.03.18-14.14.39:115][454]LogSavePackage: Moving 'E:/Project/V/Saved/playerpawn_Auto4BB8BD95B47E98ABCAE3F26843934A088.tmp' to 'E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto4.uasset'
+[2019.03.18-14.14.39:118][454]LogFileHelpers: Auto-saving content packages took 0.180
+[2019.03.18-14.23.08:830][442]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-14.23.09:901][482]LogSlate: Window 'playerpawn*' being destroyed
+[2019.03.18-14.23.09:911][482]LogSlate: Window 'playerpawn*' being destroyed
+[2019.03.18-14.23.10:665][521]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-14.23.10:693][521]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-14.23.10:694][521]PIE: New page: PIE会话: Untitled (2019年3月19日 上午6:23:10)
+[2019.03.18-14.23.10:694][521]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-14.23.10:699][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004800s)
+[2019.03.18-14.23.10:700][521]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-14.23.10:700][521]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2019.03.18-14.23.10:700][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.006295s)
+[2019.03.18-14.23.10:747][521]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-14.23.10:770][521]LogInit: FAudioDevice initialized.
+[2019.03.18-14.23.10:806][521]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-14.23.10:809][521]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-22.23.10
+[2019.03.18-14.23.10:810][521]LogWorld: Bringing up level for play took: 0.002412
+[2019.03.18-14.23.10:826][521]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.23.10:826][521]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.11
+[2019.03.18-14.23.15:689][794]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-14.23.15:713][795]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.23.15:714][795]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.23.16:700][836]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.23.16:701][836]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.23.16:701][836]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.23.17:430][875]LogTemp: Health Change:80.0
+[2019.03.18-14.23.17:634][885]LogTemp: Health Change:60.0
+[2019.03.18-14.23.17:720][889]LogTemp: Health Change:50.0
+[2019.03.18-14.23.18:024][904]LogTemp: Health Change:40.0
+[2019.03.18-14.23.18:358][920]LogTemp: Health Change:30.0
+[2019.03.18-14.23.18:554][929]LogTemp: Health Change:20.0
+[2019.03.18-14.23.18:765][938]LogTemp: Health Change:0.0
+[2019.03.18-14.23.19:668][985]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.23.19:668][985]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.18-14.23.19:668][985]LogTemp: Your palyer died
+[2019.03.18-14.23.20:071][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-14.23.20:213][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.23.20:249][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-14.23.20:287][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.23.20:328][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.03.18-14.23.20:917][ 48]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-14.23.20:947][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-14.23.20:947][ 48]PIE: New page: PIE会话: Untitled (2019年3月19日 上午6:23:20)
+[2019.03.18-14.23.20:947][ 48]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-14.23.20:953][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005929s)
+[2019.03.18-14.23.20:954][ 48]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-14.23.20:955][ 48]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2019.03.18-14.23.20:955][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.007378s)
+[2019.03.18-14.23.21:010][ 48]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-14.23.21:039][ 48]LogInit: FAudioDevice initialized.
+[2019.03.18-14.23.21:070][ 48]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-14.23.21:073][ 48]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-22.23.21
+[2019.03.18-14.23.21:074][ 48]LogWorld: Bringing up level for play took: 0.002482
+[2019.03.18-14.23.21:092][ 48]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.23.21:092][ 48]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.376
+[2019.03.18-14.23.24:535][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.23.24:581][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-14.23.24:613][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.23.24:634][248]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.03.18-14.25.01:858][214]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map/Untitled' took 0.034
+[2019.03.18-14.25.01:861][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/playerpawn] ([1] browsable assets)...
+[2019.03.18-14.25.01:910][214]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/playerpawn.playerpawn]
+[2019.03.18-14.25.01:910][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/playerpawn]
+[2019.03.18-14.25.01:910][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/playerpawn" FILE="E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2019.03.18-14.25.02:062][214]LogSavePackage: Moving 'E:/Project/V/Saved/playerpawn_Auto58B8E8811498DFDAFCFA9F286D11B06BF.tmp' to 'E:/Project/V/Saved/Autosaves/Game/Player/playerpawn_Auto5.uasset'
+[2019.03.18-14.25.02:064][214]LogFileHelpers: Auto-saving content packages took 0.205
+[2019.03.18-14.25.45:307][344]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-14.45.26:491][159]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.18-14.47.52:775][982]LogMetaData: Removing '/Game/UI/背包/背包.SKEL_背包_C' ref from Metadata '/Game/UI/背包.PackageMetaData'
+[2019.03.18-14.47.52:776][982]LogMetaData: Removing '/Game/UI/背包/背包.背包_C' ref from Metadata '/Game/UI/背包.PackageMetaData'
+[2019.03.18-14.47.52:776][982]LogMetaData: Removing '/Game/UI/背包/背包.背包:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/背包.PackageMetaData'
+[2019.03.18-14.47.52:776][982]LogMetaData: Removing '/Game/UI/背包/背包.背包:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/背包.PackageMetaData'
+[2019.03.18-14.47.52:776][982]LogMetaData: Removing '/Game/UI/背包/背包.背包:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/背包.PackageMetaData'
+[2019.03.18-14.47.52:776][982]LogMetaData: Removing '/Game/UI/背包/背包.SKEL_背包_C:PreConstruct' ref from Metadata '/Game/UI/背包.PackageMetaData'
+[2019.03.18-14.47.52:776][982]LogMetaData: Removing '/Game/UI/背包/背包.SKEL_背包_C:Construct' ref from Metadata '/Game/UI/背包.PackageMetaData'
+[2019.03.18-14.47.52:776][982]LogMetaData: Removing '/Game/UI/背包/背包.SKEL_背包_C:Tick' ref from Metadata '/Game/UI/背包.PackageMetaData'
+[2019.03.18-14.47.52:821][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/背包/背包" FILE="E:/Project/V/Content/UI/背包/背包.uasset" SILENT=true
+[2019.03.18-14.47.52:837][982]LogSavePackage: Moving 'E:/Project/V/Saved/背包1E071DFF470728D64B3BB19E96A004D4.tmp' to 'E:/Project/V/Content/UI/背包/背包.uasset'
+[2019.03.18-14.47.53:879][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/playerpawn" FILE="E:/Project/V/Content/Player/playerpawn.uasset" SILENT=true
+[2019.03.18-14.47.54:117][982]LogSavePackage: Moving 'E:/Project/V/Saved/playerpawnCA742D3F4EABEE6A71ACDCAA4A7D7A9C.tmp' to 'E:/Project/V/Content/Player/playerpawn.uasset'
+[2019.03.18-14.47.56:049][ 19]Candidate modules for hot reload:
+[2019.03.18-14.47.56:049][ 19]  V
+[2019.03.18-14.47.56:049][ 19]Launching UnrealBuildTool... [D:/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=V,1921 Win64 Development -TargetType=Editor -Project="E:/Project/V/V.uproject" -canskiplink "E:/Project/V/V.uproject" ]
+[2019.03.18-14.47.56:052][ 19]Warning: Starting HotReload took  0.6s.
+[2019.03.18-14.47.57:133][ 56]CompilerResultsLog: New page: 编译- 2019年3月19日 上午6:47:57
+[2019.03.18-14.47.57:133][ 56]LogMainFrame: MainFrame: Module compiling took 1.348 seconds
+[2019.03.18-14.47.57:133][ 56]Warning: HotReload failed, recompile failed
+[2019.03.18-14.47.58:528][108]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-14.47.58:579][108]BlueprintLog: New page: 运行前自动重新编译
+[2019.03.18-14.47.58:603][108]LogPlayLevel: [PlayLevel] Compiling playerpawn before play...
+[2019.03.18-14.47.58:976][108]LogPlayLevel: PlayLevel: Blueprint regeneration took 397 ms (1 blueprints)
+[2019.03.18-14.47.58:976][108]PIE: New page: PIE会话: Untitled (2019年3月19日 上午6:47:58)
+[2019.03.18-14.47.58:977][108]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-14.47.58:986][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009341s)
+[2019.03.18-14.47.58:988][108]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-14.47.58:988][108]LogPlayLevel: PIE: World Init took: (0.001909s)
+[2019.03.18-14.47.58:988][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.011727s)
+[2019.03.18-14.47.59:053][108]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-14.47.59:166][108]LogInit: FAudioDevice initialized.
+[2019.03.18-14.47.59:205][108]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-14.47.59:209][108]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-22.47.59
+[2019.03.18-14.47.59:210][108]LogWorld: Bringing up level for play took: 0.003470
+[2019.03.18-14.47.59:231][108]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.47.59:231][108]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.515
+[2019.03.18-14.48.03:903][316]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-14.48.04:907][362]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.48.09:681][572]LogTemp: Health Change:50.0
+[2019.03.18-14.48.09:681][572]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.03.18-14.48.09:977][585]LogTemp: Health Change:50.0
+[2019.03.18-14.48.09:977][585]LogTemp: Health 50.0 of Bp_ball_C_1
+[2019.03.18-14.48.10:081][589]LogTemp: Health Change:0.0
+[2019.03.18-14.48.10:081][589]LogTemp: Health 0.0 of Bp_ball_C_1
+[2019.03.18-14.48.10:081][589]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.48.10:081][589]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.48.10:082][589]LogBlueprintUserMessages: [TestGamemode_C_0] 20.0
+[2019.03.18-14.48.10:156][592]LogTemp: Health Change:0.0
+[2019.03.18-14.48.10:156][592]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.03.18-14.48.10:156][592]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.48.10:156][592]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.48.10:156][592]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.03.18-14.48.10:157][592]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.03.18-14.48.10:157][592]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.03.18-14.48.10:157][592]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.03.18-14.48.10:909][626]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.03.18-14.48.10:909][626]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.48.15:687][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.48.15:729][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-14.48.15:779][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.48.15:853][877]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.03.18-14.48.16:634][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-14.48.47:728][119]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/UI/背包/InventoryData.InventoryData
+[2019.03.18-14.48.59:581][739]LogSlate: Took 0.001820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.03.18-14.52.05:466][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/背包/InventoryData" FILE="E:/Project/V/Content/UI/背包/InventoryData.uasset" SILENT=true
+[2019.03.18-14.52.05:473][749]LogSavePackage: Moving 'E:/Project/V/Saved/InventoryData5F31F9214492A2F73F49EEB8EC305444.tmp' to 'E:/Project/V/Content/UI/背包/InventoryData.uasset'
+[2019.03.18-14.52.06:328][800]LogSlate: Window 'InventoryData' being destroyed
+[2019.03.18-14.52.06:334][800]LogSlate: Window 'InventoryData' being destroyed
+[2019.03.18-14.52.15:221][320]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/UI/背包/Category.Category
+[2019.03.18-14.52.50:077][904]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map/Untitled' took 0.026
+[2019.03.18-14.52.50:082][904]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/背包/Category] ([1] browsable assets)...
+[2019.03.18-14.52.50:082][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/背包/Category]
+[2019.03.18-14.52.50:082][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/背包/Category" FILE="E:/Project/V/Saved/Autosaves/Game/UI/背包/Category_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2019.03.18-14.52.50:085][904]LogSavePackage: Moving 'E:/Project/V/Saved/Category_Auto6E706FEBF4DF8AA79F08FAF9C646BACE2.tmp' to 'E:/Project/V/Saved/Autosaves/Game/UI/背包/Category_Auto6.uasset'
+[2019.03.18-14.52.50:087][904]LogFileHelpers: Auto-saving content packages took 0.009
+[2019.03.18-14.54.32:323][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/背包/Category" FILE="E:/Project/V/Content/UI/背包/Category.uasset" SILENT=true
+[2019.03.18-14.54.32:327][955]LogSavePackage: Moving 'E:/Project/V/Saved/CategoryA523B4FA4B1036CE3D85DBA443B72248.tmp' to 'E:/Project/V/Content/UI/背包/Category.uasset'
+[2019.03.18-14.54.33:098][  1]LogSlate: Window 'Category' being destroyed
+[2019.03.18-14.54.33:104][  1]LogSlate: Window 'Category' being destroyed
+[2019.03.18-14.54.35:080][118]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/UI/背包/InventoryData.InventoryData
+[2019.03.18-14.54.46:172][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/背包/InventoryData" FILE="E:/Project/V/Content/UI/背包/InventoryData.uasset" SILENT=true
+[2019.03.18-14.54.46:285][771]LogSavePackage: Moving 'E:/Project/V/Saved/InventoryData46DA85AE43F21B7D6A7B84B0F0999533.tmp' to 'E:/Project/V/Content/UI/背包/InventoryData.uasset'
+[2019.03.18-14.54.47:340][834]LogSlate: Window 'InventoryData' being destroyed
+[2019.03.18-14.54.47:345][834]LogSlate: Window 'InventoryData' being destroyed
+[2019.03.18-14.54.52:544][ 32]LogSlate: Window '选择父类' being destroyed
+[2019.03.18-14.54.59:024][418]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/UI/背包/ItemPickUp.ItemPickUp
+[2019.03.18-14.55.31:439][780]BlueprintLog: New page: 编译ItemPickUp
+[2019.03.18-14.55.43:580][272]BlueprintLog: New page: 编译ItemPickUp
+[2019.03.18-14.56.35:809][707]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-14.56.42:613][984]LogHttp: Warning: 0000023C156C3C40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.18-14.56.42:613][984]LogHttp: Warning: 0000023C156C3C40: libcurl info message cache 0 (Connection 44 seems to be dead!)
+[2019.03.18-14.56.42:613][984]LogHttp: Warning: 0000023C156C3C40: libcurl info message cache 1 (Closing connection 44)
+[2019.03.18-14.56.42:613][984]LogHttp: Warning: 0000023C156C3C40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.03.18-14.56.42:613][984]LogHttp: Warning: 0000023C156C3C40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.18-14.56.42:613][984]LogHttp: Warning: 0000023C156C3C40: libcurl info message cache 4 (Closing connection 45)
+[2019.03.18-14.56.47:883][209]LogSlate: Window 'ItemPickUp*' being destroyed
+[2019.03.18-14.56.47:910][209]LogSlate: Window 'ItemPickUp*' being destroyed
+[2019.03.18-14.56.49:609][304]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/UI/背包/ItemPickUp.ItemPickUp
+[2019.03.18-14.56.55:807][637]LogSlate: Window 'ItemPickUp*' being destroyed
+[2019.03.18-14.56.55:812][637]LogSlate: Window 'ItemPickUp*' being destroyed
+[2019.03.18-14.56.56:926][698]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/UI/背包/ItemPickUp.ItemPickUp
+[2019.03.18-14.57.03:178][ 34]LogSlate: Window 'ItemPickUp*' being destroyed
+[2019.03.18-14.57.03:186][ 34]LogSlate: Window 'ItemPickUp*' being destroyed
+[2019.03.18-14.57.26:719][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-14.57.26:802][431]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-14.57.26:828][431]BlueprintLog: New page: 运行前自动重新编译
+[2019.03.18-14.57.26:830][431]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2019.03.18-14.57.26:866][431]LogPlayLevel: PlayLevel: Blueprint regeneration took 38 ms (1 blueprints)
+[2019.03.18-14.57.26:867][431]PIE: New page: PIE会话: Untitled (2019年3月19日 上午6:57:26)
+[2019.03.18-14.57.26:867][431]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-14.57.26:872][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005165s)
+[2019.03.18-14.57.26:875][431]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-14.57.26:876][431]LogPlayLevel: PIE: World Init took: (0.003386s)
+[2019.03.18-14.57.26:876][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.009273s)
+[2019.03.18-14.57.26:922][431]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-14.57.26:944][431]LogInit: FAudioDevice initialized.
+[2019.03.18-14.57.26:977][431]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-14.57.26:980][431]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-22.57.26
+[2019.03.18-14.57.26:981][431]LogWorld: Bringing up level for play took: 0.001923
+[2019.03.18-14.57.26:997][431]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.57.26:997][431]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.28
+[2019.03.18-14.57.30:973][586]LogTemp: Health Change:50.0
+[2019.03.18-14.57.31:055][589]LogTemp: Health Change:0.0
+[2019.03.18-14.57.31:820][616]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-14.57.32:846][654]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.57.33:665][681]LogTemp: Health Change:50.0
+[2019.03.18-14.57.33:665][681]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.03.18-14.57.33:765][684]LogTemp: Health Change:0.0
+[2019.03.18-14.57.33:765][684]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.03.18-14.57.33:765][684]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.57.33:766][684]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.57.33:766][684]LogTemp: Health Change:0.0
+[2019.03.18-14.57.33:766][684]LogBlueprintUserMessages: [TestGamemode_C_0] 20.0
+[2019.03.18-14.57.34:736][713]LogTemp: Health Change:50.0
+[2019.03.18-14.57.34:736][713]LogTemp: Health 50.0 of Bp_ball_C_1
+[2019.03.18-14.57.34:835][716]LogTemp: Health Change:0.0
+[2019.03.18-14.57.34:835][716]LogTemp: Health 0.0 of Bp_ball_C_1
+[2019.03.18-14.57.34:835][716]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.57.34:835][716]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_1.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-14.57.34:835][716]LogBlueprintUserMessages: [TestGamemode_C_0] 40.0
+[2019.03.18-14.57.35:815][748]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.03.18-14.57.35:815][748]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.57.37:310][803]LogTemp: Health Change:120.0
+[2019.03.18-14.57.37:648][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.57.37:704][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-14.57.37:732][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.57.37:788][817]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.03.18-14.57.38:326][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-14.57.45:096][205]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/playerpawn.playerpawn
+[2019.03.18-14.58.54:013][ 35]LogHttp: Warning: 0000023BED085800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.18-14.58.54:013][ 35]LogHttp: Warning: 0000023BED085800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.18-14.58.54:013][ 35]LogHttp: Warning: 0000023BED085800: libcurl info message cache 1 (Closing connection 46)
+[2019.03.18-14.59.29:953][232]BlueprintLog: New page: 编译playerpawn
+[2019.03.18-14.59.31:709][323]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-14.59.31:736][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-14.59.31:736][323]PIE: New page: PIE会话: Untitled (2019年3月19日 上午6:59:31)
+[2019.03.18-14.59.31:736][323]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-14.59.31:741][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004523s)
+[2019.03.18-14.59.31:743][323]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-14.59.31:743][323]LogPlayLevel: PIE: World Init took: (0.001966s)
+[2019.03.18-14.59.31:743][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.006734s)
+[2019.03.18-14.59.31:787][323]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-14.59.31:810][323]LogInit: FAudioDevice initialized.
+[2019.03.18-14.59.31:842][323]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-14.59.31:845][323]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-22.59.31
+[2019.03.18-14.59.31:845][323]LogWorld: Bringing up level for play took: 0.001842
+[2019.03.18-14.59.31:862][323]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-14.59.31:862][323]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.855
+[2019.03.18-14.59.36:717][513]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-14.59.37:717][571]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.59.38:133][596]LogTemp: Health Change:50.0
+[2019.03.18-14.59.38:317][607]LogTemp: Health Change:0.0
+[2019.03.18-14.59.38:317][607]LogTemp: Health Change:0.0
+[2019.03.18-14.59.38:318][607]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0714
+[2019.03.18-14.59.38:318][607]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_CustomEvent_KillerController"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.03.18-14.59.38:318][607]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue
+	TestGamemode_C /Game/Maps/map/UEDPIE_0_Untitled.Untitled:PersistentLevel.TestGamemode_C_0
+	Function /Game/GameMode/TestGamemode.TestGamemode_C:ExecuteUbergraph_TestGamemode:0750
+[2019.03.18-14.59.38:318][607]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_K2_GetPawn_ReturnValue"。 蓝图： TestGamemode 函数： Execute Ubergraph Test Gamemode 图表： EventGraph 节点： 类型转换为 VPlayerState
+[2019.03.18-14.59.38:717][631]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.59.38:717][631]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.18-14.59.38:717][631]LogTemp: Your palyer died
+[2019.03.18-14.59.39:717][691]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.59.39:717][691]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.18-14.59.39:717][691]LogTemp: Your palyer died
+[2019.03.18-14.59.40:717][751]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.59.40:717][751]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.18-14.59.40:717][751]LogTemp: Your palyer died
+[2019.03.18-14.59.41:717][811]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-14.59.41:717][811]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.18-14.59.41:717][811]LogTemp: Your palyer died
+[2019.03.18-14.59.41:985][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.59.42:025][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-14.59.42:070][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-14.59.42:107][828]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.03.18-14.59.44:776][867]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-14.59.49:884][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-14.59.52:357][303]LogSlate: Window '消息日志' being destroyed
+[2019.03.18-14.59.52:364][303]LogSlate: Window '消息日志' being destroyed
+[2019.03.18-14.59.53:014][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-15.02.31:935][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-15.02.32:034][859]LogTemp: Repeating last play command: 选中的视口
+[2019.03.18-15.02.32:071][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-15.02.32:071][859]PIE: New page: PIE会话: Untitled (2019年3月19日 上午7:02:32)
+[2019.03.18-15.02.32:071][859]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.18-15.02.32:077][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006164s)
+[2019.03.18-15.02.32:079][859]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-15.02.32:080][859]LogPlayLevel: PIE: World Init took: (0.002001s)
+[2019.03.18-15.02.32:080][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.008485s)
+[2019.03.18-15.02.32:139][859]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-15.02.32:171][859]LogInit: FAudioDevice initialized.
+[2019.03.18-15.02.32:209][859]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.18-15.02.32:213][859]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.18-23.02.32
+[2019.03.18-15.02.32:214][859]LogWorld: Bringing up level for play took: 0.003627
+[2019.03.18-15.02.32:232][859]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.18-15.02.32:232][859]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.485
+[2019.03.18-15.02.34:522][954]LogTemp: Health Change:120.0
+[2019.03.18-15.02.35:017][974]LogTemp: Health Change:140.0
+[2019.03.18-15.02.35:527][995]LogTemp: Health Change:160.0
+[2019.03.18-15.02.36:034][ 19]LogTemp: Health Change:180.0
+[2019.03.18-15.02.37:044][ 76]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.18-15.02.37:063][ 77]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-15.02.37:064][ 77]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.18-15.02.38:044][136]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.18-15.02.44:061][497]LogTemp: Health Change:160.0
+[2019.03.18-15.02.44:162][503]LogTemp: Health Change:140.0
+[2019.03.18-15.02.44:262][509]LogTemp: Health Change:120.0
+[2019.03.18-15.02.44:362][515]LogTemp: Health Change:110.0
+[2019.03.18-15.02.44:462][521]LogTemp: Health Change:90.0
+[2019.03.18-15.02.44:562][527]LogTemp: Health Change:70.0

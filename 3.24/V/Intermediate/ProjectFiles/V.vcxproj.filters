@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\V.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{66D12E96-CF99-4CC9-A53A-F17DC60DDAAF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\V.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\VEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{7B70EDAD-B932-4D8E-93F5-9146A19D744B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\V">
+			<UniqueIdentifier>{8B05DC21-48AA-4794-BD5B-D068149EC1A7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\V\V.Build.cs">
+			<Filter>Source\V</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\V\V.cpp">
+			<Filter>Source\V</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\V\V.h">
+			<Filter>Source\V</Filter>
+		</ClInclude >
+		<Filter Include="Source\V\Private">
+			<UniqueIdentifier>{EB3D3BA1-4E31-4F12-BCAE-6C953E268E8B}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\V\Private\BlackHole.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\BZT.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\DragonBall.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\Item1.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\ItemIntegral.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\Jiacheng.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\PickUpActor.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\PickWeapon1.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\PickWeapon2.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\Projectile_HJ.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\Rocketsweapon.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\SCharacter.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\SDWeapon.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\TB.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\VGameMode.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\VGameState.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\VPlayerState.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\Weapon.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\ZombleAIController.cpp">
+			<Filter>Source\V\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\V\Private\AI">
+			<UniqueIdentifier>{C31345BF-8C71-412C-BDCF-025E80B1B45E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\V\Private\AI\ball.cpp">
+			<Filter>Source\V\Private\AI</Filter>
+		</ClCompile >
+		<Filter Include="Source\V\Private\Components">
+			<UniqueIdentifier>{A828FCBA-DE5F-4001-888B-B3BC3B8E89FD}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\V\Private\Components\HealthComponent.cpp">
+			<Filter>Source\V\Private\Components</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\V\Private\Components\SCharacterMovementComponent.cpp">
+			<Filter>Source\V\Private\Components</Filter>
+		</ClCompile >
+		<Filter Include="Source\V\Private\Item">
+			<UniqueIdentifier>{5F38646E-D706-43A8-A69A-4A70D5509D9F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\V\Private\Item\PickUpItem.cpp">
+			<Filter>Source\V\Private\Item</Filter>
+		</ClCompile >
+		<Filter Include="Source\V\Public">
+			<UniqueIdentifier>{7C36267D-B5C0-423B-ACC6-4B869DCE41BC}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\V\Public\BlackHole.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\BZT.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\DragonBall.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\Item1.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\ItemIntegral.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\Jiacheng.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\PickUpActor.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\PickWeapon1.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\PickWeapon2.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\Projectile_HJ.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\Rocketsweapon.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\SCharacter.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\SDWeapon.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\TB.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\VGameMode.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\VGameState.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\VPlayerState.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\Weapon.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\ZombleAIController.h">
+			<Filter>Source\V\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\V\Public\AI">
+			<UniqueIdentifier>{49A0D0D4-9825-4E0E-8444-A1055A9F06B8}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\V\Public\AI\ball.h">
+			<Filter>Source\V\Public\AI</Filter>
+		</ClInclude >
+		<Filter Include="Source\V\Public\Components">
+			<UniqueIdentifier>{2C5FA294-F8D9-4C11-8166-F014A220CBE0}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\V\Public\Components\HealthComponent.h">
+			<Filter>Source\V\Public\Components</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\V\Public\Components\SCharacterMovementComponent.h">
+			<Filter>Source\V\Public\Components</Filter>
+		</ClInclude >
+		<Filter Include="Source\V\Public\Item">
+			<UniqueIdentifier>{B50AA134-FD79-4BB8-9975-B49DD4D214AE}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\V\Public\Item\PickUpItem.h">
+			<Filter>Source\V\Public\Item</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

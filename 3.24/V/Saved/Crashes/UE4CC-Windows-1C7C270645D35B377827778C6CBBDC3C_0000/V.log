@@ -1,0 +1,948 @@
+﻿Log file open, 03/23/19 17:30:30
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: V
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.309601
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.189s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4710MQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.23-09.30.31:121][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.23-09.30.31:121][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.23-09.30.31:133][  0]LogHAL: Display: Platform has ~ 12 GB [12801208320 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.23-09.30.31:133][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.23-09.30.31:133][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.23-09.30.31:133][  0]LogInit: Computer: DESKTOP-7B22VL8
+[2019.03.23-09.30.31:133][  0]LogInit: User: 51636
+[2019.03.23-09.30.31:133][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.23-09.30.31:133][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.23-09.30.31:134][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.03.23-09.30.31:134][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.23-09.30.31:134][  0]LogMemory: Process Physical Memory: 102.66 MB used, 102.67 MB peak
+[2019.03.23-09.30.31:134][  0]LogMemory: Process Virtual Memory: 101.33 MB used, 101.33 MB peak
+[2019.03.23-09.30.31:134][  0]LogMemory: Physical Memory: 2812.95 MB used,  9395.23 MB free, 12208.18 MB total
+[2019.03.23-09.30.31:134][  0]LogMemory: Virtual Memory: 4653.66 MB used,  9395.23 MB free, 134217728.00 MB total
+[2019.03.23-09.30.31:165][  0]LogInit: Using OS detected language (zh-CN).
+[2019.03.23-09.30.31:165][  0]LogInit: Using OS detected locale (zh-CN).
+[2019.03.23-09.30.31:607][  0]LogStreaming: Display: Took  0.442s to InitEngineTextLocalization.
+[2019.03.23-09.30.31:608][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.23-09.30.31:697][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.23-09.30.31:697][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.23-09.30.31:976][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.23-09.30.31:976][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.23-09.30.32:042][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 750M' (Feature Level 11_0)
+[2019.03.23-09.30.32:042][  0]LogD3D11RHI:       2020/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.23-09.30.32:052][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.03.23-09.30.32:052][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.23-09.30.32:055][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.23-09.30.32:055][  0]LogD3D11RHI:       0/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.23-09.30.32:055][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.23-09.30.32:097][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.23-09.30.32:097][  0]LogD3D11RHI:     GPU DeviceId: 0xfe4 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.23-09.30.32:097][  0]LogWindows: EnumDisplayDevices:
+[2019.03.23-09.30.32:097][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.03.23-09.30.32:098][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.23-09.30.32:099][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.23-09.30.32:100][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.23-09.30.32:100][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 750M
+[2019.03.23-09.30.32:100][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.23-09.30.32:100][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.23-09.30.32:100][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
+[2019.03.23-09.30.32:144][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.23-09.30.32:157][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.23-09.30.32:158][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (E:/Project/V/Intermediate/Shaders/WorkingDirectory/14984/).
+[2019.03.23-09.30.32:159][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/51636/AppData/Local/Temp/UnrealShaderWorkingDir/4009BD5B49B4F9B15F421897260306D1/'.
+[2019.03.23-09.30.32:581][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.23-09.30.32:599][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.23-09.30.32:617][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.23-09.30.32:635][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.23-09.30.32:658][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.23-09.30.32:675][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.23-09.30.32:693][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.23-09.30.32:713][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.23-09.30.32:724][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:838][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:839][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:839][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:839][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.23-09.30.32:841][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.23-09.30.32:910][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.23-09.30.32:910][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.23-09.30.32:941][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.23-09.30.32:941][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.23-09.30.32:957][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.23-09.30.32:975][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.23-09.30.32:992][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.23-09.30.33:011][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.23-09.30.33:024][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.23-09.30.33:024][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.23-09.30.33:118][  0]LogXGEController: Cleaning working directory: C:/Users/51636/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.23-09.30.33:119][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.23-09.30.33:119][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.23-09.30.33:119][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.23-09.30.34:192][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.23-09.30.34:279][  0]LogDerivedDataCache: Loaded boot cache 0.09s 84MB C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.23-09.30.34:279][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.23-09.30.34:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Project/V/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.23-09.30.34:279][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.23-09.30.34:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Project/V/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.23-09.30.34:279][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.23-09.30.34:297][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.23-09.30.34:312][  0]LogDerivedDataCache: Using Local data cache path C:/Users/51636/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.23-09.30.34:312][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.23-09.30.34:312][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.23-09.30.34:333][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.23-09.30.34:335][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.23-09.30.34:335][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.23-09.30.34:415][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2019.03.23-09.30.34:834][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.23-09.30.35:000][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.23-09.30.35:005][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.23-09.30.35:005][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.23-09.30.35:005][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.23-09.30.35:005][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.23-09.30.35:023][  0]LogNetVersion: V 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 103352566)
+[2019.03.23-09.30.35:726][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 4 prioritized culture(s) in 0.167248 seconds
+[2019.03.23-09.30.35:733][  0]LogUObjectArray: 38426 objects as part of root set at end of initial load.
+[2019.03.23-09.30.35:733][  0]LogUObjectAllocator: 6691096 out of 0 bytes used by permanent object pool.
+[2019.03.23-09.30.35:733][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.23-09.30.36:655][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.03.23-09.30.36:659][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.23-09.30.36:672][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.23-09.30.36:838][  0]SourceControl: 源码管理已禁用
+[2019.03.23-09.30.36:838][  0]SourceControl: 源码管理已禁用
+[2019.03.23-09.30.36:840][  0]SourceControl: 源码管理已禁用
+[2019.03.23-09.30.36:841][  0]SourceControl: 源码管理已禁用
+[2019.03.23-09.30.37:023][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.23-09.30.37:122][  0]LogOcInput: OculusInput pre-init called
+[2019.03.23-09.30.37:272][  0]LogEngine: Initializing Engine...
+[2019.03.23-09.30.37:276][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.23-09.30.37:278][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.23-09.30.37:278][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.23-09.30.37:278][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.23-09.30.37:278][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.23-09.30.37:516][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.23-09.30.37:533][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.23-09.30.37:554][  0]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.23-09.30.37:609][  0]LogInit: FAudioDevice initialized.
+[2019.03.23-09.30.37:609][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.23-09.30.37:696][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.23-09.30.37:717][  0]LogInit: Texture streaming: Enabled
+[2019.03.23-09.30.37:744][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.23-09.30.37:744][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5104FBD3-4CAB-CFA3-4052-798D25B55CE4}
+[2019.03.23-09.30.37:760][  0]LogInit: Transaction tracking system initialized
+[2019.03.23-09.30.37:794][  0]BlueprintLog: New page: 编辑器加载
+[2019.03.23-09.30.37:898][  0]LocalizationService: 本地化服务已禁用
+[2019.03.23-09.30.38:203][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.23-09.30.38:203][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.23-09.30.38:203][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.23-09.30.38:203][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.23-09.30.38:203][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.23-09.30.38:203][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.23-09.30.38:203][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.23-09.30.38:344][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/' took 0.04s
+[2019.03.23-09.30.38:344][  0]SourceControl: 源码管理已禁用
+[2019.03.23-09.30.38:344][  0]Cmd: MAP LOAD FILE="E:/Project/V/Content/Maps/map/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.23-09.30.38:345][  0]LightingResults: New page: 光照构建
+[2019.03.23-09.30.38:348][  0]MapCheck: New page: 地图检测
+[2019.03.23-09.30.38:348][  0]LightingResults: New page: 光照构建
+[2019.03.23-09.30.38:874][  0]LogLinker: Warning: 无法找到文件 '/Game/Weapons/M_RifleTracer_01'
+[2019.03.23-09.30.38:874][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/weapon/P_RifleTracer_01.uasset 时找到资源 '/Game/Weapons/M_RifleTracer_01’ 的文件。
+[2019.03.23-09.30.38:874][  0]LoadErrors: Error: /Game/weapon/P_RifleTracer_01 : 无法找到资源的文件。 /Game/Weapons/M_RifleTracer_01
+[2019.03.23-09.30.38:874][  0]LogLinker: Warning: 无法找到文件 '/Game/Weapons/M_RifleTracer_01'
+[2019.03.23-09.30.38:875][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/weapon/P_RifleTracer_01.uasset 时找到资源 '/Game/Weapons/M_RifleTracer_01’ 的文件。
+[2019.03.23-09.30.38:875][  0]LoadErrors: Error: /Game/weapon/P_RifleTracer_01 : 无法找到资源的文件。 /Game/Weapons/M_RifleTracer_01
+[2019.03.23-09.30.39:461][  0]LogLinker: Warning: 无法找到文件 '/Game/Weapons/M_RifleTracer_01'
+[2019.03.23-09.30.39:461][  0]LoadErrors: 加载失败 /Game/Weapons/M_RifleTracer_01.M_RifleTracer_01 引用者 ParticleModuleRequired_2
+[2019.03.23-09.30.39:461][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Weapons/M_RifleTracer_01’ 的文件。
+[2019.03.23-09.30.39:461][  0]LoadErrors: 加载失败 /Game/Weapons/M_RifleTracer_01.M_RifleTracer_01 引用者 ParticleModuleRequired_2
+[2019.03.23-09.30.40:057][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.23-09.30.40:073][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.23-09.30.40:101][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.23-09.30.40:366][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时265.012毫秒完成。
+[2019.03.23-09.30.40:366][  0]LogFileHelpers: Loading map 'Untitled' took 2.022
+[2019.03.23-09.30.40:473][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.23-09.30.40:481][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.23-09.30.40:488][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.23-09.30.40:495][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.23-09.30.40:504][  0]LogCollectionManager: Loaded 0 collections in 0.002358 seconds
+[2019.03.23-09.30.40:547][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Saved/Collections/' took 0.01s
+[2019.03.23-09.30.40:547][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/Developers/51636/Collections/' took 0.01s
+[2019.03.23-09.30.40:547][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/Collections/' took 0.01s
+[2019.03.23-09.30.40:547][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.23-09.30.40:557][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2616 classes and 617 folders.
+[2019.03.23-09.30.40:566][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.23-09.30.40:613][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.23-09.30.40:620][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.03.23-09.30.40:739][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.23-09.30.40:739][  0]LogLoad: (Engine Initialization) Total time: 11.80 seconds
+[2019.03.23-09.30.40:739][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.23-09.30.40:786][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.23-09.30.40:790][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.23-09.30.40:797][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.23-09.30.40:801][  0]LogSlate: Took 0.003137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.03.23-09.30.40:802][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.23-09.30.40:806][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.23-09.30.40:908][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.23-09.30.40:944][  1]LogRenderer: Reallocating scene render targets to support 804x388 Format 10 NumSamples 1 (Frame:1).
+[2019.03.23-09.30.40:945][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.03.23-09.30.41:116][  2]LogAssetRegistry: Asset discovery search completed in 6.7235 seconds
+[2019.03.23-09.30.41:119][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.23-09.30.41:119][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2019.03.23-09.30.42:087][  5]LogActor: Warning: BH_C /Engine/Transient.World_7:PersistentLevel.BH_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.23-09.30.42:415][  6]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.23-09.30.43:073][  8]LogSlate: Window '消息日志' being destroyed
+[2019.03.23-09.30.43:076][  8]LogSlate: Window '消息日志' being destroyed
+[2019.03.23-09.30.43:969][ 39]LogRenderer: Reallocating scene render targets to support 1004x500 Format 10 NumSamples 1 (Frame:28).
+[2019.03.23-09.30.47:310][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.23-09.30.47:758][185]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/weapon/weapon1.weapon1
+[2019.03.23-09.30.48:334][185]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2019.03.23-09.30.49:229][185]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.23-09.30.50:343][243]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.23-09.30.53:005][402]LogSlate: Took 0.003655 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.03.23-09.30.54:749][506]LogSlate: Window 'weapon1' being destroyed
+[2019.03.23-09.30.54:754][506]LogSlate: Window 'weapon1' being destroyed
+[2019.03.23-09.30.55:655][556]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2019.03.23-09.30.55:678][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.23-09.30.55:691][556]PIE: New page: PIE会话: Untitled (2019年3月24日 上午1:30:55)
+[2019.03.23-09.30.55:692][556]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.23-09.30.55:699][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007188s)
+[2019.03.23-09.30.55:700][556]LogAIModule: Creating AISystem for world Untitled
+[2019.03.23-09.30.55:701][556]LogPlayLevel: PIE: World Init took: (0.001615s)
+[2019.03.23-09.30.55:701][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.009061s)
+[2019.03.23-09.30.55:745][556]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.23-09.30.55:766][556]LogInit: FAudioDevice initialized.
+[2019.03.23-09.30.55:775][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.23-09.30.55:832][556]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.23-09.30.55:836][556]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.23-17.30.55
+[2019.03.23-09.30.55:837][556]LogWorld: Bringing up level for play took: 0.003262
+[2019.03.23-09.30.55:858][556]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.03.23-09.30.55:864][556]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.23-09.30.55:868][556]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.616
+[2019.03.23-09.30.55:869][556]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.55:900][556]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.03.23-09.30.56:044][557]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:059][558]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:076][559]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:111][560]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:149][561]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:187][562]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:225][563]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:263][564]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:305][565]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:343][566]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:384][567]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:421][568]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:457][569]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:494][570]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:528][571]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:566][572]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:603][573]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:637][574]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:674][575]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:711][576]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:749][577]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:789][578]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:826][579]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:865][580]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:904][581]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:941][582]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.56:981][583]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:020][584]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:059][585]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:100][586]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:138][587]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:176][588]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:216][589]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:258][590]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:301][591]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:347][592]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:391][593]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:436][594]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:482][595]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:525][596]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:569][597]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:610][598]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:653][599]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:695][600]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:733][601]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:773][602]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:811][603]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:851][604]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:895][605]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:939][606]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.57:983][607]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:029][608]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:069][609]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:110][610]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:152][611]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:196][612]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:239][613]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:281][614]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:322][615]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:364][616]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:406][617]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:448][618]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:490][619]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:532][620]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:574][621]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:616][622]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:660][623]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:702][624]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:745][625]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:788][626]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:830][627]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:875][628]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:920][629]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.58:962][630]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:004][631]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:046][632]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:086][633]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:127][634]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:167][635]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:205][636]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:247][637]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:285][638]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:327][639]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:367][640]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:408][641]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:448][642]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:489][643]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:530][644]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:570][645]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:611][646]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:652][647]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:692][648]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:733][649]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:774][650]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:816][651]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:857][652]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:900][653]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:939][654]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.30.59:979][655]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:020][656]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:060][657]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:100][658]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:141][659]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:181][660]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:221][661]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:262][662]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:300][663]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:338][664]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:377][665]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:416][666]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:456][667]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:493][668]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:531][669]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:570][670]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:611][671]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:650][672]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:690][673]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:691][673]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.23-09.31.00:731][674]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:735][674]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.00:736][674]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.00:770][675]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:809][676]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:849][677]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:890][678]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:929][679]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.00:964][680]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:000][681]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:035][682]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:070][683]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:104][684]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:136][685]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:172][686]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:205][687]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:238][688]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:273][689]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:307][690]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:339][691]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:370][692]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:402][693]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:433][694]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:465][695]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:496][696]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:525][697]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:557][698]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:588][699]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:618][700]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:649][701]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:679][702]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:708][703]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:709][703]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.23-09.31.01:710][703]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.01:711][703]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.01:738][704]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:772][705]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:802][706]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:832][707]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:867][708]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:897][709]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:928][710]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:960][711]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.01:992][712]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:023][713]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:056][714]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:088][715]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:120][716]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:151][717]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:182][718]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:212][719]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:242][720]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:243][720]LogTemp: Health Change:100.0
+[2019.03.23-09.31.02:273][721]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:304][722]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:340][723]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:377][724]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:413][725]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:414][725]LogTemp: Health Change:100.0
+[2019.03.23-09.31.02:451][726]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:489][727]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:490][727]LogTemp: Health Change:90.0
+[2019.03.23-09.31.02:530][728]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:569][729]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:570][729]LogTemp: Health Change:80.0
+[2019.03.23-09.31.02:606][730]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:643][731]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:644][731]LogTemp: Health Change:100.0
+[2019.03.23-09.31.02:680][732]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:681][732]LogTemp: Health Change:70.0
+[2019.03.23-09.31.02:718][733]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:758][734]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:759][734]LogTemp: Health Change:60.0
+[2019.03.23-09.31.02:798][735]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:843][736]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:882][737]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:885][737]LogTemp: Health Change:50.0
+[2019.03.23-09.31.02:923][738]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:924][738]LogTemp: Health Change:100.0
+[2019.03.23-09.31.02:964][739]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.02:965][739]LogTemp: Health Change:30.0
+[2019.03.23-09.31.03:004][740]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:050][741]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:051][741]LogTemp: Health Change:100.0
+[2019.03.23-09.31.03:090][742]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:091][742]LogTemp: Health Change:10.0
+[2019.03.23-09.31.03:131][743]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:174][744]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:175][744]LogTemp: Health Change:0.0
+[2019.03.23-09.31.03:175][744]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.03:176][744]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.03:176][744]LogBlueprintUserMessages: [TestGamemode_C_0] 20.0
+[2019.03.23-09.31.03:216][745]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:263][746]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:301][747]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:338][748]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:375][749]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:376][749]LogTemp: Health Change:100.0
+[2019.03.23-09.31.03:412][750]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:450][751]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:451][751]LogTemp: Health Change:100.0
+[2019.03.23-09.31.03:492][752]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:533][753]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:581][754]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:625][755]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:664][756]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:665][756]LogTemp: Health Change:100.0
+[2019.03.23-09.31.03:709][757]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:752][758]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:753][758]LogTemp: Health Change:100.0
+[2019.03.23-09.31.03:797][759]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:839][760]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:840][760]LogTemp: Health Change:100.0
+[2019.03.23-09.31.03:885][761]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:927][762]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.03:973][763]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:017][764]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:062][765]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:064][765]LogTemp: Health Change:100.0
+[2019.03.23-09.31.04:102][766]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:103][766]LogTemp: Health Change:90.0
+[2019.03.23-09.31.04:144][767]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:146][767]LogTemp: Health Change:100.0
+[2019.03.23-09.31.04:190][768]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:192][768]LogTemp: Health Change:80.0
+[2019.03.23-09.31.04:234][769]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:282][770]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:283][770]LogTemp: Health Change:100.0
+[2019.03.23-09.31.04:283][770]LogTemp: Health Change:70.0
+[2019.03.23-09.31.04:327][771]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:369][772]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:370][772]LogTemp: Health Change:60.0
+[2019.03.23-09.31.04:413][773]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:456][774]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:502][775]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:503][775]LogTemp: Health Change:50.0
+[2019.03.23-09.31.04:543][776]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:582][777]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:583][777]LogTemp: Health Change:40.0
+[2019.03.23-09.31.04:619][778]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:658][779]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:698][780]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:699][780]LogTemp: Health Change:30.0
+[2019.03.23-09.31.04:737][781]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:776][782]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:777][782]LogTemp: Health Change:20.0
+[2019.03.23-09.31.04:815][783]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:854][784]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:892][785]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:931][786]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.04:970][787]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:009][788]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:051][789]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:089][790]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:127][791]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:166][792]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:204][793]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:243][794]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:282][795]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:321][796]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:362][797]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:398][798]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:399][798]LogTemp: Health Change:50.0
+[2019.03.23-09.31.05:437][799]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:476][800]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:478][800]LogTemp: Health Change:10.0
+[2019.03.23-09.31.05:517][801]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:556][802]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:596][803]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:597][803]LogTemp: Health Change:100.0
+[2019.03.23-09.31.05:598][803]LogTemp: Health Change:0.0
+[2019.03.23-09.31.05:598][803]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.05:598][803]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.05:598][803]LogBlueprintUserMessages: [TestGamemode_C_0] 40.0
+[2019.03.23-09.31.05:634][804]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:674][805]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.03.23-09.31.05:675][805]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.23-09.31.05:675][805]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:712][806]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:750][807]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:789][808]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:826][809]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:864][810]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:904][811]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:942][812]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.05:981][813]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:019][814]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:057][815]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:097][816]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:134][817]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:172][818]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:212][819]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:253][820]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:291][821]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:329][822]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:367][823]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:406][824]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:444][825]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:480][826]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:516][827]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:551][828]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:585][829]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:621][830]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:655][831]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:690][832]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:724][833]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:758][834]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:791][835]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:825][836]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:857][837]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:889][838]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:921][839]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:952][840]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.06:983][841]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:012][842]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:042][843]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:071][844]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:102][845]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:133][846]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:165][847]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:196][848]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:228][849]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:260][850]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:292][851]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:324][852]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:355][853]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:386][854]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:417][855]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:448][856]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:480][857]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:512][858]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:543][859]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:574][860]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:605][861]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:637][862]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:669][863]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:702][864]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:731][865]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:764][866]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:795][867]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:827][868]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:859][869]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:892][870]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:925][871]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:958][872]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.07:990][873]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:023][874]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:057][875]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:092][876]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:125][877]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:161][878]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:198][879]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:236][880]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:273][881]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:311][882]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:349][883]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:386][884]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:425][885]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:463][886]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:504][887]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:539][888]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:539][888]LogTemp: Health Change:0.0
+[2019.03.23-09.31.08:577][889]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:617][890]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:658][891]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:699][892]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:741][893]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:782][894]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:821][895]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:863][896]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:904][897]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:944][898]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.08:983][899]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:024][900]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:063][901]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:100][902]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:139][903]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:178][904]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:216][905]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:255][906]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:294][907]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:333][908]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:372][909]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:413][910]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:451][911]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:490][912]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:529][913]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:570][914]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:613][915]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:655][916]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:696][917]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:739][918]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:778][919]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:820][920]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:862][921]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:906][922]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:949][923]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.09:990][924]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:032][925]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:075][926]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:116][927]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:158][928]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:200][929]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:242][930]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:285][931]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:327][932]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:369][933]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:411][934]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:455][935]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:495][936]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:534][937]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:572][938]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:612][939]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:653][940]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:694][941]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:694][941]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.23-09.31.10:731][942]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:732][942]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.10:733][942]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.10:768][943]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:808][944]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:848][945]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:888][946]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:928][947]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.10:969][948]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:008][949]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:048][950]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:089][951]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:132][952]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:172][953]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:213][954]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:255][955]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:300][956]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:343][957]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:390][958]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:433][959]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:476][960]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:520][961]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:562][962]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:605][963]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:647][964]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:689][965]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:730][966]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:771][967]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:812][968]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:857][969]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:895][970]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:938][971]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.11:980][972]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:022][973]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:062][974]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:063][974]LogTemp: Health Change:90.0
+[2019.03.23-09.31.12:106][975]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:146][976]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:188][977]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:228][978]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:270][979]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:311][980]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:352][981]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:392][982]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:393][982]LogTemp: Health Change:80.0
+[2019.03.23-09.31.12:432][983]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:473][984]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:474][984]LogTemp: Health Change:70.0
+[2019.03.23-09.31.12:515][985]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:561][986]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:562][986]LogTemp: Health Change:60.0
+[2019.03.23-09.31.12:608][987]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:609][987]LogTemp: Health Change:100.0
+[2019.03.23-09.31.12:658][988]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:659][988]LogTemp: Health Change:50.0
+[2019.03.23-09.31.12:706][989]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:708][989]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.12:708][989]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.12:754][990]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:800][991]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:803][991]LogTemp: Health Change:30.0
+[2019.03.23-09.31.12:850][992]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:897][993]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:898][993]LogTemp: Health Change:10.0
+[2019.03.23-09.31.12:899][993]LogTemp: Health Change:100.0
+[2019.03.23-09.31.12:945][994]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:990][995]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.12:991][995]LogTemp: Health Change:0.0
+[2019.03.23-09.31.12:992][995]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.12:992][995]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.23-09.31.12:992][995]LogBlueprintUserMessages: [TestGamemode_C_0] 60.0
+[2019.03.23-09.31.13:040][996]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:086][997]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:127][998]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:167][999]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:208][  0]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:248][  1]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:290][  2]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:331][  3]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:372][  4]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:413][  5]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:454][  6]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:496][  7]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:538][  8]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:581][  9]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:623][ 10]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:664][ 11]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:707][ 12]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:708][ 12]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.23-09.31.13:750][ 13]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:791][ 14]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:835][ 15]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:876][ 16]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:877][ 16]LogTemp: Health Change:50.0
+[2019.03.23-09.31.13:919][ 17]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.13:963][ 18]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:006][ 19]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:050][ 20]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:051][ 20]LogTemp: Health Change:80.0
+[2019.03.23-09.31.14:094][ 21]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:139][ 22]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:140][ 22]LogTemp: Health Change:60.0
+[2019.03.23-09.31.14:179][ 23]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:221][ 24]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:263][ 25]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:265][ 25]LogTemp: Health Change:50.0
+[2019.03.23-09.31.14:305][ 26]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:306][ 26]LogTemp: Health Change:100.0
+[2019.03.23-09.31.14:347][ 27]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:348][ 27]LogTemp: Health Change:30.0
+[2019.03.23-09.31.14:389][ 28]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:437][ 29]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:438][ 29]LogTemp: Health Change:10.0
+[2019.03.23-09.31.14:484][ 30]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:485][ 30]LogTemp: Health Change:100.0
+[2019.03.23-09.31.14:535][ 31]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:582][ 32]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:583][ 32]LogTemp: Health Change:100.0
+[2019.03.23-09.31.14:632][ 33]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:679][ 34]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:680][ 34]LogTemp: Health Change:100.0
+[2019.03.23-09.31.14:725][ 35]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:770][ 36]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:771][ 36]LogTemp: Health Change:100.0
+[2019.03.23-09.31.14:819][ 37]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:864][ 38]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:865][ 38]LogTemp: Health Change:100.0
+[2019.03.23-09.31.14:912][ 39]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:958][ 40]LogBlueprintUserMessages: [playerpawn_C_0] false
+[2019.03.23-09.31.14:961][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.23-09.31.14:986][ 40]LogSlate: Window 'V 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.23-09.31.15:046][ 40]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.23-09.31.15:113][ 41]LogPlayLevel: Display: Destroying online subsystem :Context_11

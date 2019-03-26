@@ -1,0 +1,1188 @@
+﻿Log file open, 03/22/19 21:27:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: V
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.309661
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.187s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4710MQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.22-13.27.44:164][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.22-13.27.44:164][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.22-13.27.44:175][  0]LogHAL: Display: Platform has ~ 12 GB [12801208320 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.22-13.27.44:175][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.22-13.27.44:175][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.22-13.27.44:175][  0]LogInit: Computer: DESKTOP-7B22VL8
+[2019.03.22-13.27.44:175][  0]LogInit: User: 51636
+[2019.03.22-13.27.44:175][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.22-13.27.44:175][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.22-13.27.44:175][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.03.22-13.27.44:176][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.22-13.27.44:176][  0]LogMemory: Process Physical Memory: 102.26 MB used, 102.26 MB peak
+[2019.03.22-13.27.44:176][  0]LogMemory: Process Virtual Memory: 101.36 MB used, 101.36 MB peak
+[2019.03.22-13.27.44:176][  0]LogMemory: Physical Memory: 5499.08 MB used,  6709.10 MB free, 12208.18 MB total
+[2019.03.22-13.27.44:176][  0]LogMemory: Virtual Memory: 4653.66 MB used,  6709.10 MB free, 134217728.00 MB total
+[2019.03.22-13.27.44:197][  0]LogInit: Using OS detected language (zh-CN).
+[2019.03.22-13.27.44:197][  0]LogInit: Using OS detected locale (zh-CN).
+[2019.03.22-13.27.44:602][  0]LogStreaming: Display: Took  0.405s to InitEngineTextLocalization.
+[2019.03.22-13.27.44:603][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.22-13.27.44:685][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.22-13.27.44:685][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.22-13.27.44:952][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.22-13.27.44:952][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.22-13.27.45:025][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 750M' (Feature Level 11_0)
+[2019.03.22-13.27.45:025][  0]LogD3D11RHI:       2020/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.22-13.27.45:036][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.03.22-13.27.45:036][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.22-13.27.45:039][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.22-13.27.45:039][  0]LogD3D11RHI:       0/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.22-13.27.45:039][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.22-13.27.45:082][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.22-13.27.45:082][  0]LogD3D11RHI:     GPU DeviceId: 0xfe4 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.22-13.27.45:083][  0]LogWindows: EnumDisplayDevices:
+[2019.03.22-13.27.45:083][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.03.22-13.27.45:084][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.22-13.27.45:085][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.22-13.27.45:086][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.22-13.27.45:086][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 750M
+[2019.03.22-13.27.45:086][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.22-13.27.45:086][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.22-13.27.45:086][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
+[2019.03.22-13.27.45:130][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.22-13.27.45:144][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.22-13.27.45:146][  0]LogShaderCompilers: Guid format shader working directory is 34 characters bigger than the processId version (E:/Project/V/Intermediate/Shaders/WorkingDirectory/7164/).
+[2019.03.22-13.27.45:147][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/51636/AppData/Local/Temp/UnrealShaderWorkingDir/2D7DCFFC4991C51C82B184B6E341DB0B/'.
+[2019.03.22-13.27.45:525][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.22-13.27.45:543][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.22-13.27.45:560][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.22-13.27.45:578][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.22-13.27.45:596][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.22-13.27.45:614][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.22-13.27.45:633][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.22-13.27.45:650][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.22-13.27.45:658][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.22-13.27.45:762][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.22-13.27.45:830][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.22-13.27.45:830][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.22-13.27.45:860][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.22-13.27.45:860][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.22-13.27.45:875][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.22-13.27.45:891][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.22-13.27.45:906][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.22-13.27.45:923][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.22-13.27.45:935][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.22-13.27.45:936][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.22-13.27.46:026][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.22-13.27.46:026][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.22-13.27.46:026][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.22-13.27.47:056][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.22-13.27.47:135][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.22-13.27.47:135][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.22-13.27.47:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Project/V/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.22-13.27.47:135][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.22-13.27.47:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Project/V/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.22-13.27.47:135][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.22-13.27.47:153][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.22-13.27.47:168][  0]LogDerivedDataCache: Using Local data cache path C:/Users/51636/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.22-13.27.47:168][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.22-13.27.47:168][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.22-13.27.47:190][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.22-13.27.47:191][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.22-13.27.47:192][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.22-13.27.47:272][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2019.03.22-13.27.47:672][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.22-13.27.47:844][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.22-13.27.47:849][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.22-13.27.47:849][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.22-13.27.47:849][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.22-13.27.47:849][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.22-13.27.47:867][  0]LogNetVersion: V 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 103352566)
+[2019.03.22-13.27.48:590][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 4 prioritized culture(s) in 0.193847 seconds
+[2019.03.22-13.27.48:597][  0]LogUObjectArray: 38426 objects as part of root set at end of initial load.
+[2019.03.22-13.27.48:597][  0]LogUObjectAllocator: 6691096 out of 0 bytes used by permanent object pool.
+[2019.03.22-13.27.48:597][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.22-13.27.49:558][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.03.22-13.27.49:562][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.22-13.27.49:575][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.22-13.27.49:742][  0]SourceControl: 源码管理已禁用
+[2019.03.22-13.27.49:743][  0]SourceControl: 源码管理已禁用
+[2019.03.22-13.27.49:744][  0]SourceControl: 源码管理已禁用
+[2019.03.22-13.27.49:745][  0]SourceControl: 源码管理已禁用
+[2019.03.22-13.27.49:934][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.22-13.27.50:039][  0]LogOcInput: OculusInput pre-init called
+[2019.03.22-13.27.50:200][  0]LogEngine: Initializing Engine...
+[2019.03.22-13.27.50:202][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.22-13.27.50:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.22-13.27.50:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.22-13.27.50:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.22-13.27.50:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.22-13.27.50:453][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.22-13.27.50:470][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.22-13.27.50:491][  0]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.22-13.27.50:545][  0]LogInit: FAudioDevice initialized.
+[2019.03.22-13.27.50:545][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.22-13.27.50:630][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/51636/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.22-13.27.50:654][  0]LogInit: Texture streaming: Enabled
+[2019.03.22-13.27.50:679][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.22-13.27.50:697][  0]LogInit: Transaction tracking system initialized
+[2019.03.22-13.27.50:732][  0]BlueprintLog: New page: 编辑器加载
+[2019.03.22-13.27.50:840][  0]LocalizationService: 本地化服务已禁用
+[2019.03.22-13.27.51:163][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.22-13.27.51:163][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.22-13.27.51:163][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.22-13.27.51:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.22-13.27.51:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.22-13.27.51:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.22-13.27.51:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.22-13.27.51:304][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/' took 0.03s
+[2019.03.22-13.27.51:304][  0]SourceControl: 源码管理已禁用
+[2019.03.22-13.27.51:304][  0]Cmd: MAP LOAD FILE="E:/Project/V/Content/Maps/map/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.22-13.27.51:305][  0]LightingResults: New page: 光照构建
+[2019.03.22-13.27.51:308][  0]MapCheck: New page: 地图检测
+[2019.03.22-13.27.51:308][  0]LightingResults: New page: 光照构建
+[2019.03.22-13.27.51:370][  0]LogLinker: Warning: 无法找到文件 '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint'
+[2019.03.22-13.27.51:371][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAI.uasset 时找到资源 '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint’ 的文件。
+[2019.03.22-13.27.51:371][  0]LoadErrors: Error: /Game/PawnAI/PawnAI : 无法找到资源的文件。 /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint
+[2019.03.22-13.27.51:475][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:475][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jog_Lt_Rifle.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:475][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jog_Lt_Rifle : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:476][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:476][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jog_Lt_Rifle.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:476][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jog_Lt_Rifle : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:478][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:479][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jump_From_Jog.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:479][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jump_From_Jog : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:479][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:480][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jump_From_Jog.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:480][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jump_From_Jog : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:483][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:484][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jump_From_Stand.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:484][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jump_From_Stand : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:485][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:485][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jump_From_Stand.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:485][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jump_From_Stand : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:489][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:489][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Sprint_Fwd_Rifle.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:489][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Sprint_Fwd_Rifle : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:490][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:490][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Sprint_Fwd_Rifle.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:490][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Sprint_Fwd_Rifle : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:532][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:532][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jog_Bwd_Rifle.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:532][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jog_Bwd_Rifle : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:533][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:534][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jog_Bwd_Rifle.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:534][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jog_Bwd_Rifle : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:538][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:538][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jog_Fwd_Rifle.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:538][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jog_Fwd_Rifle : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:539][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:539][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jog_Fwd_Rifle.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:539][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jog_Fwd_Rifle : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:543][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:543][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jog_Rt_Rifle.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:544][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jog_Rt_Rifle : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:544][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.51:545][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Animations/Jog_Rt_Rifle.uasset 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.51:545][  0]LoadErrors: Error: /Game/AnimStarterPack/Animations/Jog_Rt_Rifle : 无法找到资源的文件。 /Game/Sound/Footstep_Dry_Cue
+[2019.03.22-13.27.51:563][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:563][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:563][  0]LoadErrors: Error: /Game/AnimStarterPack/Player_AnimBP : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:563][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:563][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:564][  0]LoadErrors: Error: /Game/AnimStarterPack/Player_AnimBP : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:564][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:564][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:564][  0]LoadErrors: Error: /Game/AnimStarterPack/Player_AnimBP : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:564][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:564][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:564][  0]LoadErrors: Error: /Game/AnimStarterPack/Player_AnimBP : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:564][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:564][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:564][  0]LoadErrors: Error: /Game/AnimStarterPack/Player_AnimBP : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:565][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:565][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:565][  0]LoadErrors: Error: /Game/AnimStarterPack/Player_AnimBP : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:565][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:565][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:565][  0]LoadErrors: Error: /Game/AnimStarterPack/Player_AnimBP : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:565][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:565][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:565][  0]LoadErrors: Error: /Game/AnimStarterPack/Player_AnimBP : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:570][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:570][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:570][  0]LoadErrors: Error: /Game/AnimStarterPack/Player_AnimBP : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:574][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:574][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:574][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:574][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:574][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:574][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:575][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:575][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:575][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:575][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:575][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:575][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:575][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:576][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:576][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:576][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:576][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:581][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:581][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_449
+[2019.03.22-13.27.51:581][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:581][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_449
+[2019.03.22-13.27.51:581][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:581][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:581][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_449
+[2019.03.22-13.27.51:581][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:581][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_449
+[2019.03.22-13.27.51:581][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:582][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:582][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_582
+[2019.03.22-13.27.51:582][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:582][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_582
+[2019.03.22-13.27.51:582][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:582][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:582][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_582
+[2019.03.22-13.27.51:582][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:582][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_582
+[2019.03.22-13.27.51:582][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:582][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:582][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_583
+[2019.03.22-13.27.51:582][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:582][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_583
+[2019.03.22-13.27.51:582][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:582][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:582][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SBaseCharacter 引用者 K2Node_CallFunction_583
+[2019.03.22-13.27.51:583][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:583][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SBaseCharacter 引用者 K2Node_CallFunction_583
+[2019.03.22-13.27.51:583][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:583][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:583][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_584
+[2019.03.22-13.27.51:583][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:583][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_584
+[2019.03.22-13.27.51:583][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:583][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:583][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SBaseCharacter 引用者 K2Node_CallFunction_584
+[2019.03.22-13.27.51:583][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:583][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SBaseCharacter 引用者 K2Node_CallFunction_584
+[2019.03.22-13.27.51:583][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:583][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:583][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_585
+[2019.03.22-13.27.51:583][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:584][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_585
+[2019.03.22-13.27.51:584][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:584][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:584][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SBaseCharacter 引用者 K2Node_CallFunction_585
+[2019.03.22-13.27.51:584][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:584][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SBaseCharacter 引用者 K2Node_CallFunction_585
+[2019.03.22-13.27.51:584][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:584][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:584][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_671
+[2019.03.22-13.27.51:584][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:584][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_671
+[2019.03.22-13.27.51:584][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:584][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:585][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_671
+[2019.03.22-13.27.51:585][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:585][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_671
+[2019.03.22-13.27.51:585][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:586][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:586][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_500
+[2019.03.22-13.27.51:586][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:586][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_500
+[2019.03.22-13.27.51:586][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:586][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:586][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_500
+[2019.03.22-13.27.51:586][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:586][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_500
+[2019.03.22-13.27.51:586][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:586][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:587][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_1849
+[2019.03.22-13.27.51:587][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:587][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_1849
+[2019.03.22-13.27.51:587][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:587][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:587][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_1849
+[2019.03.22-13.27.51:587][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:587][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_1849
+[2019.03.22-13.27.51:587][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:587][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:587][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_592
+[2019.03.22-13.27.51:587][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:587][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_592
+[2019.03.22-13.27.51:587][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:588][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:588][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_592
+[2019.03.22-13.27.51:588][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:588][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_592
+[2019.03.22-13.27.51:588][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:588][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:588][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_872
+[2019.03.22-13.27.51:588][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:588][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_872
+[2019.03.22-13.27.51:588][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:588][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:588][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_872
+[2019.03.22-13.27.51:588][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:588][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_872
+[2019.03.22-13.27.51:588][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:588][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:588][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_468
+[2019.03.22-13.27.51:588][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:589][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_468
+[2019.03.22-13.27.51:589][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:589][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:589][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_468
+[2019.03.22-13.27.51:589][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:589][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_DynamicCast_468
+[2019.03.22-13.27.51:589][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:589][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:589][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_873
+[2019.03.22-13.27.51:589][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:589][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_873
+[2019.03.22-13.27.51:589][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:589][  0]LogLinker: Warning: 无法找到文件 '/Script/SurvivalGame'
+[2019.03.22-13.27.51:589][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_873
+[2019.03.22-13.27.51:589][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/Player/playerpawn.uasset 时找到资源 '/Script/SurvivalGame’ 的文件。
+[2019.03.22-13.27.51:589][  0]LoadErrors: 加载失败 /Script/SurvivalGame.SCharacter 引用者 K2Node_CallFunction_873
+[2019.03.22-13.27.51:589][  0]LoadErrors: Error: /Game/Player/playerpawn : 无法找到资源的文件。 /Script/SurvivalGame
+[2019.03.22-13.27.51:624][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Warning: [Compiler Player_AnimBP] 指定非默认值的输入引脚  Loudness  已不存在于节点  Make Pawn Noise  上。请刷新节点或重置引脚为默数值来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"MakePawnNoise\”的函数。
+请确保已针对  Make Pawn Noise  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Warning: [Compiler Player_AnimBP] 指定非默认值的输入引脚  Loudness  已不存在于节点  Make Pawn Noise  上。请刷新节点或重置引脚为默数值来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"MakePawnNoise\”的函数。
+请确保已针对  Make Pawn Noise  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Swap to New Weapon Mesh  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Swap to New Weapon Mesh  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"SwapToNewWeaponMesh\”的函数。
+请确保已针对  Swap to New Weapon Mesh  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:625][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:626][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Is Firing  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:626][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Firing  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:626][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsFiring\”的函数。
+请确保已针对  Is Firing  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:626][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Get Aim Offsets  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:626][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value Y (Pitch)  已不存在于节点  Get Aim Offsets  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:626][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"GetAimOffsets\”的函数。
+请确保已针对  Get Aim Offsets  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:626][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Is Sprinting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:626][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Sprinting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:626][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsSprinting\”的函数。
+请确保已针对  Is Sprinting  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:626][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Is Targeting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:627][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Targeting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:627][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsTargeting\”的函数。
+请确保已针对  Is Targeting  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:627][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Is Initiated Jump  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:627][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Initiated Jump  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:627][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsInitiatedJump\”的函数。
+请确保已针对  Is Initiated Jump  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:627][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:627][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:627][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:644][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:644][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:644][  0]LogBlueprint: Warning: [Compiler Player_AnimBP] 指定非默认值的输入引脚  Loudness  已不存在于节点  Make Pawn Noise  上。请刷新节点或重置引脚为默数值来移除引脚。
+[2019.03.22-13.27.51:644][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"MakePawnNoise\”的函数。
+请确保已针对  Make Pawn Noise  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:644][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:644][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:644][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:644][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:644][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:644][  0]LogBlueprint: Warning: [Compiler Player_AnimBP] 指定非默认值的输入引脚  Loudness  已不存在于节点  Make Pawn Noise  上。请刷新节点或重置引脚为默数值来移除引脚。
+[2019.03.22-13.27.51:645][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"MakePawnNoise\”的函数。
+请确保已针对  Make Pawn Noise  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:645][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:645][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:645][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:645][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Swap to New Weapon Mesh  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:645][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Swap to New Weapon Mesh  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:645][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"SwapToNewWeaponMesh\”的函数。
+请确保已针对  Swap to New Weapon Mesh  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:645][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:645][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:645][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Is Firing  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Firing  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsFiring\”的函数。
+请确保已针对  Is Firing  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Is Sprinting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Sprinting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsSprinting\”的函数。
+请确保已针对  Is Sprinting  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Is Targeting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Targeting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsTargeting\”的函数。
+请确保已针对  Is Targeting  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Is Initiated Jump  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Initiated Jump  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:646][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsInitiatedJump\”的函数。
+请确保已针对  Is Initiated Jump  对'Player_AnimBP’进行了编译
+[2019.03.22-13.27.51:647][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:647][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.27.51:647][  0]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.27.51:655][  0]LogBlueprint: Warning: [Compiler Player_AnimBP] [0009.63]编译 Player_AnimBP 失败。69 项重大问题；4 个警告[52 毫秒内]（/Game/AnimStarterPack/Player_AnimBP.Player_AnimBP）
+[2019.03.22-13.27.51:895][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.51:895][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.51:896][  0]LoadErrors: Error: /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset : 无法找到资源的文件。 /Game/Base/PhysMat_PlayerBody
+[2019.03.22-13.27.51:896][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.51:896][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.51:896][  0]LoadErrors: Error: /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset : 无法找到资源的文件。 /Game/Base/PhysMat_PlayerBody
+[2019.03.22-13.27.52:101][  0]LogLinker: Warning: 无法找到文件 '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint'
+[2019.03.22-13.27.52:102][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/PawnAI/PawnAI.uasset 时找到资源 '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint’ 的文件。
+[2019.03.22-13.27.52:102][  0]LoadErrors: Error: /Game/PawnAI/PawnAI : 无法找到资源的文件。 /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint
+[2019.03.22-13.27.52:104][  0]LogLinker: Warning: 无法找到文件 '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint'
+[2019.03.22-13.27.52:104][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint’ 的文件。
+[2019.03.22-13.27.52:104][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint
+[2019.03.22-13.27.52:105][  0]LogLinker: Warning: 无法找到文件 '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint'
+[2019.03.22-13.27.52:105][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint’ 的文件。
+[2019.03.22-13.27.52:105][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint
+[2019.03.22-13.27.52:108][  0]LogLinker: Warning: 无法找到文件 '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint'
+[2019.03.22-13.27.52:108][  0]LoadErrors: 加载失败 /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C 引用者 CharacterMesh0
+[2019.03.22-13.27.52:108][  0]LogLinker: Warning: 无法在加载 E:/Project/V/Content/GameMode/TestGamemode.uasset 时找到资源 '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint’ 的文件。
+[2019.03.22-13.27.52:108][  0]LoadErrors: 加载失败 /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C 引用者 CharacterMesh0
+[2019.03.22-13.27.52:108][  0]LoadErrors: Error: /Game/GameMode/TestGamemode : 无法找到资源的文件。 /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint
+[2019.03.22-13.27.52:311][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:311][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_22
+[2019.03.22-13.27.52:311][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:311][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_22
+[2019.03.22-13.27.52:312][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:312][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_23
+[2019.03.22-13.27.52:312][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:312][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_23
+[2019.03.22-13.27.52:312][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:313][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_24
+[2019.03.22-13.27.52:313][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:313][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_24
+[2019.03.22-13.27.52:313][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:313][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_25
+[2019.03.22-13.27.52:314][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:314][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_25
+[2019.03.22-13.27.52:314][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:314][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_18
+[2019.03.22-13.27.52:315][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:315][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_18
+[2019.03.22-13.27.52:315][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:315][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_19
+[2019.03.22-13.27.52:315][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:315][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_19
+[2019.03.22-13.27.52:316][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:316][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_0
+[2019.03.22-13.27.52:316][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:316][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_0
+[2019.03.22-13.27.52:317][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:317][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_1
+[2019.03.22-13.27.52:317][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:317][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_1
+[2019.03.22-13.27.52:318][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:318][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_2
+[2019.03.22-13.27.52:318][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:318][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_2
+[2019.03.22-13.27.52:319][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:319][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_3
+[2019.03.22-13.27.52:319][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:319][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_3
+[2019.03.22-13.27.52:320][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:320][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_16
+[2019.03.22-13.27.52:321][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:321][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_16
+[2019.03.22-13.27.52:321][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:321][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_17
+[2019.03.22-13.27.52:321][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:321][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_17
+[2019.03.22-13.27.52:326][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:326][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_4
+[2019.03.22-13.27.52:327][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:327][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_4
+[2019.03.22-13.27.52:327][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:327][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_5
+[2019.03.22-13.27.52:328][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:328][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_5
+[2019.03.22-13.27.52:328][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:328][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_6
+[2019.03.22-13.27.52:329][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:329][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_6
+[2019.03.22-13.27.52:329][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:329][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_7
+[2019.03.22-13.27.52:329][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:330][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_7
+[2019.03.22-13.27.52:330][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:330][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_10
+[2019.03.22-13.27.52:331][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:331][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_10
+[2019.03.22-13.27.52:331][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:331][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_11
+[2019.03.22-13.27.52:331][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:331][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_11
+[2019.03.22-13.27.52:332][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:332][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_8
+[2019.03.22-13.27.52:332][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:332][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_8
+[2019.03.22-13.27.52:333][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:333][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_9
+[2019.03.22-13.27.52:333][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:333][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_9
+[2019.03.22-13.27.52:334][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:334][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_12
+[2019.03.22-13.27.52:335][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:335][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_12
+[2019.03.22-13.27.52:335][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:335][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_13
+[2019.03.22-13.27.52:335][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:335][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_13
+[2019.03.22-13.27.52:336][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:336][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_14
+[2019.03.22-13.27.52:336][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:336][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_14
+[2019.03.22-13.27.52:337][  0]LogLinker: Warning: 无法找到文件 '/Game/Sound/Footstep_Dry_Cue'
+[2019.03.22-13.27.52:337][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_15
+[2019.03.22-13.27.52:337][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Sound/Footstep_Dry_Cue’ 的文件。
+[2019.03.22-13.27.52:337][  0]LoadErrors: 加载失败 /Game/Sound/Footstep_Dry_Cue.Footstep_Dry_Cue 引用者 AnimNotify_PlaySound_C_15
+[2019.03.22-13.27.52:426][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:426][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_3
+[2019.03.22-13.27.52:426][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:426][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_3
+[2019.03.22-13.27.52:427][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:427][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_33
+[2019.03.22-13.27.52:427][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:427][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_33
+[2019.03.22-13.27.52:427][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:427][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_36
+[2019.03.22-13.27.52:428][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:428][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_36
+[2019.03.22-13.27.52:428][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:428][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_39
+[2019.03.22-13.27.52:429][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:429][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_39
+[2019.03.22-13.27.52:429][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:429][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_4
+[2019.03.22-13.27.52:429][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:429][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_4
+[2019.03.22-13.27.52:430][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:430][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_40
+[2019.03.22-13.27.52:430][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:430][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_40
+[2019.03.22-13.27.52:430][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:430][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_41
+[2019.03.22-13.27.52:430][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:430][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_41
+[2019.03.22-13.27.52:431][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:431][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_43
+[2019.03.22-13.27.52:431][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:431][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_43
+[2019.03.22-13.27.52:431][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:431][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_47
+[2019.03.22-13.27.52:432][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:432][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_47
+[2019.03.22-13.27.52:432][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:432][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_48
+[2019.03.22-13.27.52:432][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:432][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_48
+[2019.03.22-13.27.52:433][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:433][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_49
+[2019.03.22-13.27.52:433][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:433][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_49
+[2019.03.22-13.27.52:433][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:433][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_50
+[2019.03.22-13.27.52:433][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:433][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_50
+[2019.03.22-13.27.52:434][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:434][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_51
+[2019.03.22-13.27.52:434][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:434][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_51
+[2019.03.22-13.27.52:434][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:434][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_52
+[2019.03.22-13.27.52:434][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:435][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_52
+[2019.03.22-13.27.52:435][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:435][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_53
+[2019.03.22-13.27.52:435][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:435][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_53
+[2019.03.22-13.27.52:435][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:435][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_54
+[2019.03.22-13.27.52:436][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:436][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_54
+[2019.03.22-13.27.52:436][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:436][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_55
+[2019.03.22-13.27.52:436][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:436][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_55
+[2019.03.22-13.27.52:436][  0]LogLinker: Warning: 无法找到文件 '/Game/Base/PhysMat_PlayerBody'
+[2019.03.22-13.27.52:437][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_57
+[2019.03.22-13.27.52:437][  0]LogLinker: Warning: 无法在加载 NULL 时找到资源 '/Game/Base/PhysMat_PlayerBody’ 的文件。
+[2019.03.22-13.27.52:437][  0]LoadErrors: 加载失败 /Game/Base/PhysMat_PlayerBody.PhysMat_PlayerBody 引用者 BodySetup_57
+[2019.03.22-13.27.52:902][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.22-13.27.52:919][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.22-13.27.52:948][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.22-13.27.53:196][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时248.833毫秒完成。
+[2019.03.22-13.27.53:196][  0]LogFileHelpers: Loading map 'Untitled' took 1.893
+[2019.03.22-13.27.53:335][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.22-13.27.53:344][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.22-13.27.53:352][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.22-13.27.53:361][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.22-13.27.53:370][  0]LogCollectionManager: Loaded 0 collections in 0.002414 seconds
+[2019.03.22-13.27.53:414][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Saved/Collections/' took 0.01s
+[2019.03.22-13.27.53:414][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/Developers/51636/Collections/' took 0.01s
+[2019.03.22-13.27.53:414][  0]LogFileCache: Scanning file cache for directory 'E:/Project/V/Content/Collections/' took 0.01s
+[2019.03.22-13.27.53:414][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.22-13.27.53:425][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2615 classes and 617 folders.
+[2019.03.22-13.27.53:435][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.22-13.27.53:487][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.22-13.27.53:496][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.03.22-13.27.53:588][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.22-13.27.53:592][  0]LogSlate: Took 0.003193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.03.22-13.27.53:593][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.22-13.27.53:602][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.22-13.27.53:692][  0]LogRenderer: Reallocating scene render targets to support 1004x500 Format 10 NumSamples 1 (Frame:1).
+[2019.03.22-13.27.53:849][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.22-13.27.53:849][  0]LogLoad: (Engine Initialization) Total time: 11.83 seconds
+[2019.03.22-13.27.53:849][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.22-13.27.53:892][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.22-13.27.53:896][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.27.53:934][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.22-13.27.53:966][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.03.22-13.27.54:213][  2]LogAssetRegistry: Asset discovery search completed in 6.9644 seconds
+[2019.03.22-13.27.54:216][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.22-13.27.54:216][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2019.03.22-13.28.03:187][536]LogSlate: Window '消息日志' being destroyed
+[2019.03.22-13.28.03:191][536]LogSlate: Window '消息日志' being destroyed
+[2019.03.22-13.28.03:919][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.22-13.28.04:107][569]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.22-13.28.04:116][569]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/AnimStarterPack/Player_AnimBP.Player_AnimBP
+[2019.03.22-13.28.04:167][569]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.03.22-13.28.04:441][569]LogLinker: Warning: 无法找到文件 '/Game/Weapons/SK_Rifle'
+[2019.03.22-13.28.04:442][569]LogLinker: Warning: 无法找到文件 '/Game/Weapons/SK_Rifle'
+[2019.03.22-13.28.04:443][569]LogUObjectGlobals: Warning: 寻找对象 'Object /Game/Weapons/SK_Rifle.SK_Rifle’ 失败
+[2019.03.22-13.28.04:443][569]LogLinker: Warning: 无法找到文件 '/Game/Weapons/SK_FlashLight'
+[2019.03.22-13.28.04:444][569]LogLinker: Warning: 无法找到文件 '/Game/Weapons/SK_FlashLight'
+[2019.03.22-13.28.04:446][569]LogUObjectGlobals: Warning: 寻找对象 'Object /Game/Weapons/SK_FlashLight.SK_FlashLight’ 失败
+[2019.03.22-13.28.04:455][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.28.04:461][569]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2019.03.22-13.28.05:116][569]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2019.03.22-13.28.05:991][569]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.22-13.28.06:371][569]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.22-13.28.06:422][569]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2019.03.22-13.28.06:607][569]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.22-13.28.10:377][713]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.22-13.28.43:238][247]BlueprintLog: New page: 编译Player_AnimBP
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:321][247]LogBlueprint: Warning: [Compiler Player_AnimBP] 指定非默认值的输入引脚  Loudness  已不存在于节点  Make Pawn Noise  上。请刷新节点或重置引脚为默数值来移除引脚。
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"MakePawnNoise\”的函数。
+请确保已针对  Make Pawn Noise  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:321][247]LogBlueprint: Warning: [Compiler Player_AnimBP] 指定非默认值的输入引脚  Loudness  已不存在于节点  Make Pawn Noise  上。请刷新节点或重置引脚为默数值来移除引脚。
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"MakePawnNoise\”的函数。
+请确保已针对  Make Pawn Noise  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:321][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:322][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:322][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Swap to New Weapon Mesh  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:322][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Swap to New Weapon Mesh  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:322][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"SwapToNewWeaponMesh\”的函数。
+请确保已针对  Swap to New Weapon Mesh  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:322][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:322][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:322][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:323][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Firing  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:323][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsFiring\”的函数。
+请确保已针对  Is Firing  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:323][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value Y (Pitch)  已不存在于节点  Get Aim Offsets  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:323][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"GetAimOffsets\”的函数。
+请确保已针对  Get Aim Offsets  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:323][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Sprinting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:323][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsSprinting\”的函数。
+请确保已针对  Is Sprinting  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:323][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Targeting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:323][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsTargeting\”的函数。
+请确保已针对  Is Targeting  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:323][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Initiated Jump  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:323][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsInitiatedJump\”的函数。
+请确保已针对  Is Initiated Jump  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:340][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:340][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:340][247]LogBlueprint: Warning: [Compiler Player_AnimBP] 指定非默认值的输入引脚  Loudness  已不存在于节点  Make Pawn Noise  上。请刷新节点或重置引脚为默数值来移除引脚。
+[2019.03.22-13.28.43:340][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"MakePawnNoise\”的函数。
+请确保已针对  Make Pawn Noise  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:340][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:340][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:340][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:340][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:340][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Make Pawn Noise  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:340][247]LogBlueprint: Warning: [Compiler Player_AnimBP] 指定非默认值的输入引脚  Loudness  已不存在于节点  Make Pawn Noise  上。请刷新节点或重置引脚为默数值来移除引脚。
+[2019.03.22-13.28.43:340][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"MakePawnNoise\”的函数。
+请确保已针对  Make Pawn Noise  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:341][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:341][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:341][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:341][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  <Unnamed>  已不存在于节点  Swap to New Weapon Mesh  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:341][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  目标  已不存在于节点  Swap to New Weapon Mesh  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:341][247]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"SwapToNewWeaponMesh\”的函数。
+请确保已针对  Swap to New Weapon Mesh  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.43:341][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Object  和  Return Value ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:341][247]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  As SCharacter  已不存在于节点  坏的类型转换节点  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.43:341][247]LogBlueprint: Error: [Compiler Player_AnimBP] 不能连接引脚  Return Value  和  Object ：此投射含有无效目标类型（类是否在未重定向时被删除？）。
+[2019.03.22-13.28.43:530][247]LogBlueprint: Warning: [Compiler Player_AnimBP] [0061.51]编译 Player_AnimBP 失败。46 项重大问题；4 个警告[291 毫秒内]（/Game/AnimStarterPack/Player_AnimBP.Player_AnimBP）
+[2019.03.22-13.28.53:501][677]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.22-13.28.56:991][766]BlueprintLog: New page: 编译Player_AnimBP
+[2019.03.22-13.28.57:070][766]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Firing  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.57:070][766]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsFiring\”的函数。
+请确保已针对  Is Firing  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.57:070][766]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value Y (Pitch)  已不存在于节点  Get Aim Offsets  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.57:071][766]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"GetAimOffsets\”的函数。
+请确保已针对  Get Aim Offsets  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.57:071][766]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Sprinting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.57:071][766]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsSprinting\”的函数。
+请确保已针对  Is Sprinting  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.57:071][766]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Targeting  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.57:071][766]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsTargeting\”的函数。
+请确保已针对  Is Targeting  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.57:071][766]LogBlueprint: Error: [Compiler Player_AnimBP] 正在使用的引脚  Return Value  已不存在于节点  Is Initiated Jump  上。请刷新节点或断开连接来移除引脚。
+[2019.03.22-13.28.57:071][766]LogBlueprint: Error: [Compiler Player_AnimBP] 在'Player_AnimBP’中找不到名为"IsInitiatedJump\”的函数。
+请确保已针对  Is Initiated Jump  对'Player_AnimBP’进行了编译
+[2019.03.22-13.28.57:270][766]LogBlueprint: Warning: [Compiler Player_AnimBP] [0075.25]编译 Player_AnimBP 失败。10 项重大问题；0 个警告[279 毫秒内]（/Game/AnimStarterPack/Player_AnimBP.Player_AnimBP）
+[2019.03.22-13.29.11:975][444]BlueprintLog: New page: 编译Player_AnimBP
+[2019.03.22-13.29.12:304][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/Player_AnimBP" FILE="E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset" SILENT=true
+[2019.03.22-13.29.12:623][444]LogSavePackage: Moving 'E:/Project/V/Saved/Player_AnimBP9AAE2A10481469EAEFD1CB97D78CBBAB.tmp' to 'E:/Project/V/Content/AnimStarterPack/Player_AnimBP.uasset'
+[2019.03.22-13.29.15:503][591]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2019.03.22-13.29.15:525][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.22-13.29.15:538][591]PIE: New page: PIE会话: Untitled (2019年3月23日 上午5:29:15)
+[2019.03.22-13.29.15:539][591]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.22-13.29.15:546][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007059s)
+[2019.03.22-13.29.15:547][591]LogAIModule: Creating AISystem for world Untitled
+[2019.03.22-13.29.15:548][591]LogPlayLevel: PIE: World Init took: (0.001746s)
+[2019.03.22-13.29.15:548][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.009202s)
+[2019.03.22-13.29.15:589][591]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.22-13.29.15:611][591]LogInit: FAudioDevice initialized.
+[2019.03.22-13.29.15:622][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.22-13.29.15:685][591]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.22-13.29.15:688][591]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.22-21.29.15
+[2019.03.22-13.29.15:689][591]LogWorld: Bringing up level for play took: 0.003161
+[2019.03.22-13.29.15:709][591]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2019.03.22-13.29.15:728][591]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.22-13.29.15:736][591]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.014
+[2019.03.22-13.29.15:770][591]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.03.22-13.29.20:532][737]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.22-13.29.20:566][738]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.29.20:567][738]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.29.21:555][769]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.22-13.29.22:274][792]LogTemp: Health Change:50.0
+[2019.03.22-13.29.22:341][794]LogTemp: Health Change:0.0
+[2019.03.22-13.29.22:527][799]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.22-13.29.22:527][799]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.22-13.29.22:527][799]LogTemp: Your palyer died
+[2019.03.22-13.29.23:529][831]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.22-13.29.23:529][831]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.22-13.29.23:529][831]LogTemp: Your palyer died
+[2019.03.22-13.29.24:546][868]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.22-13.29.24:546][868]LogBlueprintUserMessages: [bp_gamestate_C_0] Game Over
+[2019.03.22-13.29.24:546][868]LogTemp: Your palyer died
+[2019.03.22-13.29.25:072][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.22-13.29.25:104][884]LogSlate: Window 'V 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.22-13.29.25:141][884]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.22-13.29.25:214][885]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.03.22-13.29.27:386][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.22-13.29.28:915][103]LogSlate: Window '消息日志' being destroyed
+[2019.03.22-13.29.28:919][103]LogSlate: Window '消息日志' being destroyed
+[2019.03.22-13.29.30:465][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.22-13.29.33:414][305]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/playerpawn.playerpawn
+[2019.03.22-13.30.03:512][508]BlueprintLog: New page: 编译playerpawn
+[2019.03.22-13.30.03:972][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/playerpawn" FILE="E:/Project/V/Content/Player/playerpawn.uasset" SILENT=true
+[2019.03.22-13.30.04:283][508]LogSavePackage: Moving 'E:/Project/V/Saved/playerpawn6E2D31DD4BD6BDB2380DC9BED88E11C1.tmp' to 'E:/Project/V/Content/Player/playerpawn.uasset'
+[2019.03.22-13.30.07:340][657]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.03.22-13.30.07:381][657]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.30.07:425][657]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.22-13.30.10:291][757]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2019.03.22-13.30.10:314][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.30.10:367][757]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.22-13.30.15:491][922]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.30.38:072][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.22-13.30.46:449][686]LogSlate: Window 'UE4_Mannequin_Skeleton*' being destroyed
+[2019.03.22-13.30.46:456][686]LogSlate: Window 'UE4_Mannequin_Skeleton*' being destroyed
+[2019.03.22-13.30.56:465][717]LogHotReload: New module detected: UE4Editor-V-5108.dll
+[2019.03.22-13.30.57:486][721]LogHotReload: Starting Hot-Reload from IDE
+[2019.03.22-13.30.57:584][721]LogClass: EWaveStae HotReload.
+[2019.03.22-13.30.57:584][721]LogClass: ItemStruct HotReload.
+[2019.03.22-13.30.57:584][721]LogClass: HitScanTrace HotReload.
+[2019.03.22-13.30.57:593][721]LogHotReload: Re-instancing SCharacter after hot-reload.
+[2019.03.22-13.30.58:029][721]LogContentBrowser: Native class hierarchy updated for 'V' in 0.0006 seconds. Added 22 classes and 6 folders.
+[2019.03.22-13.30.58:033][721]Display: HotReload successful (21 functions remapped  2 scriptstructs remapped)
+[2019.03.22-13.30.58:514][721]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2617 classes and 621 folders.
+[2019.03.22-13.30.58:519][721]Display: HotReload took  1.0s.
+[2019.03.22-13.30.59:857][761]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2019.03.22-13.30.59:879][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.22-13.30.59:879][761]PIE: New page: PIE会话: Untitled (2019年3月23日 上午5:30:59)
+[2019.03.22-13.30.59:879][761]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.22-13.30.59:885][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006113s)
+[2019.03.22-13.30.59:886][761]LogAIModule: Creating AISystem for world Untitled
+[2019.03.22-13.30.59:886][761]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2019.03.22-13.30.59:886][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.007192s)
+[2019.03.22-13.30.59:970][761]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.22-13.30.59:993][761]LogInit: FAudioDevice initialized.
+[2019.03.22-13.31.00:004][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.22-13.31.00:049][761]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.22-13.31.00:052][761]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.22-21.31.00
+[2019.03.22-13.31.00:053][761]LogWorld: Bringing up level for play took: 0.003169
+[2019.03.22-13.31.00:070][761]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.22-13.31.00:073][761]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间0.323
+[2019.03.22-13.31.04:324][867]LogTemp: Health Change:50.0
+[2019.03.22-13.31.04:404][869]LogTemp: Health Change:0.0
+[2019.03.22-13.31.04:866][879]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.22-13.31.05:399][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.22-13.31.05:431][893]LogSlate: Window 'V 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.22-13.31.05:475][893]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.22-13.31.05:566][894]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.03.22-13.31.07:782][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.22-13.31.07:986][  0]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2019.03.22-13.31.08:024][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.31.08:088][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.22-13.31.12:061][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton" FILE="E:/Project/V/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset" SILENT=true
+[2019.03.22-13.31.12:183][189]LogSavePackage: Moving 'E:/Project/V/Saved/UE4_Mannequin_Skeleton955680D945923FA72BA605B633FDBA9A.tmp' to 'E:/Project/V/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.22-13.31.13:484][255]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2019.03.22-13.31.13:490][255]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2019.03.22-13.31.16:948][427]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2019.03.22-13.31.16:991][427]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.31.17:049][427]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.22-13.31.34:794][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.22-13.31.48:620][552]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.31.50:796][613]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.32.04:329][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.32.09:684][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton" FILE="E:/Project/V/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset" SILENT=true
+[2019.03.22-13.32.09:889][255]LogSavePackage: Moving 'E:/Project/V/Saved/UE4_Mannequin_Skeleton3822F63045EF482C0AC202843FE26C16.tmp' to 'E:/Project/V/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.22-13.32.11:026][308]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2019.03.22-13.32.11:031][308]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2019.03.22-13.32.13:033][406]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2019.03.22-13.32.13:055][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.22-13.32.13:055][406]PIE: New page: PIE会话: Untitled (2019年3月23日 上午5:32:13)
+[2019.03.22-13.32.13:056][406]LogPlayLevel: Creating play world package: /Game/Maps/map/UEDPIE_0_Untitled
+[2019.03.22-13.32.13:061][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005277s)
+[2019.03.22-13.32.13:062][406]LogAIModule: Creating AISystem for world Untitled
+[2019.03.22-13.32.13:062][406]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2019.03.22-13.32.13:062][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map/Untitled.Untitled to /Game/Maps/map/UEDPIE_0_Untitled.Untitled (0.006676s)
+[2019.03.22-13.32.13:106][406]LogInit: XAudio2 using '扬声器 (2- High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.22-13.32.13:128][406]LogInit: FAudioDevice initialized.
+[2019.03.22-13.32.13:138][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.22-13.32.13:181][406]LogLoad: Game class is 'TestGamemode_C'
+[2019.03.22-13.32.13:184][406]LogWorld: Bringing World /Game/Maps/map/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2019.03.22-21.32.13
+[2019.03.22-13.32.13:185][406]LogWorld: Bringing up level for play took: 0.002661
+[2019.03.22-13.32.13:203][406]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.22-13.32.13:206][406]PIE: /Game/Maps/map/UEDPIE_0_Untitled的‘在编辑器中播放’的起始时间-0.543
+[2019.03.22-13.32.17:516][517]LogTemp: Health Change:50.0
+[2019.03.22-13.32.17:995][528]LogTemp: Health Change:0.0
+[2019.03.22-13.32.18:040][529]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.22-13.32.18:084][530]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.18:085][530]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.19:048][554]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.22-13.32.19:049][554]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.19:049][554]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.19:417][564]LogTemp: Health Change:50.0
+[2019.03.22-13.32.19:491][566]LogTemp: Health Change:0.0
+[2019.03.22-13.32.19:491][566]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.19:491][566]PIE: Warning: 无效模拟选项：形体（PawnAI_C_0.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.19:491][566]LogBlueprintUserMessages: [TestGamemode_C_0] 20.0
+[2019.03.22-13.32.19:707][571]LogTemp: Health Change:50.0
+[2019.03.22-13.32.19:789][573]LogTemp: Health Change:0.0
+[2019.03.22-13.32.19:789][573]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.19:790][573]PIE: Warning: 无效模拟选项：形体（PawnAI_C_1.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.19:790][573]LogBlueprintUserMessages: [TestGamemode_C_0] 40.0
+[2019.03.22-13.32.20:049][579]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.03.22-13.32.20:049][579]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.22-13.32.24:602][700]LogTemp: Health Change:120.0
+[2019.03.22-13.32.25:077][713]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave in PRogeress
+[2019.03.22-13.32.25:107][714]LogTemp: Health Change:140.0
+[2019.03.22-13.32.25:108][714]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.25:108][714]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.25:414][724]LogTemp: Health Change:160.0
+[2019.03.22-13.32.25:595][730]LogTemp: Health Change:180.0
+[2019.03.22-13.32.25:917][743]LogTemp: Health Change:200.0
+[2019.03.22-13.32.26:014][747]LogTemp: Health Change:220.0
+[2019.03.22-13.32.26:087][750]LogTemp: Health Change:240.0
+[2019.03.22-13.32.26:088][750]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.26:088][750]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.26:407][763]LogTemp: Health Change:260.0
+[2019.03.22-13.32.26:528][768]LogTemp: Health Change:280.0
+[2019.03.22-13.32.26:697][775]LogTemp: Health Change:280.0
+[2019.03.22-13.32.26:783][778]LogTemp: Health Change:280.0
+[2019.03.22-13.32.26:883][781]LogTemp: Health Change:280.0
+[2019.03.22-13.32.26:916][782]LogTemp: Health Change:300.0
+[2019.03.22-13.32.26:983][784]LogTemp: Health Change:300.0
+[2019.03.22-13.32.27:015][785]LogTemp: Health Change:300.0
+[2019.03.22-13.32.27:077][787]LogTemp: Health Change:300.0
+[2019.03.22-13.32.27:203][791]LogTemp: Health Change:300.0
+[2019.03.22-13.32.27:259][793]LogTemp: Health Change:50.0
+[2019.03.22-13.32.27:289][794]LogTemp: Health Change:300.0
+[2019.03.22-13.32.27:354][796]LogTemp: Health Change:0.0
+[2019.03.22-13.32.27:354][796]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.27:355][796]PIE: Warning: 无效模拟选项：形体（PawnAI_C_2.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.27:355][796]LogBlueprintUserMessages: [TestGamemode_C_0] 60.0
+[2019.03.22-13.32.27:459][799]LogTemp: Health Change:50.0
+[2019.03.22-13.32.27:459][799]LogTemp: Health 50.0 of Bp_ball_C_0
+[2019.03.22-13.32.27:518][801]LogTemp: Health Change:300.0
+[2019.03.22-13.32.27:548][802]LogTemp: Health Change:0.0
+[2019.03.22-13.32.27:548][802]LogTemp: Health 0.0 of Bp_ball_C_0
+[2019.03.22-13.32.27:548][802]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.27:548][802]PIE: Warning: 无效模拟选项：形体（Bp_ball_C_0.Component sm）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.27:548][802]LogBlueprintUserMessages: [TestGamemode_C_0] 80.0
+[2019.03.22-13.32.27:730][808]LogTemp: Health Change:300.0
+[2019.03.22-13.32.27:919][814]LogTemp: Health Change:300.0
+[2019.03.22-13.32.28:081][819]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Complete
+[2019.03.22-13.32.28:082][819]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.28:082][819]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.28:231][824]LogTemp: Health Change:300.0
+[2019.03.22-13.32.28:527][834]LogTemp: Health Change:300.0
+[2019.03.22-13.32.29:768][881]LogTemp: Health Change:50.0
+[2019.03.22-13.32.29:884][885]LogTemp: Health Change:0.0
+[2019.03.22-13.32.29:884][885]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.29:884][885]PIE: Warning: 无效模拟选项：形体（PawnAI_C_3.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.29:884][885]LogBlueprintUserMessages: [TestGamemode_C_0] 100.0
+[2019.03.22-13.32.30:987][923]LogTemp: Health Change:50.0
+[2019.03.22-13.32.31:076][926]LogTemp: Health Change:0.0
+[2019.03.22-13.32.31:076][926]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.31:076][926]PIE: Warning: 无效模拟选项：形体（PawnAI_C_4.CharacterMesh0 SK_Mannequin）被设置为模拟物理，但“启用碰撞”不兼容。
+[2019.03.22-13.32.31:076][926]LogBlueprintUserMessages: [TestGamemode_C_0] 120.0
+[2019.03.22-13.32.32:059][960]LogBlueprintUserMessages: [bp_gamestate_C_0] Wave Complete
+[2019.03.22-13.32.32:059][960]LogBlueprintUserMessages: [bp_gamestate_C_0] Waiting to Start
+[2019.03.22-13.32.32:356][971]LogTemp: Health Change:50.0
+[2019.03.22-13.32.32:442][974]LogTemp: Health Change:0.0
+[2019.03.22-13.32.33:540][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.22-13.32.33:564][ 12]LogSlate: Window 'V 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.22-13.32.33:603][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.22-13.32.33:663][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.22-13.32.35:975][121]LogSlate: Window '消息日志' being destroyed
+[2019.03.22-13.32.35:980][121]LogSlate: Window '消息日志' being destroyed
+[2019.03.22-13.32.37:490][169]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2019.03.22-13.32.37:534][169]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.32.37:583][169]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.22-13.32.39:071][223]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset
+[2019.03.22-13.32.39:117][223]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0007 seconds. Added 7 classes and 3 folders.
+[2019.03.22-13.32.39:140][223]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.32.56:590][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.22-13.35.44:422][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.22-13.35.48:646][318]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.36.29:947][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.36.30:847][477]Cmd: TRANSACTION UNDO
+[2019.03.22-13.36.30:847][477]LogEditorTransaction: Undo 移动元素
+[2019.03.22-13.36.31:066][477]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.31:068][477]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.31:619][495]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.36.32:527][539]Cmd: TRANSACTION UNDO
+[2019.03.22-13.36.32:527][539]LogEditorTransaction: Undo 移动元素
+[2019.03.22-13.36.32:746][539]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.32:747][539]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.33:350][555]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.36.34:903][631]Cmd: TRANSACTION UNDO
+[2019.03.22-13.36.34:903][631]LogEditorTransaction: Undo 移动元素
+[2019.03.22-13.36.35:138][631]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.35:139][631]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.35:624][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.36.36:552][688]Cmd: TRANSACTION UNDO
+[2019.03.22-13.36.36:552][688]LogEditorTransaction: Undo 移动元素
+[2019.03.22-13.36.36:787][688]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.36:788][688]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.37:077][694]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.36.37:876][733]Cmd: TRANSACTION UNDO
+[2019.03.22-13.36.37:876][733]LogEditorTransaction: Undo 移动元素
+[2019.03.22-13.36.38:110][733]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.38:110][733]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.38:402][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.36.39:459][790]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.22-13.36.41:361][853]LogEditorTransaction: Undo 移动元素
+[2019.03.22-13.36.41:601][853]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.41:602][853]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.41:687][853]LogEditorTransaction: Undo 移动元素
+[2019.03.22-13.36.41:931][853]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.22-13.36.41:932][853]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
